@@ -1,0 +1,278 @@
+.light {
+  position: relative;
+  display: inline-block;
+}
+
+.light-list {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.light-list img {
+  width: 710px;
+  max-width: none;
+}
+
+.light-list:hover .light-1,
+.light-list:hover .light-2,
+.light-list:hover .light-3,
+.light-list:hover .light-4,
+.light-list:hover .light-5,
+.light-list:hover .light-6,
+.light-list:hover .light-7,
+.light-list:hover .light-8,
+.light-list:hover .light-9 {
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+}
+
+.light-1 {
+  position: absolute;
+  left: 104px;
+  top: 152px;
+  width: 6px;
+  height: 4px;
+  transform: rotate(-104deg);
+  transform-origin: 0 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  animation: ligth1 2s linear infinite;
+  animation-play-state: running;
+  box-shadow: 0 0 5px #ffffff;
+}
+
+@keyframes ligth1 {
+  0% {
+    transform: translate(0, 0) rotate(-104deg);
+  }
+
+  100% {
+    transform: translate(-13px, -46px) rotate(-104deg);
+  }
+}
+
+.light-2 {
+  position: absolute;
+  left: 266px;
+  top: 221px;
+  width: 6px;
+  height: 4px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  animation: ligth2 2s linear infinite;
+  animation-play-state: running;
+  box-shadow: 0 0 5px #ffffff;
+}
+
+@keyframes ligth2 {
+  0% {
+    transform: translate(0, 0) rotate(-180deg);
+  }
+
+  100% {
+    transform: translate(-64px, 0) rotate(-180deg);
+  }
+}
+
+.light-3 {
+  position: absolute;
+  left: 338px;
+  top: 160px;
+  width: 6px;
+  height: 4px;
+  transform: rotate(-105deg);
+  transform-origin: 0 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  animation: ligth3 2s linear infinite;
+  animation-play-state: running;
+  box-shadow: 0 0 5px #ffffff;
+}
+
+@keyframes ligth3 {
+  0% {
+    transform: translate(0, 0) rotate(-105deg);
+  }
+
+  100% {
+    transform: translate(-16px, -56px) rotate(-105deg);
+  }
+}
+
+.light-4 {
+  position: absolute;
+  left: 240px;
+  top: 390px;
+  width: 6px;
+  height: 4px;
+  /* transform: rotate(-105deg);
+      transform-origin: 0 0; */
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  animation: ligth4 2s linear infinite;
+  animation-play-state: running;
+  box-shadow: 0 0 5px #ffffff;
+}
+
+@keyframes ligth4 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(92px, 0);
+  }
+}
+
+.light-5 {
+  position: absolute;
+  left: 272px;
+  top: 242px;
+  width: 6px;
+  height: 4px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  animation: ligth5 4s linear infinite alternate;
+  animation-play-state: running;
+  box-shadow: 0 0 5px #ffffff;
+}
+
+@keyframes ligth5 {
+  0% {
+    transform: translate(0, 0) rotate(180deg);
+  }
+
+  20% {
+    transform: translate(-33px, 0) rotate(180deg);
+  }
+
+  21% {
+    transform: translate(-33px, 0) rotate(73deg);
+  }
+
+  80% {
+    transform: translate(3px, 122px) rotate(73deg);
+  }
+
+  81% {
+    transform: translate(3px, 130px) rotate(180deg);
+  }
+
+  100% {
+    transform: translate(-33px, 130px) rotate(180deg);
+  }
+}
+
+.light-6 {
+  position: absolute;
+  left: 370px;
+  top: 276px;
+  width: 6px;
+  height: 4px;
+  transform: rotate(-105deg);
+  transform-origin: 0 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  animation: ligth6 2s linear infinite alternate;
+  animation-play-state: running;
+  box-shadow: 0 0 5px #ffffff;
+}
+
+@keyframes ligth6 {
+  0% {
+    transform: translate(0, 0) rotate(-105deg);
+  }
+
+  100% {
+    transform: translate(20px, 70px) rotate(-105deg);
+  }
+}
+
+.light-7 {
+  position: absolute;
+  left: 616px;
+  top: 344px;
+  width: 6px;
+  height: 4px;
+  transform: rotate(-108deg);
+  transform-origin: 0 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  animation: ligth7 2s linear infinite alternate;
+  animation-play-state: running;
+  box-shadow: 0 0 5px #ffffff;
+}
+
+@keyframes ligth7 {
+  0% {
+    transform: translate(0, 0) rotate(-108deg);
+  }
+
+  100% {
+    transform: translate(-20px, -68px) rotate(-108deg);
+  }
+}
+
+
+.light-8 {
+  position: absolute;
+  left: 468px;
+  top: 390px;
+  width: 6px;
+  height: 4px;
+  /* transform: rotate(-105deg);
+      transform-origin: 0 0; */
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  animation: ligth8 2s linear infinite alternate;
+  animation-play-state: running;
+  box-shadow: 0 0 5px #ffffff;
+}
+
+@keyframes ligth8 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(92px, 0);
+  }
+}
+
+
+.light-9 {
+  position: absolute;
+  left: 444px;
+  top: 216px;
+  width: 6px;
+  height: 4px;
+  transform: rotate(0deg);
+  transform-origin: 0 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  animation: ligth9 4s linear infinite alternate;
+  animation-play-state: running;
+  box-shadow: 0 0 5px #ffffff;
+}
+
+@keyframes ligth9 {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+
+  20% {
+    transform: translate(36px, 0) rotate(0deg);
+  }
+
+  21% {
+    transform: translate(40px, 0) rotate(73deg);
+  }
+
+  80% {
+    transform: translate(82px, 150px) rotate(73deg);
+  }
+
+  81% {
+    transform: translate(78px, 150px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(110px, 150px) rotate(0deg);
+  }
+}
