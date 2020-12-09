@@ -1,7 +1,10 @@
 .world {
   width: 750px;
   height: 750px;
-  position: relative;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform-origin: 0 0;
 }
 
 .world-radius {

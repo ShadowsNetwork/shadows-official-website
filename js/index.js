@@ -5,14 +5,17 @@
 
     if (width >= baseWidth) {
       $('html').attr('style', "font-size:10px");
+
       $('.light-list').attr('style', '');
+      $('.world').attr('style', '');
     } else {
       var val = Math.ceil(width / baseWidth * 10);
       $('html').attr('style', "font-size:" + val + "px");
 
       var _scale = width / baseWidth;
-      var _late = Math.floor((1 - _scale) * 10) * 10;
-      $('.light-list').attr('style', 'transform:scale(' + _scale.toFixed(2) + ') translate(-' + _late.toFixed(0) + '%,-' + _late.toFixed(0) + '%)');
+
+      $('.light-list').attr('style', 'transform:scale(' + _scale.toFixed(2) + ')');
+      $('.world').attr('style', 'transform:scale(' + _scale.toFixed(2) + ')');
     }
   }
 
@@ -31,7 +34,7 @@
   });
 
 
-  // 打印1
+  // print1
 
   function print(id, arr, index) {
     var max = arr.length;

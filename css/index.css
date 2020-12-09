@@ -87,7 +87,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 6.4rem;
+  height: 64px;
   left: 0;
   border-bottom: 1px solid rgba(231, 234, 243, 0.5);
   z-index: 99;
@@ -100,6 +100,10 @@ footer .main {
   padding: 0;
 }
 
+.article1 {
+  min-height: 100rem;
+}
+
 .head {
   float: left;
 }
@@ -109,13 +113,14 @@ footer .main {
 }
 
 .menus li {
-  line-height: 6.4rem;
+  line-height: 64px;
   display: inline-block;
   padding: 0 2rem;
 }
 
 .menus li a {
   color: #E3E3E3;
+  font-size: 16px;
 }
 
 .menus li a:hover {
@@ -123,20 +128,18 @@ footer .main {
 }
 
 .menus-mobile {
-  width: 4.8rem;
-  height: 4.8rem;
+  width: 40px;
+  height: 40px;
   background: url(../images/menusmobile@2x.png) no-repeat center center;
-  background-size: 1.6rem auto;
   overflow: hidden;
   text-indent: -999em;
   display: none;
 }
 
 .closemenus {
-  width: 4.8rem;
-  height: 4.8rem;
+  width: 40px;
+  height: 40px;
   background: url(../images/close@2x.png) no-repeat center center;
-  background-size: 1.6rem auto;
   overflow: hidden;
   text-indent: -999em;
   display: none;
@@ -144,11 +147,11 @@ footer .main {
 
 .logo {
   font-size: 0;
-  line-height: 6.4rem;
+  line-height: 64px;
 }
 
 .logo img {
-  width: 22rem;
+  width: 220px;
 }
 
 /* article{
@@ -163,6 +166,10 @@ footer .main {
   position: absolute;
   top: 0;
   right: -15rem;
+}
+
+.banner img {
+  width: 75rem;
 }
 
 .bannertitle img {
@@ -440,6 +447,10 @@ footer .main {
   padding: 3rem 6rem 0;
 }
 
+aside {
+  padding-top: 20rem;
+}
+
 .people-list {
   padding: 5rem 3.6rem 0;
   text-align: center;
@@ -473,7 +484,6 @@ footer .main {
 
 .footlogo img {
   width: 18rem;
-  opacity: 0.5;
 }
 
 footer {
@@ -557,8 +567,6 @@ footer {
 }
 
 
-
-
 @media (max-width: 1300px) {
   .main {
     width: 100%;
@@ -567,6 +575,11 @@ footer {
 }
 
 @media (max-width: 980px) {
+  .main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .head {
     float: none;
     display: flex;
@@ -574,7 +587,12 @@ footer {
     align-items: center;
   }
 
+  .article1 {
+    min-height: auto;
+  }
+
   .mobile .closemenus {
+
     display: block;
   }
 
@@ -587,30 +605,44 @@ footer {
     position: fixed;
     width: 100%;
     height: 100%;
-    top: 6.4rem;
+    top: 40px;
     background: rgba(0, 0, 0, 0.8);
   }
 
   .mobile .menus li {
     display: block;
     text-align: center;
+    line-height: 48px;
+  }
+
+  .mobile .menus li a {
+    font-size: 16px;
   }
 
   header {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    height: 40px;
+  }
+
+  .logo {
+    line-height: 40px;
+    padding-left: 10px;
+  }
+
+  .logo img {
+    width: 140px;
+  }
+
+  .closemenus {
+    background-size: 20px auto;
   }
 
   .menus-mobile {
     display: block;
+    background-size: 20px auto;
   }
 
   .menus {
     display: none;
-  }
-
-  body {
-    padding: 0 1rem;
   }
 
   .content-module {
@@ -647,7 +679,8 @@ footer {
   }
 
   .banner {
-    position: static;
+    position: relative;
+    right: 0;
   }
 
   .people {
