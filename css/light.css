@@ -30,7 +30,7 @@
 
 .light-1 {
   position: absolute;
-  left: 104px;
+  left: 106px;
   top: 152px;
   width: 6px;
   height: 4px;
@@ -103,7 +103,7 @@
 .light-4 {
   position: absolute;
   left: 240px;
-  top: 390px;
+  top: 391px;
   width: 6px;
   height: 4px;
   /* transform: rotate(-105deg);
@@ -144,23 +144,23 @@
   }
 
   20% {
-    transform: translate(-33px, 0) rotate(180deg);
+    transform: translate(-32px, 0) rotate(180deg);
   }
 
   21% {
-    transform: translate(-33px, 0) rotate(73deg);
+    transform: translate(-32px, 0) rotate(73deg);
   }
 
   80% {
-    transform: translate(3px, 122px) rotate(73deg);
+    transform: translate(4px, 124px) rotate(73deg);
   }
 
   81% {
-    transform: translate(3px, 130px) rotate(180deg);
+    transform: translate(4px, 132px) rotate(180deg);
   }
 
   100% {
-    transform: translate(-33px, 130px) rotate(180deg);
+    transform: translate(-32px, 132px) rotate(180deg);
   }
 }
 
@@ -216,7 +216,7 @@
 .light-8 {
   position: absolute;
   left: 468px;
-  top: 390px;
+  top: 391px;
   width: 6px;
   height: 4px;
   /* transform: rotate(-105deg);
@@ -241,7 +241,7 @@
 .light-9 {
   position: absolute;
   left: 444px;
-  top: 216px;
+  top: 234px;
   width: 6px;
   height: 4px;
   transform: rotate(0deg);
@@ -258,22 +258,46 @@
   }
 
   20% {
-    transform: translate(36px, 0) rotate(0deg);
+    transform: translate(40px, 0) rotate(0deg);
   }
 
   21% {
-    transform: translate(40px, 0) rotate(73deg);
+    transform: translate(44px, 0) rotate(73deg);
   }
 
   80% {
-    transform: translate(82px, 150px) rotate(73deg);
+    transform: translate(82px, 132px) rotate(73deg);
   }
 
   81% {
-    transform: translate(78px, 150px) rotate(0deg);
+    transform: translate(78px, 134px) rotate(0deg);
   }
 
   100% {
-    transform: translate(110px, 150px) rotate(0deg);
+    transform: translate(110px, 134px) rotate(0deg);
+  }
+}
+
+.light-10 {
+  position: absolute;
+  left: 448px;
+  top: 220px;
+  width: 6px;
+  height: 4px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  animation: ligth10 2s linear infinite alternate;
+  animation-play-state: running;
+  box-shadow: 0 0 5px #ffffff;
+}
+
+@keyframes ligth10 {
+  0% {
+    transform: translate(0, 0) rotate(-180deg);
+  }
+
+  100% {
+    transform: translate(66px, 0) rotate(-180deg);
   }
 }
