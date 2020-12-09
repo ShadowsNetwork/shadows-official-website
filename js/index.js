@@ -62,7 +62,7 @@
           setTime = null;
         }, 1000);
       }
-    }, 200);
+    }, 100);
   }
 
   print($('#print_con'), ['Based On Substrate Developent', 'Safer, Faster And More Stable', 'ファントムアグリーメント', '幻影协议'], 0)
