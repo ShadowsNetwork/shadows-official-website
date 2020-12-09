@@ -48,10 +48,13 @@ body {
   width: 1300px;
   margin: 0 auto;
   position: relative;
-  padding-top: 6.4rem;
+  padding-top: 18rem;
   padding-bottom: 12rem;
 }
 
+.vhmar{
+  margin-bottom: 100vh;
+}
 .bg {
   position: absolute;
   top: 0;
@@ -159,7 +162,7 @@ footer .main {
 } */
 
 .bannertitle {
-  padding-top: 12rem;
+  /* padding-top: 12rem; */
 }
 
 .banner {
@@ -184,6 +187,21 @@ footer .main {
   width: 16.2rem;
 }
 
+.article2-bottom{ 
+  padding-bottom:100rem;
+}
+
+.article2-title{
+  position: sticky;
+  top: 18rem;
+}
+
+.article5-sticky,.article6-sticky{
+  position: sticky;
+  top: 18rem;
+  padding-bottom: 20rem;
+}
+
 .title {
   font-size: 3.8rem;
   font-family: PingFangSC-Semibold, PingFang SC;
@@ -197,6 +215,7 @@ footer .main {
   font-size: 3.8rem;
   line-height: 4.8rem;
   padding-bottom: 1.6rem;
+
 }
 
 .content-des {
@@ -207,15 +226,22 @@ footer .main {
 
 .content-des-wid {
   width: 82rem;
+  padding-top: 80rem;
 }
 
 .content-items {
-  padding-left: 30rem;
-  padding-top: 4.8rem;
+  padding-bottom: 35rem;
 }
-
+.box-item-con{
+  text-align: right;
+  padding-right: 5rem;
+}
+.content-items{
+  display: inline-block;
+}
 .content-items li {
   padding-bottom: 11rem;
+  text-align: left;
 }
 
 .content-items li:last-child {
@@ -295,6 +321,12 @@ footer .main {
   }
 } */
 
+.box-content{
+  position: sticky;
+  top: 18rem;
+  padding-bottom: 80rem;
+}
+
 .content-img {
   padding: 8rem 0;
 }
@@ -332,7 +364,8 @@ footer .main {
 
 .content-module {
   text-align: right;
-  padding: 4rem 10rem 0;
+  padding: 4rem 5rem 0;
+
 }
 
 .content-module-con {
@@ -580,6 +613,10 @@ footer {
     padding-right: 10px;
   }
 
+  .down-up{
+    opacity: 1;
+    transform:translate(0,0);
+  }
   .head {
     float: none;
     display: flex;
@@ -690,5 +727,29 @@ footer {
   .power-list {
     margin: 6rem 2rem 0 1rem;
     height: auto;
+  }
+
+  .article2-bottom{
+    padding: 0;
+  }
+
+  .article2-title{
+    position: relative;
+    top: 0;
+  }
+  .box-content,.article5-sticky,.article6-sticky{
+    position: relative;
+    top: 0;
+    padding-bottom: 0;
+  }
+  .box-item-con{
+    text-align: left;
+    padding-right: 0;
+  }
+  .content-items{
+    padding-bottom: 0;
+  }
+  .content-des-wid{
+    padding-top: 0;
   }
 }

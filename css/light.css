@@ -30,16 +30,16 @@
 
 .light-1 {
   position: absolute;
-  left: 104px;
+  left: 107px;
   top: 152px;
   width: 6px;
   height: 4px;
   transform: rotate(-104deg);
   transform-origin: 0 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
   animation: ligth1 2s linear infinite;
   animation-play-state: running;
-  box-shadow: 0 0 5px #ffffff;
+  box-shadow: 0 0 5px 2px #ffffff;
 }
 
 @keyframes ligth1 {
@@ -60,10 +60,10 @@
   height: 4px;
   transform: rotate(-180deg);
   transform-origin: 0 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
   animation: ligth2 2s linear infinite;
   animation-play-state: running;
-  box-shadow: 0 0 5px #ffffff;
+  box-shadow: 0 0 5px 2px #ffffff;
 }
 
 @keyframes ligth2 {
@@ -78,16 +78,16 @@
 
 .light-3 {
   position: absolute;
-  left: 338px;
+  left: 339px;
   top: 160px;
   width: 6px;
   height: 4px;
   transform: rotate(-105deg);
   transform-origin: 0 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
   animation: ligth3 2s linear infinite;
   animation-play-state: running;
-  box-shadow: 0 0 5px #ffffff;
+  box-shadow: 0 0 5px 2px #ffffff;
 }
 
 @keyframes ligth3 {
@@ -103,15 +103,15 @@
 .light-4 {
   position: absolute;
   left: 240px;
-  top: 390px;
+  top: 392px;
   width: 6px;
   height: 4px;
   /* transform: rotate(-105deg);
       transform-origin: 0 0; */
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
-  animation: ligth4 2s linear infinite;
-  animation-play-state: running;
-  box-shadow: 0 0 5px #ffffff;
+      background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+      animation: ligth4 2s linear infinite;
+      animation-play-state: running;
+      box-shadow: 0 0 5px 2px #ffffff;
 }
 
 @keyframes ligth4 {
@@ -132,10 +132,10 @@
   height: 4px;
   transform: rotate(180deg);
   transform-origin: 0 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
   animation: ligth5 4s linear infinite alternate;
   animation-play-state: running;
-  box-shadow: 0 0 5px #ffffff;
+  box-shadow: 0 0 5px 2px #ffffff;
 }
 
 @keyframes ligth5 {
@@ -144,38 +144,38 @@
   }
 
   20% {
-    transform: translate(-33px, 0) rotate(180deg);
+    transform: translate(-32px, 0) rotate(180deg);
   }
 
   21% {
-    transform: translate(-33px, 0) rotate(73deg);
+    transform: translate(-32px, 0) rotate(73deg);
   }
 
   80% {
-    transform: translate(3px, 122px) rotate(73deg);
+    transform: translate(4px, 124px) rotate(73deg);
   }
 
   81% {
-    transform: translate(3px, 130px) rotate(180deg);
+    transform: translate(4px, 132px) rotate(180deg);
   }
 
   100% {
-    transform: translate(-33px, 130px) rotate(180deg);
+    transform: translate(-32px, 132px) rotate(180deg);
   }
 }
 
 .light-6 {
   position: absolute;
-  left: 370px;
+  left: 372px;
   top: 276px;
   width: 6px;
   height: 4px;
   transform: rotate(-105deg);
   transform-origin: 0 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
   animation: ligth6 2s linear infinite alternate;
   animation-play-state: running;
-  box-shadow: 0 0 5px #ffffff;
+  box-shadow: 0 0 5px 2px #ffffff;
 }
 
 @keyframes ligth6 {
@@ -196,10 +196,10 @@
   height: 4px;
   transform: rotate(-108deg);
   transform-origin: 0 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
   animation: ligth7 2s linear infinite alternate;
   animation-play-state: running;
-  box-shadow: 0 0 5px #ffffff;
+  box-shadow: 0 0 5px 2px #ffffff;
 }
 
 @keyframes ligth7 {
@@ -216,15 +216,15 @@
 .light-8 {
   position: absolute;
   left: 468px;
-  top: 390px;
+  top: 392px;
   width: 6px;
   height: 4px;
   /* transform: rotate(-105deg);
       transform-origin: 0 0; */
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
-  animation: ligth8 2s linear infinite alternate;
-  animation-play-state: running;
-  box-shadow: 0 0 5px #ffffff;
+      background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+      animation: ligth8 2s linear infinite alternate;
+      animation-play-state: running;
+      box-shadow: 0 0 5px 2px #ffffff;
 }
 
 @keyframes ligth8 {
@@ -241,15 +241,15 @@
 .light-9 {
   position: absolute;
   left: 444px;
-  top: 216px;
+  top: 234px;
   width: 6px;
   height: 4px;
   transform: rotate(0deg);
   transform-origin: 0 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
   animation: ligth9 4s linear infinite alternate;
   animation-play-state: running;
-  box-shadow: 0 0 5px #ffffff;
+  box-shadow: 0 0 5px 2px #ffffff;
 }
 
 @keyframes ligth9 {
@@ -258,22 +258,46 @@
   }
 
   20% {
-    transform: translate(36px, 0) rotate(0deg);
+    transform: translate(40px, 0) rotate(0deg);
   }
 
   21% {
-    transform: translate(40px, 0) rotate(73deg);
+    transform: translate(44px, 0) rotate(73deg);
   }
 
   80% {
-    transform: translate(82px, 150px) rotate(73deg);
+    transform: translate(82px, 132px) rotate(73deg);
   }
 
   81% {
-    transform: translate(78px, 150px) rotate(0deg);
+    transform: translate(78px, 134px) rotate(0deg);
   }
 
   100% {
-    transform: translate(110px, 150px) rotate(0deg);
+    transform: translate(110px, 134px) rotate(0deg);
+  }
+}
+
+.light-10 {
+  position: absolute;
+  left: 448px;
+  top: 219px;
+  width: 6px;
+  height: 4px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  animation: ligth10 2s linear infinite alternate;
+  animation-play-state: running;
+  box-shadow: 0 0 5px 2px #ffffff;
+}
+
+@keyframes ligth10 {
+  0% {
+    transform: translate(0, 0) rotate(-180deg);
+  }
+
+  100% {
+    transform: translate(66px, 0) rotate(-180deg);
   }
 }

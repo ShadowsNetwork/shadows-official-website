@@ -69,4 +69,44 @@
 
   print($('#print_con1'), ['Privace Protection Asset Safety'], 0)
 
+
+  //scroll
+
+  function scroll() {
+    var base = 180;
+
+    var article2 = $('.article2');
+    var top2 = article2.offset().top;
+    var height2 = article2.height();
+
+    var article5 = $('.article5');
+    var top5 = article5.offset().top;
+    var height5 = article5.height();
+
+    var article7 = $('.article7');
+    var top7 = article7.offset().top;
+    var height7 = article7.height();
+
+    var article8 = $('.article8');
+    var top8 = article8.offset().top;
+    var height8 = article8.height();
+
+    $(window).on('scroll', function () {
+      var _that = $(this);
+      var top = _that.scrollTop();
+
+      if (top >= top2 - base && top < top2 + height2) {
+        article2.addClass('animation');
+      } else if (top >= top5 - base && top < top5 + height5) {
+        article5.addClass('animation');
+      }else if (top >= top7 - base && top < top7 + height7) {
+        article7.addClass('animation');
+      }else if (top >= top8 - base && top < top8 + height8) {
+        article8.addClass('animation');
+      }
+
+    });
+  }
+
+  scroll();
 })();
