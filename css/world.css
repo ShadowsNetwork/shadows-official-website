@@ -76,6 +76,14 @@
   animation: span_i_1 16s 0s ease-in-out infinite;
 }
 
+.trajectory1 .wrap-icon1 span{
+  -webkit-animation: span_1 16s -6s ease-in-out infinite;
+  animation: span_1 16s -6s ease-in-out infinite;
+}
+.trajectory1 .wrap-icon1 i {
+  -webkit-animation: span_i_1 16s -2s ease-in-out infinite;
+  animation: span_i_1 16s -2s ease-in-out infinite;
+}
 
 @-webkit-keyframes span_1 {
 
@@ -192,6 +200,15 @@
   background-size: 100%;
   -webkit-animation: span_i_2 16s -4s ease-in-out infinite;
   animation: span_i_2 16s -4s ease-in-out infinite;
+}
+
+.trajectory1 .wrap-icon2 span{
+  -webkit-animation: span_1 16s -10s ease-in-out infinite;
+  animation: span_1 16s -10s ease-in-out infinite;
+}
+.trajectory1 .wrap-icon2 i {
+  -webkit-animation: span_i_1 16s -6s ease-in-out infinite;
+  animation: span_i_1 16s -6s ease-in-out infinite;
 }
 
 
@@ -312,6 +329,15 @@
   animation: span_i_3 16s -8s ease-in-out infinite;
 }
 
+.trajectory1 .wrap-icon3 span{
+  -webkit-animation: span_1 16s -14s ease-in-out infinite;
+  animation: span_1 16s -14s ease-in-out infinite;
+}
+.trajectory1 .wrap-icon3 i {
+  -webkit-animation: span_i_1 16s -10s ease-in-out infinite;
+  animation: span_i_1 16s -10s ease-in-out infinite;
+}
+
 
 @-webkit-keyframes span_3 {
 
@@ -428,6 +454,15 @@
   /* background-size: 100% 100%; */
   -webkit-animation: span_i_4 16s -6s ease-in-out infinite;
   animation: span_i_4 16s -6s ease-in-out infinite;
+}
+
+.trajectory1 .wrap-icon4 span{
+  -webkit-animation: span_1 16s -18s ease-in-out infinite;
+  animation: span_1 16s -18s ease-in-out infinite;
+}
+.trajectory1 .wrap-icon4 i {
+  -webkit-animation: span_i_1 16s -14s ease-in-out infinite;
+  animation: span_i_1 16s -14s ease-in-out infinite;
 }
 
 
