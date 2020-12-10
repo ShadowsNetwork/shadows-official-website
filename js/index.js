@@ -65,9 +65,9 @@
     }, 80);
   }
 
-  print($('#print_con'), ['Based On Substrate Developent', 'Safer, Faster And More Stable', 'ファントムアグリーメント', '幻影协议'], 0)
+  print($('#print_con'), ['Based On Substrate Developent', 'Safer, Faster And More Stable', 'ファントムアグリーメント', '_ _ _ _ 幻影協議'], 0)
 
-  print($('#print_con1'), ['Privace Protection Asset Safety'], 0)
+  print($('#print_con1'), ['Privacy Protection', 'Asset Safety','Free Circulation'], 0)
 
 
   //scroll
