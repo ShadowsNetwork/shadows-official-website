@@ -67,7 +67,7 @@
 
   print($('#print_con'), ['Based On Substrate Developent', 'Safer, Faster And More Stable', 'ファントムアグリーメント', '_ _ _ _ 幻影協議'], 0)
 
-  print($('#print_con1'), ['Privacy Protection', 'Asset Safety','Free Circulation'], 0)
+  print($('#print_con1'), ['Privacy Protection', 'Asset Safety', 'Free Circulation'], 0)
 
 
   //scroll
@@ -87,21 +87,49 @@
     var top7 = article7.offset().top;
     var height7 = article7.height();
 
+    var article6 = $('.article6');
+    var top6 = article6.offset().top;
+
     var article8 = $('.article8');
     var top8 = article8.offset().top;
     var height8 = article8.height();
+
+    var bot2 = $('.article2-bottom').offset().top;
+    var bot2height = $('.article2-title').outerHeight();
+    var bot6 = $('.article6-bottom').offset().top;
+    var bot6height = $('.article6-sticky').outerHeight();
 
     $(window).on('scroll', function () {
       var _that = $(this);
       var top = _that.scrollTop();
 
+      if (top > bot2) {
+        $('.content-module-con').attr('style', '--gregoss:45');
+      } else if (top < top2) {
+        $('.content-module-con').attr('style', '--gregoss:0');
+      } else {
+        var _gregoss = ((top - top2) / bot2height * 45).toFixed(0);
+        $('.content-module-con').attr('style', '--gregoss:' + _gregoss);
+      }
+
+      if (top > bot6) {
+        $('.power-list').attr('style', '--progess:1');
+      } else if (top < top6) {
+        $('.power-list').attr('style', '--progess:0');
+      } else {
+        var _progess = ((top - top6) / bot2height).toFixed(2);
+        console.log(_progess);
+        $('.power-list').attr('style', '--progess:' + _progess);
+      }
+
+
       if (top >= top2 - base && top < top2 + height2) {
         article2.addClass('animation');
       } else if (top >= top5 - base && top < top5 + height5) {
         article5.addClass('animation');
-      }else if (top >= top7 - base && top < top7 + height7) {
+      } else if (top >= top7 - base && top < top7 + height7) {
         article7.addClass('animation');
-      }else if (top >= top8 - base && top < top8 + height8) {
+      } else if (top >= top8 - base && top < top8 + height8) {
         article8.addClass('animation');
       }
 
