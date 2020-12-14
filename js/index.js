@@ -75,6 +75,10 @@
   function scroll() {
     var base = 180;
 
+    var bodyHeight = $('body').height();
+    var height = document.documentElement.clientHeight;
+    var max = bodyHeight - height;
+
     var article2 = $('.article2');
     var top2 = article2.offset().top;
     var height2 = article2.height();
@@ -118,7 +122,6 @@
         $('.power-list').attr('style', '--progess:0');
       } else {
         var _progess = ((top - top6) / bot2height).toFixed(2);
-        console.log(_progess);
         $('.power-list').attr('style', '--progess:' + _progess);
       }
 
@@ -127,9 +130,9 @@
         article2.addClass('animation');
       } else if (top >= top5 - base && top < top5 + height5) {
         article5.addClass('animation');
-      } else if (top >= top7 - base && top < top7 + height7) {
+      } else if (top >= max || (top >= top7 - base && top < top7 + height7)) {
         article7.addClass('animation');
-      } else if (top >= top8 - base && top < top8 + height8) {
+      } else if (top >= max || (top >= top8 - base && top < top8 + height8)) {
         article8.addClass('animation');
       }
 
@@ -137,4 +140,11 @@
   }
 
   scroll();
+
+
+  $('.weixin').on('mouseenter', function () {
+    $('.weixin-img').show();
+  }).on('mouseleave', function () {
+    $('.weixin-img').hide();
+  });
 })();

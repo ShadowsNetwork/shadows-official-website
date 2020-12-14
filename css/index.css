@@ -584,12 +584,13 @@ footer {
   width: 2.2rem;
   height: 1.8rem;
   margin: 0 0.4rem;
+  position: relative;
+  z-index: 9;;
 }
 
 .concat-list li a {
   display: block;
-  width: 2.2rem;
-  ;
+  width: 2.2rem;;
   height: 1.8rem;
   overflow: hidden;
   text-indent: -999em;
@@ -611,18 +612,35 @@ footer {
   background: url(../images/github.png) no-repeat center;
   background-size: 100% auto;
 }
-
+.concat-list li a.weibo {
+  background: url(../images/weibo.png) no-repeat center;
+  background-size: contain;
+}
+.concat-list li a.weixin {
+  background: url(../images/weixin.png) no-repeat center;
+  background-size: contain;
+}
+.concat-list li .weixin-img {
+  position: absolute;
+  left: 0;
+  top: -25.8rem;
+  width: 25.8rem;
+  height: 25.8rem;
+  transform: translate(-50%, 0);
+  display: none;
+}
+.concat-list li .weixin-img img{
+  width: 25.8rem;
+}
 .copyright {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-family: PingFangSC-Medium, PingFang SC;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.3);
   line-height: 1;
   padding-bottom: 1.6rem;
 }
-
-
 
 .down-up {
   -webkit-transform: translate(0, 10rem);
@@ -654,6 +672,9 @@ footer {
   .main {
     width: 100%;
     overflow: hidden;
+  }
+  footer .main{
+    overflow: initial;
   }
 }
 
