@@ -620,6 +620,15 @@ footer {
   background: url(../images/weixin.png) no-repeat center;
   background-size: contain;
 }
+.concat-list li a.mail {
+  background: url(../images/mail.png) no-repeat center;
+  background-size: 100% auto;
+}
+.concat-list li a.medium {
+  background: url(../images/medium.svg) no-repeat center;
+  background-size: contain;
+  color: #ffffff;
+}
 .concat-list li .weixin-img {
   position: absolute;
   left: 0;
