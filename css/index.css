@@ -549,6 +549,8 @@ aside {
 
 .people-des {
   color: #9d9d9d;
+  text-align: left;
+  height: 25rem;
 }
 
 .foottip {
