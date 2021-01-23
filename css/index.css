@@ -838,4 +838,8 @@ footer {
   .article7-con{
     padding: 10rem 0 0;
   }
+
+  .linkdin-img  img>people-list{
+    width: 1rem;
+  }
 }
