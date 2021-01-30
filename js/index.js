@@ -98,6 +98,10 @@
     var top8 = article8.offset().top;
     var height8 = article8.height();
 
+    var article9 = $('.article9');
+    var top9 = article9.offset().top;
+    var height9 = article9.height();
+
     var bot2 = $('.article2-bottom').offset().top;
     var bot2height = $('.article2-title').outerHeight();
     var bot6 = $('.article6-bottom').offset().top;
@@ -134,6 +138,8 @@
         article7.addClass('animation');
       } else if (top >= max || (top >= top8 - base && top < top8 + height8)) {
         article8.addClass('animation');
+      } else if (top >= max || (top >= top9 - base && top < top9 + height9)) {
+        article9.addClass('animation');
       }
 
     });
