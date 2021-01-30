@@ -132,13 +132,17 @@
 
       if (top >= top2 - base && top < top2 + height2) {
         article2.addClass('animation');
-      } else if (top >= top5 - base && top < top5 + height5) {
+      }
+      if (top >= top5 - base && top < top5 + height5) {
         article5.addClass('animation');
-      } else if (top >= max || (top >= top7 - base && top < top7 + height7)) {
+      }
+      if (top >= max || (top >= top7 - base && top < top7 + height7)) {
         article7.addClass('animation');
-      } else if (top >= max || (top >= top8 - base && top < top8 + height8)) {
+      }
+      if (top >= max || (top >= top8 - base && top < top8 + height8)) {
         article8.addClass('animation');
-      } else if (top >= max || (top >= top9 - base && top < top9 + height9)) {
+      }
+      if (top >= max || (top >= top9 - base && top < top9 + height9)) {
         article9.addClass('animation');
       }
 
