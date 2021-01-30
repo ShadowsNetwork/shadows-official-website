@@ -190,8 +190,11 @@ footer .main {
   width: 16.2rem;
 }
 
-.article2-bottom,.article6-bottom{ 
+.article2-bottom, .article6-bottom {
   padding-bottom:100rem;
+}
+.article9-bottom {
+  padding-bottom: 40rem;
 }
 
 .article2-title{
@@ -208,7 +211,6 @@ footer .main {
   margin-top: 18rem;
 }
 .article9-con{
-  margin-top: 10rem;
   text-align: center;
 }
 .article5-sticky{
@@ -221,7 +223,12 @@ footer .main {
   position: sticky;
   top: 18rem;
   margin-top: 18rem;
-  
+}
+.article9-sticky{
+  position: sticky;
+  top: 18rem;
+  margin-top: 18rem;
+  padding-bottom: 24rem;
 }
 
 .title {
@@ -815,7 +822,7 @@ footer {
     height: auto;
   }
 
-  .article2-bottom,.article6-bottom{
+  .article2-bottom, .article6-bottom, .article9-bottom{
     padding: 0;
   }
 
@@ -823,7 +830,7 @@ footer {
     position: relative;
     top: 0;
   }
-  .box-content,.article5-sticky,.article6-sticky{
+  .box-content, .article5-sticky, .article6-sticky, .article9-sticky{
     position: relative;
     top: 0;
     padding-bottom: 0;
