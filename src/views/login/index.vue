@@ -62,12 +62,12 @@
 
 <script>
 
-import { WOW } from 'wowjs'
+// import { WOW } from 'wowjs'
 import Top from '@/components/top/top'
 export default {
   name: 'Dashboard',
   components: { Top },
-  mounted() { new WOW().init() }
+  // mounted() { new WOW().init() }
 }
 </script>
 

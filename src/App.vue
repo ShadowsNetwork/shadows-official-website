@@ -5,7 +5,7 @@
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1" />
         <el-col :xl="6" :lg="6" :md="6" :sm="6" :xs="6">
           <ul class="nav">
-            <li class="logoImg" @click="toggle('0')"><router-link class="logoLinkImg" to="/dashboard"><img src="./assets/image/dashboard/logo.png" style="width: 100%"></router-link></li>
+            <li class="logoImg" @click="toggle('0')"><router-link class="logoLinkImg" to="/dashboard"><img src="./assets/image/dashboard/logo.png" style="width: 60%"></router-link></li>
           </ul>
         </el-col>
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1" />
@@ -30,12 +30,12 @@
         <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2" />
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1">
           <ul>
-            <li><img src="./assets/image/dashboard/fly.png"></li>
+            <li><img src="./assets/image/dashboard/fly.png" style="width: 30px "></li>
           </ul>
         </el-col>
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1">
           <ul>
-            <li><img src="./assets/image/dashboard/twiter.png"></li>
+            <li><img src="./assets/image/dashboard/twiter.png" style="width: 30px"></li>
           </ul>
         </el-col>
         <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2">
@@ -61,6 +61,7 @@
 </template>
 
 <script>
+import { WOW } from 'wowjs'
 export default {
   name: 'App',
   data() {
@@ -68,6 +69,7 @@ export default {
       show: false
     }
   },
+  mounted() { new WOW().init() },
   methods: {
     dropShow() {
       this.show = !this.show
@@ -135,7 +137,7 @@ export default {
       top: 10px;
     }
     .logoImg {
-      width: 80%;
+      width: 120%;
       display: block;
     }
     .mobile-drop > div {
@@ -156,7 +158,7 @@ export default {
         font-size: 15px;
       }
       .logoImg {
-        width: 20%;
+        width: 30%;
         display: block;
         position: absolute;
         top: 0;
