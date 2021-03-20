@@ -61,7 +61,7 @@ export default {
       show: false
     }
   },
-  mounted() { new WOW().init() },
+  mounted() { new WOW({ offset: 0, mobile: true, live: true }).init() },
   methods: {
     dropShow() {
       this.show = !this.show

@@ -24,7 +24,7 @@
 import { WOW } from 'wowjs'
 export default {
   name: 'Top',
-  mounted() { new WOW().init() }
+  mounted() { new WOW({ offset: 0, mobile: true, live: true }).init() }
 }
 </script>
 

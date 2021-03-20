@@ -23,7 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/top/top.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top/top.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <workItem from="1616124468641" duration="18939000" />
       <workItem from="1616153961357" duration="799000" />
       <workItem from="1616154825381" duration="6230000" />
-      <workItem from="1616206132863" duration="18450000" />
+      <workItem from="1616206132863" duration="23185000" />
     </task>
     <task id="LOCAL-00001" summary="官网页面">
       <created>1616155182713</created>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616223693776</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adjust page animation time and head navigation bar style">
+      <created>1616235620775</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616235620775</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +132,8 @@
     <MESSAGE value="官网" />
     <MESSAGE value="官网修改" />
     <MESSAGE value="头部导航样式以及页面卡住问题修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="头部导航样式以及页面卡住问题修改" />
+    <MESSAGE value="Adjust page animation time and head navigation bar style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjust page animation time and head navigation bar style" />
   </component>
   <component name="WindowStateProjectService">
     <state x="517" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616057083745">
@@ -141,10 +149,10 @@
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616123812540" />
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616154642680" />
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1616223899043">
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1616235622073">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616223899043" />
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616235622073" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1616142084271">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
