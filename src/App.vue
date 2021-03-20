@@ -160,6 +160,7 @@ export default {
         display: block;
         position: absolute;
         top: 0;
+        left: 7%;
       }
       .mobile-drop-button {
         position: absolute;
