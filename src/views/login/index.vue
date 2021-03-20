@@ -124,5 +124,43 @@ export default {
 .market-contentChild > span:nth-of-type(2) {
   margin-top: 18px;
 }
+@media (max-width: 1200px) {
+  .market-title {
+    height: 170px;
+  }
+  .market-title > span:nth-of-type(1) {
+    display: block;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    color: #fff;
+    font-size: 30px;
+  }
+  .market-title > span:nth-of-type(2) {
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+  }
+}
+@media (max-width: 450px) {
+  .market-title {
+    height: 170px;
+  }
+  .market-title > span:nth-of-type(1) {
+    display: block;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    color: #fff;
+    font-size: 20px;
+  }
+  .market-title > span:nth-of-type(2) {
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 13px;
+  }
+}
 </style>
 
