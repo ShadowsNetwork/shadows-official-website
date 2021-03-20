@@ -1,26 +1,30 @@
 <template>
   <div class="top">
-    <img src="../../assets/image/dashboard/topBac.jpg"/>
-    <div class="topText-title wow slideInLeft">
-      <span>Redefining</span>
-      <span>investment</span>
-      <span>opportunities</span>
-      <span>on chain.</span>
-    </div>
-    <div class="topText-text wow slideInLeft">
-      <span>Shadows is a hub for issuing, trading, lending and borrowing synthetic assets.</span>
-    </div>
-    <div class="topText-button wow slideInLeft">
-      <button>Whitepaper</button>
-      <button>Tokenomics</button>
+    <img src="../../assets/image/dashboard/topBac.jpg">
+    <div>
+      <div class="topText-title wow slideInLeft">
+        <span>Redefining</span>
+        <span>investment</span>
+        <span>opportunities</span>
+        <span>on chain.</span>
+      </div>
+      <div class="topText-text wow slideInLeft">
+        <span>Shadows is a hub for issuing, trading, lending and borrowing synthetic assets.</span>
+      </div>
+      <div class="topText-button wow slideInLeft">
+        <button>Whitepaper</button>
+        <button>Tokenomics</button>
+      </div>
     </div>
     <img class="wow slideInRight" src="../../assets/image/dashboard/newDash.png">
   </div>
 </template>
 
 <script>
+import { WOW } from 'wowjs'
 export default {
-  name: 'Top'
+  name: 'Top',
+  mounted() { new WOW().init() }
 }
 </script>
 
@@ -43,6 +47,7 @@ export default {
   left: 10%;
   color: #fff;
   font-size: 70px;
+  font-weight: 700;
 }
 .topText-title > span {
   display: block;
@@ -60,6 +65,7 @@ export default {
   position: absolute;
   left: 10%;
   bottom: 25%;
+  font-weight: 700;
 }
 .topText-button > button {
   width: 170px;

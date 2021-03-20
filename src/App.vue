@@ -29,21 +29,13 @@
         </el-col>
         <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2" />
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1">
-          <ul>
-            <li><img src="./assets/image/dashboard/fly.png" style="width: 30px "></li>
-          </ul>
+          <img class="fly" src="./assets/image/dashboard/fly.png">
         </el-col>
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1">
-          <ul>
-            <li><img src="./assets/image/dashboard/twiter.png" style="width: 30px"></li>
-          </ul>
+          <img class="twiter" src="./assets/image/dashboard/twiter.png">
         </el-col>
         <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2">
-          <ul>
-            <li>
-              <button class="contact">Contact Us</button>
-            </li>
-          </ul>
+          <button class="contact">Contact Us</button>
         </el-col>
         <div class="mobile-drop-button">
           <i class="el-icon-s-operation" @click="dropShow" />
@@ -98,6 +90,15 @@ export default {
     color: white;
     list-style: none;
     font-size: 14px;
+    font-weight: 700;
+  }
+  .fly {
+    width: 30px;
+    margin-top: 28px;
+  }
+  .twiter {
+    width: 30px;
+    margin-top: 28px;
   }
   .contact {
     width: 128px;
@@ -108,6 +109,9 @@ export default {
     background: #D02467;
     border: none;
     border-radius: 30px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 15px;
   }
   .mobile-drop-button {
     display: none;
@@ -120,7 +124,7 @@ export default {
     position: absolute;
     top: 50px;
     width: 100%;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.6);
     z-index: 999;
   }
   @media screen and (max-width: 992px) {
@@ -139,6 +143,22 @@ export default {
     .logoImg {
       width: 120%;
       display: block;
+    }
+    .fly {
+      width: 20px;
+      margin-top: 20px;
+    }
+    .twiter {
+      width: 20px;
+      margin-left: 30%;
+      margin-top: 20px;
+    }
+    .contact {
+      width: 100px;
+      height: 28px;
+      font-size: 14px;
+      margin-left: 15px;
+      margin-top: 20px;
     }
     .mobile-drop > div {
       width: 100%;
@@ -163,6 +183,15 @@ export default {
         position: absolute;
         top: 0;
         left: 7%;
+      }
+      .fly {
+        display: none;
+      }
+      .twiter {
+        display: none;
+      }
+      .contact {
+        display: none;
       }
       .mobile-drop-button {
         position: absolute;
