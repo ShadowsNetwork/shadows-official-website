@@ -22,8 +22,9 @@
     <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/image/dashboard/topBac.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/dashboard/topBac.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/top/top.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top/top.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <workItem from="1616124468641" duration="18939000" />
       <workItem from="1616153961357" duration="799000" />
       <workItem from="1616154825381" duration="6230000" />
-      <workItem from="1616206132863" duration="23185000" />
+      <workItem from="1616206132863" duration="28993000" />
     </task>
     <task id="LOCAL-00001" summary="官网页面">
       <created>1616155182713</created>
@@ -108,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616235620775</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adjust page animation">
+      <created>1616253571185</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616253571185</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +141,8 @@
     <MESSAGE value="官网修改" />
     <MESSAGE value="头部导航样式以及页面卡住问题修改" />
     <MESSAGE value="Adjust page animation time and head navigation bar style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjust page animation time and head navigation bar style" />
+    <MESSAGE value="Adjust page animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjust page animation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="517" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616057083745">
@@ -149,14 +158,15 @@
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616123812540" />
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616154642680" />
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1616235622073">
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1616253575697">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616235622073" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1616142084271">
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616253575697" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1616291119068">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616142084271" />
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1616291119068" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1616059235078">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

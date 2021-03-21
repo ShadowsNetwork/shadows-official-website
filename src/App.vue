@@ -2,13 +2,12 @@
   <div id="app">
     <nav class="header">
       <el-row type="flex" style="background-color: rgba(0,0,0,0);margin: 0;z-index: 1;padding: 0;">
-        <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1" />
+        <el-col :xl="2" :lg="2" :md="2" :sm="1" :xs="1" />
         <el-col :xl="6" :lg="6" :md="6" :sm="6" :xs="6">
           <ul class="nav">
             <li class="logoImg" @click="toggle('0')"><router-link class="logoLinkImg" to="/dashboard"><img src="./assets/image/dashboard/logo.png" style="width: 60%"></router-link></li>
           </ul>
         </el-col>
-        <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1" />
         <el-col :xl="7" :lg="7" :md="7" :sm="7" :xs="7">
           <ul class="nav">
             <el-row>
@@ -70,9 +69,6 @@ export default {
 }
 </script>
 <style scoped>
-  html {
-    font-size: 62.5%;
-  }
   nav {
     z-index: 1;
   }
@@ -81,6 +77,7 @@ export default {
     background: rgba(0,0,0,0);
     line-height: 50px;
     display: block;
+    font-family: Arboria;
   }
   li {
     display: inline-block;

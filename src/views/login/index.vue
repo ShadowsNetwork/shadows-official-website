@@ -76,6 +76,7 @@ export default {
   position: relative;
   top: -100px;
   background: #000;
+  font-family: Arboria;
 }
 .dashboard-content {
   height: 3000px;
@@ -108,11 +109,15 @@ export default {
   font-size: 24px;
 }
 .market-content {
-  width: 60%;
-  margin-left: 20%;
+  width: 80%;
+  margin-left: 10%;
 }
 .market-contentChild {
   margin-bottom: 104px;
+}
+.market-contentChild > img {
+  width: 49px;
+  height: 49px;
 }
 .market-contentChild > span {
   color: #fff;

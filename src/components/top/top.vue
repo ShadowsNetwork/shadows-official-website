@@ -31,6 +31,7 @@ export default {
 <style scoped>
 .top {
   position: relative;
+  font-family: Arboria;
 }
 .top > img:nth-of-type(1) {
   width: 100%;
