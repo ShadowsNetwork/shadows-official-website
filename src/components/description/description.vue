@@ -2,7 +2,7 @@
   <div class="description">
     <div class="line"/>
     <div class="description-content wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
-      <span>We see Shadows as one of the finest DeFi projects from the extensive candidate lineup.”</span>
+      <span>“We see Shadows as one of the finest DeFi projects from the extensive candidate lineup.”</span>
       <span>Alexander Maker</span>
       <span>Managing Director, Web3 Foundation</span>
     </div>
@@ -63,6 +63,30 @@ export default {
   line-height: 22px;
   text-align: right;
   letter-spacing: 0.02em;
+}
+@media screen and (max-width: 450px) {
+  .description {
+    padding-bottom: 50px;
+  }
+  .description-content > span:nth-of-type(1) {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 22px;
+    margin-top: 100px;
+  }
+  .description-content > span:nth-of-type(2) {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 16px;
+    margin-top: 70px;
+    text-align: right;
+  }
+  .description-content > span:nth-of-type(3) {
+    font-size: 14px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+  }
 }
 </style>
 

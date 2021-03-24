@@ -1,5 +1,6 @@
 <template>
   <div class="top">
+    <img class="topBac" src="../../assets/image/dashboard/topBac.png"/>
     <div class="topText">
       <div class="topText-title wow bounceInUp">
         <span>Redefining investment</span>
@@ -9,8 +10,8 @@
         <span>Shadows is a hub for issuing, trading, lending and borrowing synthetic assets.</span>
       </div>
       <div class="topText-button wow bounceInUp">
-        <button>Whitepaper</button>
-        <button>Tokenomics</button>
+        <button><a href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsNetworkWhitePaper_EN.pdf" target="_blank">Whitepaper</a></button>
+        <button><a href="https://etherscan.io/token/0x661ab0ed68000491d98c796146bcf28c20d7c559" target="_blank">Tokenomics</a></button>
       </div>
     </div>
   </div>
@@ -26,17 +27,19 @@ export default {
 
 <style scoped>
 .top {
-  height: 900px;
+  max-height: 900px;
   position: relative;
-  font-family: Arboria;
-  background: url("../../assets/image/dashboard/topBac.png");
-  background-size: 100% 100%;
+  font-family: 'Arboria';
   display: flex;
   align-items: center;
+}
+.topBac {
+  width: 100%;
 }
 .topText {
   width: 100%;
   text-align: center;
+  position: absolute;
 }
 .topText-title {
   color: #fff;
@@ -69,6 +72,7 @@ export default {
   color: white;
   font-size: 15px;
   background: #05DAAC;
+  font-family: 'Arboria';
   border: none;
   border-radius: 100px;
   outline: none;
@@ -79,6 +83,11 @@ export default {
 @media screen and (max-width: 450px) {
   .top {
     height: 480px;
+    background: url("../../assets/image/dashboard/topBac.png") center;
+    background-size: cover;
+  }
+  .topBac {
+    display: none;
   }
   .topText {
     width: 100%;

@@ -6,15 +6,13 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import 'element-ui/lib/theme-chalk/display.css'
 import locale from 'element-ui/lib/locale/lang/en' // lang i18n
-
+import './font/font.css'
 import '@/styles/index.scss' // global css
 
 import App from './App'
 import store from './store'
 import router from './router'
 
-import '@/icons' // icon
-import '@/permission' // permission control
 import wow from 'wowjs'
 import 'wowjs/css/libs/animate.css' // 此处就是wowjs中自带的animate的位置
 Vue.prototype.$wow = wow

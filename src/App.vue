@@ -5,47 +5,49 @@
         <el-col :xl="2" :lg="2" :md="2" :sm="1" :xs="1" />
         <el-col :xl="6" :lg="6" :md="6" :sm="6" :xs="6">
           <ul class="nav">
-            <li class="logoImg" @click="toggle('0')"><router-link class="logoLinkImg" to="/dashboard"><img src="./assets/image/dashboard/logo.png" style="width: 60%"></router-link></li>
+            <li class="logoImg" @click="toggle('0')"><router-link class="logoLinkImg" to="/"><img src="./assets/image/dashboard/logo.png" style="width: 60%"></router-link></li>
           </ul>
         </el-col>
         <el-col :xl="7" :lg="7" :md="7" :sm="7" :xs="7">
           <ul class="nav">
             <el-row>
               <el-col :xl="6" :lg="6" :md="6">
-                <li class="header-li" @click="toggle('0')"><router-link to="">Features</router-link></li>
+                <li class="header-li"><a>Features</a></li>
               </el-col>
               <el-col :xl="6" :lg="6" :md="6">
-                <li class="header-li" @click="toggle(1)"><router-link to="">Medium</router-link></li>
+                <li class="header-li"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></li>
               </el-col>
               <el-col :xl="6" :lg="6" :md="6">
-                <li class="header-li" @click="toggle(2)"><router-link to="">About</router-link></li>
+                <li class="header-li"><a>About</a></li>
               </el-col>
               <el-col :xl="6" :lg="6" :md="6">
-                <li class="header-li" @click="toggle(3)"><router-link to="">Docs</router-link></li>
+                <li class="header-li"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></li>
               </el-col>
             </el-row>
           </ul>
         </el-col>
         <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2" />
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1">
-          <img class="fly" src="./assets/image/dashboard/fly.png">
+          <a href="https://t.me/Shadows_defi" target="_blank"><img class="fly" src="./assets/image/dashboard/fly.png"></a>
         </el-col>
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1">
-          <img class="twiter" src="./assets/image/dashboard/twiter.png">
+          <a href="https://twitter.com/shadows_defi" target="_blank"><img class="twitter" src="./assets/image/dashboard/twitter.png"></a>
         </el-col>
         <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2">
           <button class="contact">Contact Us</button>
         </el-col>
-        <div class="mobile-drop-button">
-          <i class="el-icon-s-operation" @click="dropShow" />
+        <div class="mobile-drop-button" @click="dropShow">
+          <div class="dropLine"/>
+          <div class="dropLine"/>
+          <div class="dropLine"/>
         </div>
       </el-row>
     </nav>
     <div v-show="show" class="mobile-drop" :show="show">
-      <div>Features</div>
-      <div>Medium</div>
-      <div>About</div>
-      <div>Docs</div>
+      <div><a href="">Features</a></div>
+      <div><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></div>
+      <div><a>About</a></div>
+      <div><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></div>
     </div>
     <router-view />
   </div>
@@ -77,7 +79,7 @@ export default {
     background: rgba(0,0,0,0);
     line-height: 50px;
     display: block;
-    font-family: Arboria;
+    font-family: 'Arboria';
   }
   li {
     display: inline-block;
@@ -93,7 +95,7 @@ export default {
     width: 30px;
     margin-top: 28px;
   }
-  .twiter {
+  .twitter {
     width: 30px;
     margin-top: 28px;
   }
@@ -121,7 +123,7 @@ export default {
     position: absolute;
     top: 50px;
     width: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.8);
     z-index: 999;
   }
   @media screen and (max-width: 992px) {
@@ -145,7 +147,7 @@ export default {
       width: 20px;
       margin-top: 20px;
     }
-    .twiter {
+    .twitter {
       width: 20px;
       margin-left: 30%;
       margin-top: 20px;
@@ -160,31 +162,26 @@ export default {
     .mobile-drop > div {
       width: 100%;
       text-align: center;
-      height: 30px;
-      line-height: 30px;
+      height: 40px;
+      line-height: 40px;
       color: #fff;
       cursor: pointer;
-      margin-top: 10px;
     }
     .mobile-drop > div:active {
       background: rgba(0,0,0,0.7);
     }
     @media screen and (max-width: 450px) {
-      .el-icon-s-operation {
-        color: #fff;
-        font-size: 15px;
-      }
       .logoImg {
-        width: 30%;
+        width: 60%;
         display: block;
         position: absolute;
-        top: 0;
+        top: 5px;
         left: 7%;
       }
       .fly {
         display: none;
       }
-      .twiter {
+      .twitter {
         display: none;
       }
       .contact {
@@ -192,12 +189,18 @@ export default {
       }
       .mobile-drop-button {
         position: absolute;
-        top: 0;
+        top: 10px;
+      }
+      .dropLine {
+        width: 20px;
+        height: 3px;
+        background: #05DAAC;
+        margin-top: 5px;
       }
       .mobile-drop > div {
         display: block;
-        height: 20px;
-        line-height: 20px;
+        height: 40px;
+        line-height: 40px;
         font-size: 13px;
         cursor: pointer;
       }

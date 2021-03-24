@@ -3,25 +3,25 @@
     <div class="foot-content">
       <div class="general">
         <ul>
-          <li class="title"><a>General</a></li>
+          <li class="title">General</li>
           <li class="childText"><a>Home</a></li>
           <li class="childText"><a>Features</a></li>
-          <li class="childText"><a>Medium</a></li>
+          <li class="childText"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></li>
           <li class="childText"><a>About</a></li>
-          <li class="childText"><a>Docs</a></li>
+          <li class="childText"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></li>
         </ul>
       </div>
       <div class="learn">
         <ul>
-          <li class="title"><a>Learn</a></li>
-          <li class="childText"><a>Whitepaper</a></li>
-          <li class="childText"><a>Tokenomics</a></li>
+          <li class="title">Learn</li>
+          <li class="childText"><a href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsNetworkWhitePaper_EN.pdf" target="_blank">Whitepaper</a></li>
+          <li class="childText"><a href="https://etherscan.io/token/0x661ab0ed68000491d98c796146bcf28c20d7c559" target="_blank">Tokenomics</a></li>
         </ul>
       </div>
       <div class="contact">
         <div class="contactImg">
-          <img src="../../assets/image/dashboard/fly.png"/>
-          <img src="../../assets/image/dashboard/twiter.png"/>
+          <a href="https://t.me/Shadows_defi" target="_blank"><img src="../../assets/image/dashboard/fly.png"/></a>
+          <a href="https://twitter.com/shadows_defi" target="_blank"><img src="../../assets/image/dashboard/twitter.png"/></a>
         </div>
         <div class="contact-text">
           <span>Subscribe to our newsletter</span>
@@ -89,14 +89,14 @@ li {
   display: flex;
   position: relative;
 }
-.contactImg > img {
+.contactImg > a > img {
   width: 33px;
   position: absolute;
 }
-.contactImg > img:nth-of-type(1) {
+.contactImg > a:nth-of-type(1) > img {
   right: 61px;
 }
-.contactImg > img:nth-of-type(2) {
+.contactImg > a:nth-of-type(2) > img {
   right: 0;
 }
 .contact-text {
@@ -126,6 +126,7 @@ li {
   align-items: center;
   color: #FFFEFE;
   background: #05DAAC;
+  font-family: 'Arboria';
   border-radius: 100px;
   border: 0;
   position: absolute;
@@ -147,6 +148,89 @@ li {
   margin-left: 20px;
   font-size: 12px;
   color: #FFFFFF;
+}
+@media screen and (max-width: 450px) {
+  .foot {
+    position: relative;
+    height: 700px;
+  }
+  .general {
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 8%;
+  }
+  li {
+    list-style: none;
+    margin-top: 30px;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .childText {
+    font-weight: 200;
+    font-size: 18px;
+  }
+  .learn {
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 10%;
+  }
+  .contact {
+    width: 220px;
+    position: absolute;
+    top: 300px;
+    right: 12%;
+  }
+  .contactImg {
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  .contactImg > a > img {
+    width: 33px;
+    position: absolute;
+  }
+  .contactImg > a:nth-of-type(1) > img {
+    right: 61px;
+  }
+  .contactImg > a:nth-of-type(2) > img {
+    right: 0;
+  }
+  .contact-text {
+    width: 100%;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    top: 50px;
+  }
+  .contact-text > span {
+    display: block;
+    font-size: 14px;
+    color: #FFFDFD;
+  }
+  .contactButton {
+    width: 100%;
+    position: absolute;
+    top: 120px;
+  }
+  .footBottom {
+    margin-left: 0;
+    height: 24px;
+    line-height: 24px;
+    position: absolute;
+    bottom: 40px;
+    display: block;
+  }
+  .footBottom-img {
+    width: 147px;
+  }
+  .footBottom > span {
+    display: block;
+    margin-left: 0;
+    font-size: 10px;
+    color: #FFFFFF;
+  }
 }
 </style>
 
