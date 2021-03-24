@@ -20,74 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/font/Arboria-Book.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/font.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README-zh.md" beforeDir="false" afterPath="$PROJECT_DIR$/README-zh.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/404_images/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/404_images/404_cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/dashboard/topBac.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/dashboard/topBac.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/dashboard/twiter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/dashboard/twitter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Breadcrumb/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hamburger/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SvgIcon/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SvgIcon/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cooperation/cooperation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cooperation/cooperation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/description/description.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/description/description.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/foot/foot.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/foot/foot.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/platform/platform.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/platform/platform.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/top/top.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top/top.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/svg/dashboard.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/svg/example.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/svg/eye-open.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/svg/eye.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/svg/form.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/svg/link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/svg/nested.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/svg/password.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/svg/table.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/svg/tree.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/svg/user.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/svgo.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/components/AppMain.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/components/Navbar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/components/Sidebar/FixiOSBug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/components/Sidebar/Item.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/components/Sidebar/Link.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/components/Sidebar/Logo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/components/Sidebar/SidebarItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/components/Sidebar/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/mixin/ResizeHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/getters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/modules/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/sidebar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/404.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/form/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/login/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/nested/menu1/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/nested/menu1/menu1-1/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/nested/menu1/menu1-2/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/nested/menu1/menu1-3/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/nested/menu2/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/table/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/tree/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +81,7 @@
       <workItem from="1616460945632" duration="502000" />
       <workItem from="1616461476554" duration="24272000" />
       <workItem from="1616547982028" duration="61000" />
-      <workItem from="1616548227833" duration="19122000" />
+      <workItem from="1616548227833" duration="21102000" />
     </task>
     <task id="LOCAL-00001" summary="官网页面">
       <created>1616155182713</created>
@@ -204,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616490328708</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adapt to mobile phone and background image adjustment">
+      <created>1616574812363</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616574812363</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +174,8 @@
     <MESSAGE value="Adjust page animation" />
     <MESSAGE value="Adjust the style" />
     <MESSAGE value="pc official website" />
-    <option name="LAST_COMMIT_MESSAGE" value="pc official website" />
+    <MESSAGE value="Adapt to mobile phone and background image adjustment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapt to mobile phone and background image adjustment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="307" key="#ESLint" timestamp="1616461355487">
@@ -256,10 +199,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="61" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616548243677" />
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1616490330770">
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1616574817178">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616490330770" />
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616574817178" />
     <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616300903814" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1616550308658">
       <screen x="0" y="0" width="1536" height="834" />

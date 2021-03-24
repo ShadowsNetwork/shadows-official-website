@@ -228,7 +228,7 @@ li {
   .footBottom > span {
     display: block;
     margin-left: 0;
-    font-size: 10px;
+    font-size: 12px;
     color: #FFFFFF;
   }
 }

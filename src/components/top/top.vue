@@ -1,6 +1,6 @@
 <template>
   <div class="top">
-    <img class="topBac" src="../../assets/image/dashboard/topBac.png"/>
+<!--    <img class="topBac" src="../../assets/image/dashboard/topBac.png"/>-->
     <div class="topText">
       <div class="topText-title wow bounceInUp">
         <span>Redefining investment</span>
@@ -27,15 +27,18 @@ export default {
 
 <style scoped>
 .top {
+  height: 100vh;
   max-height: 900px;
   position: relative;
   font-family: 'Arboria';
+  background: url("../../assets/image/dashboard/topBac.png") center;
+  background-size: cover;
   display: flex;
   align-items: center;
 }
-.topBac {
-  width: 100%;
-}
+/*.topBac {*/
+/*  height: 100vh;*/
+/*}*/
 .topText {
   width: 100%;
   text-align: center;
