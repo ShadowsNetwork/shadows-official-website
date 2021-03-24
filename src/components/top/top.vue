@@ -1,6 +1,5 @@
 <template>
   <div class="top">
-<!--    <img class="topBac" src="../../assets/image/dashboard/topBac.png"/>-->
     <div class="topText">
       <div class="topText-title wow bounceInUp">
         <span>Redefining investment</span>
@@ -36,9 +35,6 @@ export default {
   display: flex;
   align-items: center;
 }
-/*.topBac {*/
-/*  height: 100vh;*/
-/*}*/
 .topText {
   width: 100%;
   text-align: center;
@@ -88,9 +84,6 @@ export default {
     height: 480px;
     background: url("../../assets/image/dashboard/topBac.png") center;
     background-size: cover;
-  }
-  .topBac {
-    display: none;
   }
   .topText {
     width: 100%;

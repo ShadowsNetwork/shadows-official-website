@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/foot/foot.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/foot/foot.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/top/top.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top/top.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +79,7 @@
       <workItem from="1616460945632" duration="502000" />
       <workItem from="1616461476554" duration="24272000" />
       <workItem from="1616547982028" duration="61000" />
-      <workItem from="1616548227833" duration="21102000" />
+      <workItem from="1616548227833" duration="21239000" />
     </task>
     <task id="LOCAL-00001" summary="官网页面">
       <created>1616155182713</created>
@@ -146,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616574812363</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="background image adjustment">
+      <created>1616578237609</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616578237609</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +180,8 @@
     <MESSAGE value="Adjust the style" />
     <MESSAGE value="pc official website" />
     <MESSAGE value="Adapt to mobile phone and background image adjustment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapt to mobile phone and background image adjustment" />
+    <MESSAGE value="background image adjustment" />
+    <option name="LAST_COMMIT_MESSAGE" value="background image adjustment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="307" key="#ESLint" timestamp="1616461355487">
@@ -199,10 +205,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="61" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616548243677" />
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1616574817178">
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1616578242254">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616574817178" />
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616578242254" />
     <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616300903814" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1616550308658">
       <screen x="0" y="0" width="1536" height="834" />
