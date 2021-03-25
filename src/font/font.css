@@ -4,3 +4,38 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Arboria-Book';
+    src: url("Arboria-Book.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arboria-Bold';
+    src: url("Arboria-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arboria-Black';
+    src: url("Arboria-Black.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arboria-Medium';
+    src: url("Arboria-Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arboria-Light';
+    src: url("Arboria-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}

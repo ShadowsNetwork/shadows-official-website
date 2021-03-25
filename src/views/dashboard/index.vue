@@ -8,7 +8,7 @@
             <div class="line" />
           </div>
           <div class="market-title">
-            <span class="wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">*$1.2 Quadrillion Derivatives Market</span>
+            <span class="wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">$1.2 Quadrillion Derivatives Market</span>
             <span class="wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">Bringing financial derivatives to the ever-growing DeFi space.</span>
           </div>
           <div class="market-content">
@@ -147,16 +147,23 @@ export default {
 
 <style scoped>
 .dashboard {
+  
   position: relative;
+  
   top: -100px;
   font-family: Arboria;
   background: #151519;
 }
 .dashboard-content {
+  background: url("../../assets/image/dashboard/SHADOWS_Description 2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   top: -4px;
   width: 100%;
 }
 .pc-content {
+  max-width: 1600px;
+    margin: auto;
   display: block;
 }
 .mobile-content {
@@ -165,9 +172,7 @@ export default {
 .market {
   text-align: center;
   padding-top: 30px;
-  background: url("../../assets/image/dashboard/SHADOWS_Description 2.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  
   padding-bottom: 250px;
 }
 .divLine {
@@ -186,6 +191,7 @@ export default {
   height: 207px;
 }
 .market-title > span:nth-of-type(1) {
+  font-family: Arboria-Bold;
   display: block;
   width: 100%;
   height: 75px;
@@ -195,6 +201,7 @@ export default {
   font-weight: 700;
 }
 .market-title > span:nth-of-type(2) {
+  font-family: Arboria;
   display: block;
   width: 100%;
   color: #fff;
@@ -216,6 +223,7 @@ export default {
   display: block;
 }
 .market-contentChild > span:nth-of-type(1) {
+  font-family: Arboria-Bold;
   font-size: 26px;
   margin-top: 22px;
   font-weight: 700;

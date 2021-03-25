@@ -66,6 +66,7 @@ export default {
   opacity: 0.5;
 }
 .platform-title {
+  font-family: 'Arboria-Bold';
   color: #fff;
   width: 100%;
   text-align: center;
@@ -88,10 +89,15 @@ export default {
   color: white;
   font-size: 15px;
   background: #05DAAC;
-  font-family: 'Arboria';
+  font-family: 'Arboria-Bold';
   border: none;
   border-radius: 100px;
   outline: none;
+}
+.platform-button:hover > button {
+  
+  background: #00F4C0;
+  
 }
 .platform-content {
   width: 1358px;
@@ -183,6 +189,7 @@ export default {
   left: 330px;
 }
 .divTitle {
+  font-family: 'Arboria-Bold';
   display: block;
   font-weight: bold;
   font-size: 26px;

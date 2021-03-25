@@ -2,13 +2,13 @@
   <div id="app">
     <nav class="header">
       <el-row type="flex" style="background-color: rgba(0,0,0,0);margin: 0;z-index: 1;padding: 0;">
-        <el-col :xl="2" :lg="2" :md="2" :sm="1" :xs="1" />
+        <!-- <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2" /> -->
         <el-col :xl="6" :lg="6" :md="6" :sm="6" :xs="6">
           <ul class="nav">
-            <li class="logoImg" @click="toggle('0')"><router-link class="logoLinkImg" to="/"><img src="./assets/image/dashboard/logo.png" style="width: 60%"></router-link></li>
+            <li class="logoImg" @click="toggle('0')"><router-link class="logoLinkImg" to="/"><img src="./assets/image/dashboard/logo.png" style="width: 150px"></router-link></li>
           </ul>
         </el-col>
-        <el-col :xl="7" :lg="7" :md="7" :sm="7" :xs="7">
+        <el-col :xl="12" :lg="12" :md="12" :sm="12" :xs="12">
           <ul class="nav">
             <el-row>
               <el-col :xl="6" :lg="6" :md="6">
@@ -30,12 +30,13 @@
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1">
           <a href="https://t.me/Shadows_defi" target="_blank"><img class="fly" src="./assets/image/dashboard/fly.png"></a>
         </el-col>
-        <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1">
+        <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1" style="text-align:right;">
           <a href="https://twitter.com/shadows_defi" target="_blank"><img class="twitter" src="./assets/image/dashboard/twitter.png"></a>
         </el-col>
+<!--         
         <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2">
           <button class="contact">Contact Us</button>
-        </el-col>
+        </el-col> -->
         <div class="mobile-drop-button" @click="dropShow">
           <div class="dropLine"/>
           <div class="dropLine"/>
@@ -75,11 +76,13 @@ export default {
     z-index: 1;
   }
   .header {
-    width: 100%;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
     background: rgba(0,0,0,0);
     line-height: 50px;
     display: block;
-    font-family: 'Arboria';
+    font-family: 'Arboria-Bold';
   }
   li {
     display: inline-block;
@@ -91,6 +94,11 @@ export default {
     font-size: 14px;
     font-weight: 700;
   }
+.header-li a:hover{
+  font-size: 15px;
+  display:block;
+  text-decoration:none;
+}
   .fly {
     width: 30px;
     margin-top: 28px;
