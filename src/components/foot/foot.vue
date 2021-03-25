@@ -67,7 +67,7 @@ li {
 }
 .title {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
 }
 .childText {
   font-weight: 200;
@@ -149,7 +149,7 @@ li {
   font-size: 12px;
   color: #FFFFFF;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 900px) {
   .foot {
     position: relative;
     height: 700px;

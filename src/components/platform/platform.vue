@@ -82,11 +82,12 @@ export default {
   margin-top: 32px;
 }
 .platform-button > button {
-  width: 163.64px;
+  width: 170px;
   height: 43px;
   line-height: 43px;
   color: white;
   font-size: 15px;
+  font-weight: bold;
   background: #05DAAC;
   font-family: 'Arboria';
   border: none;
@@ -102,7 +103,6 @@ export default {
 }
 .platform-img {
   margin-top: 250px;
-  height: 510px;
   width: 820px;
   margin-left: calc((1358px - 820px) / 2);
   position: relative;
@@ -111,8 +111,8 @@ export default {
   width: 100%;
 }
 .leftDiv {
-  width: 316px;
-  height: 360px;
+  width: 311px;
+  height: 357px;
   border: 2px dashed #2DCBA9;
   box-sizing: border-box;
   position: absolute;
@@ -120,8 +120,8 @@ export default {
   left: 140px;
 }
 .rightDiv {
-  width: 170px;
-  height: 143px;
+  width: 168px;
+  height: 151px;
   border: 2px dashed #2DCBA9;
   box-sizing: border-box;
   position: absolute;
@@ -129,58 +129,58 @@ export default {
   right: 190px;
 }
 .bottomDiv {
-  width: 351px;
-  height: 96px;
+  width: 348px;
+  height: 92px;
   border: 2px dashed #2DCBA9;
   box-sizing: border-box;
   position: absolute;
-  bottom: 0px;
+  bottom: 5px;
   right: 10px;
 }
 .leftDivGo {
-  width: 226px;
-  height: 246px;
+  width: 220px;
+  height: 250px;
   border-left: 2px dashed #2DCBA9;
   border-bottom: 2px dashed #2DCBA9;
   box-sizing: border-box;
   position: absolute;
-  top: 220px;
-  left: 180px;
+  top: 210px;
+  left: 190px;
 }
 .rightDivGo {
-  width: 230px;
-  height: 160px;
+  width: 260px;
+  height: 176px;
   border-right: 2px dashed #2DCBA9;
   border-bottom: 2px dashed #2DCBA9;
   box-sizing: border-box;
   position: absolute;
   top: 200px;
-  right: 220px;
+  right: 195px;
 }
 .bottomDivGo {
-  width: 230px;
-  height: 100px;
+  width: 205px;
+  height: 78px;
   border-right: 2px dashed #2DCBA9;
   border-bottom: 2px dashed #2DCBA9;
   box-sizing: border-box;
   position: absolute;
-  bottom: 140px;
+  bottom: 160px;
   right: 450px;
 }
 .leftDivText {
   position: absolute;
-  top: 120px;
-  left: 70px;
+  top: 100px;
+  left: 100px;
 }
 .rightDivText {
   position: absolute;
-  top: 105px;
-  right: 70px;
+  top: 100px;
+  right: 30px;
 }
 .bottomDivText {
   position: absolute;
   bottom: 120px;
-  left: 330px;
+  left: 350px;
 }
 .divTitle {
   display: block;
@@ -196,7 +196,7 @@ export default {
   letter-spacing: 0.25px;
   margin-top: 10px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 900px) {
   .platform {
     padding-bottom: 0;
   }

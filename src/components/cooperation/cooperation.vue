@@ -214,7 +214,7 @@ export default {
   width: 153px;
   margin-left: 73px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1220px) {
   .divLine {
     width: 100%;
     height: 50px;

@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cooperation/cooperation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cooperation/cooperation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/foot/foot.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/foot/foot.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/platform/platform.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/platform/platform.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/top/top.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top/top.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/font" />
+    <property name="last_opened_file_path" value="F:/新桌面/freeLog" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,15 +57,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\新桌面\shadows\src\assets\image" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\shadows\shadows-official-website\src\font" />
       <recent name="E:\shadows\shadows-official-website\public" />
       <recent name="E:\shadows\shadows-official-website\src\assets\image" />
       <recent name="E:\shadows\shadows-official-website\src\assets\image\dashboard" />
       <recent name="F:\新桌面\shadows\src\assets\image\dashboard" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\新桌面\shadows\src\assets\image" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,7 +85,11 @@
       <workItem from="1616460945632" duration="502000" />
       <workItem from="1616461476554" duration="24272000" />
       <workItem from="1616547982028" duration="61000" />
-      <workItem from="1616548227833" duration="21239000" />
+      <workItem from="1616548227833" duration="22141000" />
+      <workItem from="1616585780967" duration="211000" />
+      <workItem from="1616634355284" duration="1341000" />
+      <workItem from="1616651321138" duration="408000" />
+      <workItem from="1616651745516" duration="9296000" />
     </task>
     <task id="LOCAL-00001" summary="官网页面">
       <created>1616155182713</created>
@@ -151,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616578237609</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="background image adjustment">
+      <created>1616578274738</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616578274738</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,19 +213,19 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616570817802" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1616154642680">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1616660329472">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616123812540" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616660329472" />
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616154642680" />
     <state x="270" y="61" key="SettingsEditor" timestamp="1616548243677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="61" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616548243677" />
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1616578242254">
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1616578276012">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616578242254" />
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616578276012" />
     <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616300903814" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1616550308658">
       <screen x="0" y="0" width="1536" height="834" />

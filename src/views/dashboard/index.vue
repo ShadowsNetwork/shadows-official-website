@@ -72,14 +72,14 @@
           </div>
           <div class="market-content">
             <el-row :gutter="24">
-              <el-col :sm="{span:10}" :md="{span:10}" :xs="{span:10}">
+              <el-col :sm="{span:10}" :xs="{span:10}">
                 <div class="market-contentChild wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
                   <img src="../../assets/image/dashboard/icon/Play.png">
                   <span>Shadows DApp</span>
                   <span>Shadows DApp is our web-based derivatives platform to issue, trade, and stake derivative asset classes.</span>
                 </div>
               </el-col>
-              <el-col :sm="{span:10,offset:4}" :md="{span:10,offset:4}" :xs="{span:10,offset:4}">
+              <el-col :sm="{span:10,offset:4}" :xs="{span:10,offset:4}">
                 <div class="market-contentChild wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
                   <img src="../../assets/image/dashboard/icon/Shield.png">
                   <span>$DOWS </span>
@@ -88,14 +88,14 @@
               </el-col>
             </el-row>
             <el-row>
-              <el-col :sm="{span:10}" :md="{span:10}" :xs="{span:10}">
+              <el-col :sm="{span:10}" :xs="{span:10}">
                 <div class="market-contentChild wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
                   <img src="../../assets/image/dashboard/icon/Anchore.png">
                   <span>Built on PolkaDot</span>
                   <span>Unlocking scalability and interoperability by investing in Polkadot’s blockchain.</span>
                 </div>
               </el-col>
-              <el-col :sm="{span:10,offset:4}" :md="{span:10,offset:4}" :xs="{span:10,offset:4}">
+              <el-col :sm="{span:10,offset:4}" :xs="{span:10,offset:4}">
                 <div class="market-contentChild wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
                   <img src="../../assets/image/dashboard/icon/Persentage.png">
                   <span>Asset Classes</span>
@@ -104,14 +104,14 @@
               </el-col>
             </el-row>
             <el-row>
-              <el-col :sm="{span:10}" :md="{span:10}" :xs="{span:10}">
+              <el-col :sm="{span:10}" :xs="{span:10}">
                 <div class="market-contentChild wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
                   <img src="../../assets/image/dashboard/icon/Calendar.png">
                   <span>Issuance & Trading</span>
                   <span>Smart contract issuance and trading of derivates secured by the underlying value of the DOWS. </span>
                 </div>
               </el-col>
-              <el-col :sm="{span:10,offset:4}" :md="{span:10,offset:4}" :xs="{span:10,offset:4}">
+              <el-col :sm="{span:10,offset:4}" :xs="{span:10,offset:4}">
                 <div class="market-contentChild wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
                   <img src="../../assets/image/dashboard/icon/Wheel.png">
                   <span>Rewards </span>
@@ -223,7 +223,7 @@ export default {
 .market-contentChild > span:nth-of-type(2) {
   margin-top: 18px;
 }
-@media (max-width: 450px) {
+@media (max-width: 990px) {
   .market {
     padding-bottom: 70px;
   }
