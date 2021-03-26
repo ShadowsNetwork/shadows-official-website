@@ -71,6 +71,7 @@ export default {
   line-height: 43px;
   color: white;
   font-size: 15px;
+  font-weight: bold;
   background: #05DAAC;
   font-family: 'Arboria-Bold';
   border: none;

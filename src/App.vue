@@ -92,7 +92,7 @@ export default {
     color: white;
     list-style: none;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: bold;
   }
 .header-li a:hover{
   font-size: 15px;
