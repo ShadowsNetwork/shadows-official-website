@@ -52,7 +52,7 @@ export default {
   margin-top: 10px;
 }
 .topText-text {
-  font-family: 'Arboria-Medium';
+  font-family: 'Arboria';
   margin-top: 30px;
   font-size: 20px;
   color: #fff;
