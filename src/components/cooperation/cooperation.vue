@@ -72,7 +72,7 @@ export default {
   opacity: 0.5;
 }
 .cooperation-title > span:nth-of-type(1) {
-  font-family: Arboria;
+  font-family: Arboria-Bold;
   display: block;
   width: 100%;
   font-weight: bold;
@@ -83,6 +83,8 @@ export default {
 }
 .cooperation-title > span:nth-of-type(2) {
   display: block;
+    font-family: Arboria;
+
   width: 100%;
   font-size: 24px;
   line-height: 29px;
