@@ -55,11 +55,15 @@ export default {
 }
 .foot-content {
   display: flex;
+  position: relative;
 }
 .general {
   color: #fff;
   margin-top: 30px;
-  margin-left: 10%;
+  margin-left: 12%;
+}
+ul{
+  padding: 0;
 }
 li {
   list-style: none;
@@ -79,10 +83,10 @@ li {
   margin-left: 10%;
 }
 .contact {
+  position: absolute;
   width: 320px;
-  margin-left: 35%;
-  margin-top: 50px;
-  position: relative;
+  top: 50px;
+  right: 12%;
 }
 .contactImg {
   width: 100%;
@@ -168,7 +172,7 @@ li {
     font-size: 22px;
   }
   .childText {
-    font-weight: 200;
+    font-weight: 1;
     font-size: 18px;
   }
   .learn {
@@ -224,10 +228,11 @@ li {
   }
   .footBottom-img {
     width: 147px;
+    margin-left: 5px;
   }
   .footBottom > span {
     display: block;
-    margin-left: 0;
+    margin-left: 5px;
     font-size: 12px;
     color: #FFFFFF;
   }

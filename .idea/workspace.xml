@@ -21,12 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cooperation/cooperation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cooperation/cooperation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/foot/foot.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/foot/foot.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/platform/platform.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/platform/platform.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/top/top.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top/top.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/新桌面/freeLog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -89,7 +84,11 @@
       <workItem from="1616585780967" duration="211000" />
       <workItem from="1616634355284" duration="1341000" />
       <workItem from="1616651321138" duration="408000" />
-      <workItem from="1616651745516" duration="9296000" />
+      <workItem from="1616651745516" duration="9519000" />
+      <workItem from="1616666402075" duration="41000" />
+      <workItem from="1616675359951" duration="359000" />
+      <workItem from="1616721333116" duration="876000" />
+      <workItem from="1616724383306" duration="976000" />
     </task>
     <task id="LOCAL-00001" summary="官网页面">
       <created>1616155182713</created>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616578274738</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&#10;Adaptation optimization and interface optimization">
+      <created>1616666088121</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616666088121</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +204,8 @@
     <MESSAGE value="pc official website" />
     <MESSAGE value="Adapt to mobile phone and background image adjustment" />
     <MESSAGE value="background image adjustment" />
-    <option name="LAST_COMMIT_MESSAGE" value="background image adjustment" />
+    <MESSAGE value="&#10;Adaptation optimization and interface optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Adaptation optimization and interface optimization" />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="307" key="#ESLint" timestamp="1616461355487">
@@ -213,20 +220,20 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616570817802" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1616660329472">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1616723246565">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616660329472" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616723246565" />
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616154642680" />
     <state x="270" y="61" key="SettingsEditor" timestamp="1616548243677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="61" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616548243677" />
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1616578276012">
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1616675607596">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616578276012" />
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616300903814" />
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616666188935" />
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616675607596" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1616550308658">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
