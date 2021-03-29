@@ -118,7 +118,6 @@ export default {
 .childImg {
   opacity: 0.8;
   width: 500px;
-  height: 308px;
   border: 2px solid #A386F5;
   box-sizing: border-box;
   box-shadow: 0px 0px 50px 10px #34274D;
@@ -169,24 +168,38 @@ export default {
   }
   .powerFulText {
     font-size: 16px;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   .powerFul-content {
-    width: 360px;
-    margin-left: calc((100% - 360px) / 2);
-    margin-top: 28px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 80px;
+  }
+  .content-row {
+    display: block;
+    text-align: center;
+    align-items:center;
+    width: 100%;
+    margin-left: 0%;
   }
   .content-row:nth-of-type(2) {
-    margin-top: 40px;
+    text-align: center;
+    margin-top: 60px;
   }
   .content-row:nth-of-type(3) {
-    margin-top: 40px;
+    text-align: center;
+    margin-top: 60px;
   }
   .content-row > .content-child:nth-of-type(2) {
-    margin-left: 20px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 60px;
   }
   .childImg {
-    width: 170px;
-    height: 92px;
+    text-align: center;
+    margin-left: 15%;
+    width:70%;
     border: 1px solid #A386F5;
     box-sizing: border-box;
     box-shadow: 0px 0px 50px 10px #34274D;
@@ -194,7 +207,10 @@ export default {
     overflow: hidden;
   }
   .childText {
+    text-align:center;
     margin-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   .childText > span:nth-of-type(1) {
     font-size: 20px;
