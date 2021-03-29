@@ -212,6 +212,7 @@ export default {
     height: 160px;
   }
   .platform-title {
+    font-family: Arboria-Bold;
     font-size: 24px;
   }
   .platform-button {

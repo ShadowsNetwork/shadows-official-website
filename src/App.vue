@@ -5,7 +5,7 @@
         <!-- <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2" /> -->
         <el-col :xl="6" :lg="6" :md="6" :sm="6" :xs="6">
           <ul class="nav">
-            <li class="logoImg" @click="toggle('0')"><router-link class="logoLinkImg" to="/"><img src="./assets/image/dashboard/logo.png" style="width: 150px"></router-link></li>
+            <li class="logoImg" @click="toggle('0')"><router-link class="logoLinkImg" to="/"><img class="logoImgImg" src="./assets/image/dashboard/logo.png"></router-link></li>
           </ul>
         </el-col>
         <el-col :xl="12" :lg="12" :md="12" :sm="12" :xs="12">
@@ -99,6 +99,10 @@ export default {
   display:block;
   text-decoration:none;
 }
+.logoImgImg {
+      width: 150px;
+      display: block;
+    }
   .fly {
     width: 30px;
     margin-top: 28px;
@@ -148,7 +152,11 @@ export default {
       top: 10px;
     }
     .logoImg {
-      width: 120%;
+      width: 150px;
+      display: block;
+    }
+    .logoImgImg {
+      width: 150px;
       display: block;
     }
     .fly {
@@ -180,11 +188,10 @@ export default {
     }
     @media screen and (max-width: 450px) {
       .logoImg {
-        width: 60%;
         display: block;
         position: absolute;
-        top: 5px;
-        left: 7%;
+        top: 16px;
+        left: 16px;
       }
       .fly {
         display: none;

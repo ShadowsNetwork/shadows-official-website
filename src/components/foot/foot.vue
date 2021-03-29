@@ -228,11 +228,11 @@ li {
   }
   .footBottom-img {
     width: 147px;
-    margin-left: 5px;
+    margin-left: 20px;
   }
   .footBottom > span {
     display: block;
-    margin-left: 5px;
+    margin-left: 20px;
     font-size: 12px;
     color: #FFFFFF;
   }
