@@ -71,7 +71,7 @@ li {
 }
 .title {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
 }
 .childText {
   font-weight: 200;
@@ -121,7 +121,7 @@ li {
   top: 160px;
 }
 .contactButton > button {
-  width: 163.64px;
+  width: 170px;
   height: 43px;
   font-weight: bold;
   font-size: 15px;

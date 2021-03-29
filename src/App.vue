@@ -4,7 +4,7 @@
       <el-row type="flex" style="background-color: rgba(0,0,0,0);margin: 0;z-index: 1;padding: 0;">
         <el-col :xl="6" :lg="6" :md="6" :sm="6" :xs="6">
           <ul class="nav">
-            <li class="logoImg" @click="toggle('0')"><router-link class="logoLinkImg" to="/"><img class="logoImgImg" src="./assets/image/dashboard/logo.png"></router-link></li>
+            <li class="logoImg"><router-link class="logoLinkImg" to="/"><img class="logoImgImg" src="./assets/image/dashboard/logo.png"></router-link></li>
           </ul>
         </el-col>
         <el-col :xl="12" :lg="12" :md="12" :sm="12" :xs="12">
