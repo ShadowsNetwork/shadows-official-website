@@ -4,7 +4,7 @@
       <span>PowerFul features</span>
     </div>
     <div class="powerFulText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
-      <span>Every detail considered to enrich the trading experienc</span>
+      <span>Every detail considered to enrich the trading experience</span>
     </div>
     <div class="powerFul-content">
       <div class="content-row">
@@ -116,6 +116,7 @@ export default {
   margin-left: 105px;
 }
 .childImg {
+  opacity: 0.8;
   width: 500px;
   height: 308px;
   border: 2px solid #A386F5;
@@ -126,7 +127,7 @@ export default {
   transition: all 1s;
 }
 .childImg:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 .childImg > img {
   display: block;
