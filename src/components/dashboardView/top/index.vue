@@ -30,7 +30,7 @@ export default {
   max-height: 900px;
   position: relative;
   font-family: 'Arboria-Bold';
-  background: url("../../assets/image/dashboard/topBac.png") center;
+  background: url("../../../assets/image/dashboard/topBac.png") center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -79,7 +79,6 @@ export default {
   outline: none;
 }
 
-
 .topText-buttonlink {
   width: 170px;
   height: 43px;
@@ -96,22 +95,16 @@ export default {
   background: #00F4C0;
 }
 
-
 .topText-button > button:nth-of-type(2) {
   margin-left: 13px;
 }
 @media screen and (max-width: 450px) {
   .top {
-
-
-  position: relative;
-
+    position: relative;
     max-height: 600px;
     height: 600px;
-    background: url("../../assets/image/dashboard/topBacMobile.png") center;
+    background: url("../../../assets/image/dashboard/topBacMobile.png") center;
     background-size: cover;
-
-    
   }
   .topText {
     width: 100%;
