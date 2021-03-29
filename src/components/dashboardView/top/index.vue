@@ -2,7 +2,7 @@
   <div class="top">
     <div class="topText">
       <div class="topText-title wow bounceInUp">
-        <span>Redefining investment opportunities on chain.</span>
+        <span>Redefining investment opportunities on chain. </span>
       </div>
       <div class="topText-text wow bounceInUp">
         <span>Shadows is a hub for issuing, trading, lending and borrowing synthetic assets.</span>
@@ -25,6 +25,7 @@ export default {
 
 <style scoped>
 .top {
+  
   height: 100vh;
   max-height: 900px;
   position: relative;
@@ -35,17 +36,21 @@ export default {
   align-items: center;
 }
 .topText {
+  width: 100%;
   
-  width: 80%;
-  padding-left: 20%;
+
+  
   margin-top: 40px;
   text-align: center;
   position: absolute;
 }
 .topText-title {
+  padding-left: 0%;
+  padding-right: 0%;
   color: #fff;
   font-size: 73px;
   line-height: 0.9;
+  
 }
 .topText-title > span {
   display: block;
@@ -100,7 +105,74 @@ export default {
 .topText-button > button:nth-of-type(2) {
   margin-left: 13px;
 }
-@media screen and (max-width: 450px) {
+
+
+@media screen and (max-width: 4000px){
+  
+  .topText-title {
+    padding-left: 35%;
+    padding-right: 35%;
+}
+  
+}
+
+@media screen and (max-width: 2800px){
+  
+  .topText-title {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  
+}
+
+@media screen and (max-width: 2200px){
+  
+  .topText-title {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+  
+}
+
+@media screen and (max-width: 1600px){
+  
+   .topText-title {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+  
+}
+
+@media screen and (max-width: 1250px){
+  
+  .topText-title {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+}
+
+@media screen and (max-width: 1100px){
+  
+  .topText-title {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+  @media screen and (max-width: 900px){
+  
+  .topText-title {
+    padding-left: 3%;
+    padding-right: 3%;
+
+    font-size: 53px;
+    line-height: 0.9;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
   .top {
     position: relative;
     max-height: 600px;

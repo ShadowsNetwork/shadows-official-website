@@ -181,7 +181,7 @@ export default {
     .mobile-drop > div:active {
       background: rgba(0,0,0,0.7);
     }
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 600px) {
       .logoImg {
         display: block;
         position: absolute;

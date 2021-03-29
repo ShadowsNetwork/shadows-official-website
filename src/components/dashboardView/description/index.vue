@@ -64,7 +64,7 @@ export default {
   text-align: right;
   letter-spacing: 0.02em;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .description {
     padding-bottom: 50px;
   }

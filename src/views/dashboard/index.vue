@@ -230,7 +230,38 @@ export default {
 .market-contentChild > span:nth-of-type(2) {
   margin-top: 18px;
 }
-@media (max-width: 450px) {
+
+
+
+  @media screen and (max-width: 1000px){
+  
+  .market-title > span:nth-of-type(1) {
+   
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 35px;
+    line-height: 28px;
+    font-size: 32px;
+    
+  }
+  .market-title > span:nth-of-type(2) {
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .market-content {
+    width: 80%;
+  }
+  
+}
+
+
+
+
+@media (max-width: 600px) {
   .market {
     padding-bottom: 70px;
   }

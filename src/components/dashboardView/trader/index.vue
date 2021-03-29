@@ -179,7 +179,7 @@ export default {
   }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px){
   .trader-title { 
     position: relative;
     top: 80px;

@@ -151,7 +151,7 @@ li {
   font-size: 12px;
   color: #FFFFFF;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .foot {
     position: relative;
     height: 700px;

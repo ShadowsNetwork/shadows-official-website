@@ -200,6 +200,20 @@ export default {
   letter-spacing: 0.25px;
   margin-top: 10px;
 }
+/* 
+@media screen and (max-width: 1200px) {
+  .platform-img {
+    margin-top: 131px;
+    height: 210px;
+    width: 738px;
+    margin-left: 100;
+    text-align: center;;
+    position: relative;
+  }
+} */
+
+
+
 @media screen and (max-width: 900px) {
   .platform {
     padding-bottom: 30px;

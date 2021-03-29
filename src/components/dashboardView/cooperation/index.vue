@@ -369,7 +369,7 @@ export default {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
 
 .cooperation {
     padding-bottom: 100px;
