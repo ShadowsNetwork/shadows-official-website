@@ -35,6 +35,7 @@ export default {
   align-items: center;
 }
 .topText {
+  
   width: 80%;
   padding-left: 20%;
   margin-top: 40px;

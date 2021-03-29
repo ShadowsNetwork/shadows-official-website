@@ -71,7 +71,6 @@ export default {
   width: 100%;
   text-align: center;
   font-size: 54px;
-  font-weight: bold;
 }
 .platform-title > span {
   display: block;
@@ -88,7 +87,6 @@ export default {
   line-height: 43px;
   color: white;
   font-size: 15px;
-  font-weight: bold;
   background: #05DAAC;
   font-family: 'Arboria-Bold';
   border: none;
@@ -191,7 +189,6 @@ export default {
 .divTitle {
   font-family: 'Arboria-Bold';
   display: block;
-  font-weight: bold;
   font-size: 26px;
   color: #2DCBA9;
 }
@@ -205,7 +202,7 @@ export default {
 }
 @media screen and (max-width: 900px) {
   .platform {
-    padding-bottom: 0;
+    padding-bottom: 30px;
   }
   .divLine {
     width: 100%;
@@ -219,7 +216,8 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 32px;
+    margin-top: 12px;
+    margin-bottom: 22px;
   }
   .platform-button > button {
     width: 123.21px;
@@ -290,28 +288,28 @@ export default {
   }
   .leftDivText {
     position: absolute;
-    top: 30px;
+    top: 25px;
     left: 10px;
   }
   .rightDivText {
     position: absolute;
-    top: 30px;
+    top: 25px;
     right: 5px;
   }
   .bottomDivText {
     position: absolute;
-    bottom: 80px;
+    bottom:60px;
     left: 10px;
   }
   .divTitle {
-    font-size: 14px;
+    font-size: 16px;
   }
   .divTextOne {
     display: block;
     width: 140px;
     color: #fff;
     font-size: 13px;
-    letter-spacing: 0.25px;
+    line-height: 16px;
     margin-top: 5px;
   }
 }

@@ -82,7 +82,7 @@
               <el-col :sm="{span:10,offset:4}" :xs="{span:10,offset:4}">
                 <div class="market-contentChild wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
                   <img src="../../assets/image/dashboard/icon/Shield.png">
-                  <span>$DOWS </span>
+                  <span>DOWS Token</span>
                   <span>DOWS, the “Wall St.” token, is the value connection pipeline for real world assets to be mapped onto the chain.</span>
                 </div>
               </el-col>
@@ -91,8 +91,8 @@
               <el-col :sm="{span:10}" :xs="{span:10}">
                 <div class="market-contentChild wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
                   <img src="../../assets/image/dashboard/icon/Anchore.png">
-                  <span>Built on PolkaDot</span>
-                  <span>Unlocking scalability and interoperability by investing in Polkadot’s blockchain.</span>
+                  <span>Interoperable</span>
+                  <span>Unlocking scalability and interoperability by investing in Binance Smart Chain & Polkadot’s blockchain.</span>
                 </div>
               </el-col>
               <el-col :sm="{span:10,offset:4}" :xs="{span:10,offset:4}">
@@ -180,8 +180,10 @@ export default {
   height: 306px;
 }
 .line {
-  width: 100%;
+  width: 80%;
   height: 2px;
+  position: relative;
+  margin-left: 10%;
   position: relative;
   background: linear-gradient(-90deg, #E20D60 0%, #1D4964 60.94%);
   opacity: 0.5;
@@ -197,7 +199,6 @@ export default {
   line-height: 75px;
   color: #fff;
   font-size: 54px;
-  font-weight: 700;
 }
 .market-title > span:nth-of-type(2) {
   font-family: Arboria;
@@ -225,7 +226,6 @@ export default {
   font-family: Arboria-Bold;
   font-size: 26px;
   margin-top: 22px;
-  font-weight: 700;
 }
 .market-contentChild > span:nth-of-type(2) {
   margin-top: 18px;
@@ -253,8 +253,8 @@ export default {
     padding-left: 20%;
     padding-right: 20%;
     /* margin-left: 10%; */
-    height: 50px;
-    line-height: 30px;
+    height: 35px;
+    line-height: 28px;
     color: #fff;
     
   }
@@ -272,23 +272,29 @@ export default {
     width: 80%;
   }
   .market-contentChild {
+    text-align: left;
     margin-bottom: 50px;
   }
   .market-contentChild > img {
+    text-align: left;
     width: 30px;
     height: 30px;
   }
   .market-contentChild > span {
+    text-align: left;
     color: #fff;
     display: block;
   }
   .market-contentChild > span:nth-of-type(1) {
+    text-align: left;
     font-size: 16px;
     margin-top: 10px;
     font-family: Arboria-Bold;
   }
   .market-contentChild > span:nth-of-type(2) {
-    font-size: 12px;
+    text-align: left;
+    line-height: 16px;
+    font-size: 13px;
     margin-top: 5px;
   }
 }

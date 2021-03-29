@@ -2,7 +2,7 @@
   <div class="trader">
     <div class="line"/>
     <div class="trader-title wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
-      <span>Investments for </span>
+      <span>Investments for</span>
       <span>Every Trader</span>
     </div>
     <div class="traderText wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
@@ -102,7 +102,7 @@ export default {
 @media screen and (max-width: 450px){
   .trader-title { 
     position: relative;
-    top: 40px;
+    top: 80px;
   }
   .trader-title > span {
     font-family: Arboria-Bold;
@@ -110,18 +110,19 @@ export default {
   }
   .traderText {
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     text-align: center;
     position: absolute;
     top: 70%;
     right: 0%;
   }
   .traderText > span:nth-of-type(1) {
-    font-size: 20px;
+    font-size: 16px;
   }
   .traderText > span:nth-of-type(2) {
     font-size: 13px;
+    line-height: 16px;
   }
   .trader > img {
     width: 100%;

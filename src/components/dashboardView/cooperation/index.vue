@@ -75,7 +75,6 @@ export default {
   font-family: Arboria-Bold;
   display: block;
   width: 100%;
-  font-weight: bold;
   font-size: 54px;
   line-height: 65px;
   text-align: center;
@@ -83,8 +82,7 @@ export default {
 }
 .cooperation-title > span:nth-of-type(2) {
   display: block;
-    font-family: Arboria;
-
+  font-family: Arboria;
   width: 100%;
   font-size: 24px;
   line-height: 29px;
@@ -216,10 +214,12 @@ export default {
   width: 153px;
   margin-left: 73px;
 }
+
+
 @media screen and (max-width: 1220px) {
   .divLine {
     width: 100%;
-    height: 50px;
+    height: 80px;
   }
   .cooperation {
     padding-bottom: 100px;
@@ -367,6 +367,39 @@ export default {
     width: 45px;
     margin-left: 30px;
   }
+}
+
+@media screen and (max-width: 450px) {
+
+.cooperation {
+    padding-bottom: 100px;
+  }
+  .cooperation-title > span:nth-of-type(1) {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .cooperation-title > span:nth-of-type(2) {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 18px;
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .partners {
+    width: 360px;
+    margin-left: calc((100% - 360px) / 2);
+    margin-top: 60px;
+  }
+  .partnersOne {
+    height: 35px;
+    display: flex;
+    align-items: center;
+  }
+
+  
 }
 </style>
 

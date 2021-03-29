@@ -70,11 +70,9 @@ li {
   margin-top: 30px;
 }
 .title {
-  font-weight: bold;
   font-size: 24px;
 }
 .childText {
-  font-weight: 200;
   font-size: 18px;
 }
 .learn {
@@ -104,6 +102,7 @@ li {
   right: 0;
 }
 .contact-text {
+  font-family: Arboria-Bold;
   width: 100%;
   text-align: right;
   color: #fff;
@@ -121,16 +120,15 @@ li {
   top: 160px;
 }
 .contactButton > button {
+  font-family: Arboria-Bold;
   width: 170px;
   height: 43px;
-  font-weight: bold;
   font-size: 15px;
   line-height: 18px;
   display: flex;
   align-items: center;
   color: #FFFEFE;
   background: #05DAAC;
-  font-family: 'Arboria';
   border-radius: 100px;
   border: 0;
   position: absolute;
@@ -153,7 +151,7 @@ li {
   font-size: 12px;
   color: #FFFFFF;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 450px) {
   .foot {
     position: relative;
     height: 700px;
@@ -168,12 +166,11 @@ li {
     margin-top: 30px;
   }
   .title {
-    font-weight: bold;
-    font-size: 22px;
+    font-family: Arboria-Bold;
+    font-size: 18px;
   }
   .childText {
-    font-weight: 1;
-    font-size: 18px;
+    font-size: 14px;
   }
   .learn {
     color: #fff;
@@ -181,11 +178,11 @@ li {
     margin-left: 10%;
   }
   .contact {
-    width: 220px;
-    position: absolute;
-    top: 300px;
-    right: 12%;
+    width: 100%;
+    top: 400px;
+    left: 0;
   }
+
   .contactImg {
     width: 100%;
     display: flex;
@@ -193,31 +190,51 @@ li {
   }
   .contactImg > a > img {
     width: 33px;
-    position: absolute;
+    height: 33px;
+    position: relative;
   }
   .contactImg > a:nth-of-type(1) > img {
-    right: 61px;
+    left: 40px;
   }
   .contactImg > a:nth-of-type(2) > img {
-    right: 0;
+    left: 60px;
   }
   .contact-text {
     width: 100%;
-    text-align: right;
+    text-align: left;
     color: #fff;
-    position: absolute;
-    top: 50px;
+    position: relative;
+    top: 10px;
   }
   .contact-text > span {
-    display: block;
+    left: 40px;
+    position: relative;
     font-size: 14px;
     color: #FFFDFD;
   }
   .contactButton {
-    width: 100%;
-    position: absolute;
-    top: 120px;
+    width: 100px;
+    position: relative;
+    left: 80px;
+    top: 30px;
   }
+    .contactButton > button {
+      font-family: Arboria-Bold;
+      width: 140px;
+      height: 34px;
+      font-size: 14px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      color: #FFFEFE;
+      background: #05DAAC;
+      border-radius: 100px;
+      border: 0;
+      position: absolute;
+      right: 0;
+      justify-content: center;
+      outline: none;
+    }
   .footBottom {
     margin-left: 0;
     height: 24px;
