@@ -67,7 +67,7 @@
             <div class="line" />
           </div>
           <div class="market-title">
-            <span class="wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">*$1.2 Quadrillion Derivatives Market</span>
+            <span class="wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">$1.2 Quadrillion Derivatives Market</span>
             <span class="wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">Bringing financial derivatives to the ever-growing DeFi space.</span>
           </div>
           <div class="market-content">
@@ -230,7 +230,7 @@ export default {
 .market-contentChild > span:nth-of-type(2) {
   margin-top: 18px;
 }
-@media (max-width: 990px) {
+@media (max-width: 450px) {
   .market {
     padding-bottom: 70px;
   }
@@ -246,29 +246,32 @@ export default {
   }
   .market-title > span:nth-of-type(1) {
     display: block;
-    width: 80%;
-    margin-left: 10%;
+    font-family: Arboria-Bold;
+    width: 100%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    /* margin-left: 10%; */
     height: 50px;
-    line-height: 50px;
+    line-height: 30px;
     color: #fff;
     font-size: 24px;
-    font-weight: 700;
   }
   .market-title > span:nth-of-type(2) {
     display: block;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 30px;
     color: #fff;
     font-size: 16px;
-    font-weight: 700;
   }
   .market-content {
     width: 80%;
-    margin-left: 10%;
   }
   .market-contentChild {
-    margin-bottom: 104px;
+    margin-bottom: 50px;
   }
   .market-contentChild > img {
     width: 30px;
@@ -279,12 +282,12 @@ export default {
     display: block;
   }
   .market-contentChild > span:nth-of-type(1) {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 10px;
-    font-weight: 700;
+    font-family: Arboria-Bold;
   }
   .market-contentChild > span:nth-of-type(2) {
-    font-size: 8px;
+    font-size: 12px;
     margin-top: 5px;
   }
 }

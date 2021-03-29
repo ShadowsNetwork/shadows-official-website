@@ -69,14 +69,16 @@ export default {
     padding-bottom: 50px;
   }
   .description-content > span:nth-of-type(1) {
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
+    margin: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: 22px;
     margin-top: 100px;
   }
   .description-content > span:nth-of-type(2) {
     width: 90%;
-    margin-left: 5%;
+    margin-left: 0%;
     font-size: 16px;
     margin-top: 70px;
     text-align: right;
@@ -85,7 +87,7 @@ export default {
     font-size: 14px;
     width: 90%;
     margin-top: 10px;
-    margin-left: 5%;
+    margin-left: 0%;
   }
 }
 </style>

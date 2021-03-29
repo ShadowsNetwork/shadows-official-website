@@ -228,6 +228,12 @@ export default {
     font-size: 24px;
   }
   .cooperation-title > span:nth-of-type(2) {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 20px;
     font-size: 16px;
     margin-top: 0;
   }

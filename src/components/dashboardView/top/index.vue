@@ -30,7 +30,7 @@ export default {
   max-height: 900px;
   position: relative;
   font-family: 'Arboria-Bold';
-  background: url("../../../assets/image/dashboard/topBac.png") center;
+  background: url("../../assets/image/dashboard/topBac.png") center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -102,9 +102,16 @@ export default {
 }
 @media screen and (max-width: 450px) {
   .top {
-    height: 480px;
-    background: url("../../../assets/image/dashboard/topBac.png") center;
+
+
+  position: relative;
+
+    max-height: 600px;
+    height: 600px;
+    background: url("../../assets/image/dashboard/topBacMobile.png") center;
     background-size: cover;
+
+    
   }
   .topText {
     width: 100%;
