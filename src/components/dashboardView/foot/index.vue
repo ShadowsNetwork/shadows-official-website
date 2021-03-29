@@ -49,6 +49,7 @@ export default {
 
 <style scoped>
 .foot {
+  width: 100%;
   padding-bottom: 30px;
   background: #000;
   font-family: Arboria;
@@ -56,6 +57,8 @@ export default {
 .foot-content {
   display: flex;
   position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .general {
   color: #fff;
@@ -137,9 +140,9 @@ li {
   outline: none;
 }
 .footBottom {
-  margin-left: 12%;
+  width: 100%;
+  text-align: center;
   margin-top: 80px;
-  display: flex;
   height: 24px;
   line-height: 24px;
 }
@@ -151,6 +154,81 @@ li {
   font-size: 12px;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 3000px) {
+  .foot-content {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .footBottom {
+    
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .foot-content {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .footBottom {
+    
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .foot-content {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .footBottom {
+    
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .foot-content {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .title {
+  font-size: 18px;
+}
+.childText {
+  font-size: 16px;
+}
+  .contact-text {
+    font-family: Arboria-Bold;
+    width: 100%;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    top: 70px;
+  }
+  .contact-text > span {
+    display: block;
+    font-size: 16px;
+    color: #FFFDFD;
+  }
+  .contactButton {
+    width: 100%;
+    position: absolute;
+    top: 160px;
+  }
+  .contactButton > button {
+      width: 170px;
+      height: 43px;
+      font-size: 15px;
+      line-height: 18px;
+    }
+  .footBottom {
+    
+    margin-top: 80px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .foot {
     position: relative;
