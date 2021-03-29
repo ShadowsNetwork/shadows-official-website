@@ -2,7 +2,6 @@
   <div id="app">
     <nav class="header">
       <el-row type="flex" style="background-color: rgba(0,0,0,0);margin: 0;z-index: 1;padding: 0;">
-        <!-- <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2" /> -->
         <el-col :xl="6" :lg="6" :md="6" :sm="6" :xs="6">
           <ul class="nav">
             <li class="logoImg" @click="toggle('0')"><router-link class="logoLinkImg" to="/"><img src="./assets/image/dashboard/logo.png" style="width: 150px"></router-link></li>
@@ -12,7 +11,7 @@
           <ul class="nav">
             <el-row>
               <el-col :xl="6" :lg="6" :md="6">
-                <li class="header-li"><a>Features</a></li>
+                <li class="header-li"><router-link to="features">Features</router-link></li>
               </el-col>
               <el-col :xl="6" :lg="6" :md="6">
                 <li class="header-li"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></li>
@@ -33,10 +32,6 @@
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1" style="text-align:right;">
           <a href="https://twitter.com/shadows_defi" target="_blank"><img class="twitter" src="./assets/image/dashboard/twitter.png"></a>
         </el-col>
-<!--         
-        <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2">
-          <button class="contact">Contact Us</button>
-        </el-col> -->
         <div class="mobile-drop-button" @click="dropShow">
           <div class="dropLine"/>
           <div class="dropLine"/>
@@ -45,7 +40,7 @@
       </el-row>
     </nav>
     <div v-show="show" class="mobile-drop" :show="show">
-      <div><a href="">Features</a></div>
+      <div><router-link to="/features">Features</router-link></div>
       <div><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></div>
       <div><a>About</a></div>
       <div><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></div>

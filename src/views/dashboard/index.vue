@@ -123,6 +123,7 @@
         </div>
       </div>
     </div>
+    <Trader />
     <Description />
     <Platform />
     <Cooperation />
@@ -133,23 +134,22 @@
 <script>
 
 // import { WOW } from 'wowjs'
-import Top from '@/components/top/top'
-import Description from '@/components/description/description'
-import Platform from '@/components/platform/platform'
-import Cooperation from '@/components/cooperation/cooperation'
-import Foot from '@/components/foot/foot'
+import Top from '@/components/dashboardView/top/index'
+import Description from '@/components/dashboardView/description/index'
+import Platform from '@/components/dashboardView/platform/index'
+import Cooperation from '@/components/dashboardView/cooperation/index'
+import Foot from '@/components/dashboardView/foot/index'
+import Trader from '@/components/dashboardView/trader/index'
 export default {
   name: 'Dashboard',
-  components: { Foot, Cooperation, Platform, Description, Top }
+  components: { Trader, Foot, Cooperation, Platform, Description, Top }
   // mounted() { new WOW().init() }
 }
 </script>
 
 <style scoped>
 .dashboard {
-  
   position: relative;
-  
   top: -100px;
   font-family: Arboria;
   background: #151519;
@@ -172,7 +172,7 @@ export default {
 .market {
   text-align: center;
   padding-top: 30px;
-  
+
   padding-bottom: 250px;
 }
 .divLine {
@@ -180,10 +180,9 @@ export default {
   height: 306px;
 }
 .line {
-  width: 80%;
+  width: 100%;
   height: 2px;
   position: relative;
-  margin-left: 10%;
   background: linear-gradient(-90deg, #E20D60 0%, #1D4964 60.94%);
   opacity: 0.5;
 }

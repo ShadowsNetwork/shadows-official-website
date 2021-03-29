@@ -4,8 +4,8 @@
       <div class="general">
         <ul>
           <li class="title">General</li>
-          <li class="childText"><a>Home</a></li>
-          <li class="childText"><a>Features</a></li>
+          <li class="childText"><router-link to="/">Home</router-link></li>
+          <li class="childText"><router-link to="/features">Features</router-link></li>
           <li class="childText"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></li>
           <li class="childText"><a>About</a></li>
           <li class="childText"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></li>
@@ -20,8 +20,8 @@
       </div>
       <div class="contact">
         <div class="contactImg">
-          <a href="https://t.me/Shadows_defi" target="_blank"><img src="../../assets/image/dashboard/fly.png"/></a>
-          <a href="https://twitter.com/shadows_defi" target="_blank"><img src="../../assets/image/dashboard/twitter.png"/></a>
+          <a href="https://t.me/Shadows_defi" target="_blank"><img src="../../../assets/image/dashboard/fly.png"/></a>
+          <a href="https://twitter.com/shadows_defi" target="_blank"><img src="../../../assets/image/dashboard/twitter.png"/></a>
         </div>
         <div class="contact-text">
           <span>Subscribe to our newsletter</span>
@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="footBottom">
-      <img class="footBottom-img" src="../../assets/image/dashboard/footLogo.png"/>
+      <img class="footBottom-img" src="../../../assets/image/dashboard/footLogo.png"/>
       <span>© 2021 Shadows - Terms of Use | Privacy Policy | Cookie Settings</span>
     </div>
   </div>

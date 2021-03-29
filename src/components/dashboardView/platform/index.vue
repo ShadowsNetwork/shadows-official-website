@@ -12,7 +12,7 @@
     </div>
     <div class="platform-content">
       <div class="platform-img">
-        <img src="../../assets/image/dashboard/platformImg.png"/>
+        <img src="../../../assets/image/dashboard/platformImg.png"/>
         <div class="leftDiv"/>
         <div class="rightDiv"/>
         <div class="bottomDiv"/>
@@ -49,7 +49,7 @@ export default {
   font-family: Arboria;
   width: 100%;
   padding-bottom: 200px;
-  background: url("../../assets/image/dashboard/SHADOWS_DashboardHighlights 2.png") no-repeat;
+  background: url("../../../assets/image/dashboard/SHADOWS_DashboardHighlights 2.png") no-repeat;
   background-size: 100% 100%;
 }
 .divLine {
@@ -96,9 +96,9 @@ export default {
   outline: none;
 }
 .platform-button:hover > button {
-  
+
   background: #00F4C0;
-  
+
 }
 .platform-content {
   width: 1358px;

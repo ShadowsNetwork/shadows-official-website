@@ -9,38 +9,38 @@
     </div>
     <div class="partners">
       <div class="partnersOne">
-        <a href="https://www.a195.capital/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 3.png"/></a>
-        <a><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 4.png"/></a>
-        <a href="https://www.alphabit.fund/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 5.png"/></a>
-        <a href="https://au21.capital/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 6.png"/></a>
-        <a href="https://www.bitcoin.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 7.png"/></a>
+        <a href="https://www.a195.capital/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image3.png"/></a>
+        <a><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image4.png"/></a>
+        <a href="https://www.alphabit.fund/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image5.png"/></a>
+        <a href="https://au21.capital/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image6.png"/></a>
+        <a href="https://www.bitcoin.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image7.png"/></a>
       </div>
       <div class="partnersTwo">
-        <a href="https://www.blocksync.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 8.png"/></a>
-        <a href="http://candaq.com/#/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 9.png"/></a>
-        <a href="https://www.chaincapital.group/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 10.png"/></a>
-        <a href="http://consensus-lab.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 11.png"/></a>
-        <a href="https://cryptomeriacapital.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 12.png"/></a>
+        <a href="https://www.blocksync.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image8.png"/></a>
+        <a href="http://candaq.com/#/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image9.png"/></a>
+        <a href="https://www.chaincapital.group/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image10.png"/></a>
+        <a href="http://consensus-lab.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image11.png"/></a>
+        <a href="https://cryptomeriacapital.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image12.png"/></a>
       </div>
       <div class="partnersThree">
-        <a href="https://dfg.group/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 13.png"/></a>
-        <a href="https://duckdao.io/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 14.png"/></a>
-        <a href="https://gbv.capital/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 15.png"/></a>
-        <a href="https://innovion.co/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 16.png"/></a>
-        <a href="http://jrr.group/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 17.png"/></a>
+        <a href="https://dfg.group/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image13.png"/></a>
+        <a href="https://duckdao.io/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image14.png"/></a>
+        <a href="https://gbv.capital/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image15.png"/></a>
+        <a href="https://innovion.co/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image16.png"/></a>
+        <a href="http://jrr.group/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image17.png"/></a>
       </div>
       <div class="partnersFour">
-        <a><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 18.png"/></a>
-        <a href="https://master.ventures/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 19.png"/></a>
-        <a><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 20.png"/></a>
-        <a href="https://lichanglc.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 21.png"/></a>
-        <a href="https://www.ngc.fund/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 22.png"/></a>
+        <a><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image18.png"/></a>
+        <a href="https://master.ventures/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image19.png"/></a>
+        <a><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image20.png"/></a>
+        <a href="https://lichanglc.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image21.png"/></a>
+        <a href="https://www.ngc.fund/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image22.png"/></a>
       </div>
       <div class="partnersFive">
-        <a href="https://www.polka.fund/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 23.png"/></a>
-        <a href="http://waterdrip.io/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 24.png"/></a>
-        <a><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 25.png"/></a>
-        <a href="https://3commas.io/zh" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../assets/image/dashboard/partners/image 26.png"/></a>
+        <a href="https://www.polka.fund/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image23.png"/></a>
+        <a href="http://waterdrip.io/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image24.png"/></a>
+        <a><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image25.png"/></a>
+        <a href="https://3commas.io/zh" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image26.png"/></a>
       </div>
     </div>
   </div>

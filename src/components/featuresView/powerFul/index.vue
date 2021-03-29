@@ -1,0 +1,207 @@
+<template>
+  <div class="powerFul">
+    <div class="powerFul-title wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      <span>PowerFul features</span>
+    </div>
+    <div class="powerFulText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      <span>Every detail considered to enrich the trading experienc</span>
+    </div>
+    <div class="powerFul-content">
+      <div class="content-row">
+        <div class="content-child">
+          <div class="childImg wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <img src="../../../assets/image/features/featuresPowerful/Rectangle1.png">
+          </div>
+          <div class="childText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <span>Your Wallet</span>
+            <span>Track your wallet’s current and historical balance, positions, and performance.</span>
+          </div>
+        </div>
+        <div class="content-child">
+          <div class="childImg wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <img src="../../../assets/image/features/featuresPowerful/Rectangle2.png">
+          </div>
+          <div class="childText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <span>Market Watch</span>
+            <span>Explore various asset class offerings in the derivatives ecosystem.</span>
+          </div>
+        </div>
+      </div>
+      <div class="content-row">
+        <div class="content-child">
+          <div class="childImg wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <img src="../../../assets/image/features/featuresPowerful/Rectangle3.png">
+          </div>
+          <div class="childText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <span>Trade</span>
+            <span>Buy and sell derivatives with the familiar trading experience of traditional exchanges.</span>
+          </div>
+        </div>
+        <div class="content-child">
+          <div class="childImg wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <img src="../../../assets/image/features/featuresPowerful/Rectangle4.png">
+          </div>
+          <div class="childText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <span>Rewards</span>
+            <span>Earn rewards in DOWS for participating in the derivatives market.</span>
+          </div>
+        </div>
+      </div>
+      <div class="content-row">
+        <div class="content-child">
+          <div class="childImg wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <img src="../../../assets/image/features/featuresPowerful/Rectangle5.png">
+          </div>
+          <div class="childText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <span>Collateral</span>
+            <span>Easy to use and safe collateral management.</span>
+          </div>
+        </div>
+        <div class="content-child">
+          <div class="childImg wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <img src="../../../assets/image/features/featuresPowerful/Rectangle6.png">
+          </div>
+          <div class="childText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <span>LP Staking</span>
+            <span>Earn for being a liquidity provider on decentralized exchanges.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import { WOW } from 'wowjs'
+export default {
+  name: 'PowerFul',
+  mounted() { new WOW({ offset: 0, mobile: true, live: true }).init() }
+}
+</script>
+
+<style scoped>
+.powerFul {
+  width: 100%;
+  padding-bottom: 1102px;
+}
+.powerFul-title {
+  width: 100%;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Arboria-Bold';
+  color: #FFFBFB;
+}
+.powerFulText {
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Arboria';
+  color: #fffbfb;
+}
+.powerFul-content {
+  width: 1105px;
+  margin-left: calc((100% - 1105px) / 2);
+  margin-top: 128px;
+}
+.content-row {
+  display: flex;
+}
+.content-row:nth-of-type(2) {
+  margin-top: 140px;
+}
+.content-row:nth-of-type(3) {
+  margin-top: 140px;
+}
+.content-row > .content-child:nth-of-type(2) {
+  margin-left: 105px;
+}
+.childImg {
+  width: 500px;
+  height: 308px;
+  border: 2px solid #A386F5;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 50px 10px #34274D;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: all 1s;
+}
+.childImg:hover {
+  opacity: 0.5;
+}
+.childImg > img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+}
+.childImg > img:hover {
+  transform: scale(1.3);
+}
+.childImg > img:hover {
+  width: 110%;
+}
+.childText {
+  width: 96%;
+  text-align: left;
+  margin-left: 4%;
+  margin-top: 45px;
+}
+.childText > span:nth-of-type(1) {
+  display: block;
+  color: #fff;
+  font-size: 35px;
+  font-family: Arboria-Bold;
+}
+.childText > span:nth-of-type(2) {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  font-family: Arboria;
+  margin-top: 15px;
+}
+@media screen and (max-width: 900px) {
+  .powerFul {
+    padding-bottom: 102px;
+  }
+  .powerFul-title {
+    font-size: 24px;
+  }
+  .powerFulText {
+    font-size: 16px;
+  }
+  .powerFul-content {
+    width: 360px;
+    margin-left: calc((100% - 360px) / 2);
+    margin-top: 28px;
+  }
+  .content-row:nth-of-type(2) {
+    margin-top: 40px;
+  }
+  .content-row:nth-of-type(3) {
+    margin-top: 40px;
+  }
+  .content-row > .content-child:nth-of-type(2) {
+    margin-left: 20px;
+  }
+  .childImg {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #A386F5;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 50px 10px #34274D;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .childText {
+    margin-top: 20px;
+  }
+  .childText > span:nth-of-type(1) {
+    font-size: 20px;
+  }
+  .childText > span:nth-of-type(2) {
+    font-size: 13px;
+    margin-top: 5px;
+  }
+}
+</style>
+

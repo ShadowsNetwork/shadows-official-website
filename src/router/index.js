@@ -8,6 +8,11 @@ export const constantRoutes = [
     path: '/',
     component: () => import('@/views/dashboard/index'),
     hidden: true
+  },
+  {
+    path: '/features',
+    component: () => import('@/views/features/index'),
+    hidden: true
   }
 ]
 
