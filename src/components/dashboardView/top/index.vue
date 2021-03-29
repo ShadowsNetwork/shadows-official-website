@@ -111,9 +111,9 @@ export default {
     text-align: center;
   }
   .topText-title {
-    width: 80%;
-    padding-left: 20%;
-    margin-top: 40px;
+    width: 100%;
+    padding-left: 0%;
+    margin-top: 30px;
     color: #fff;
     font-family: 'Arboria-Bold';
     font-size: 40px;
