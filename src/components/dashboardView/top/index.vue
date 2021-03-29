@@ -2,8 +2,7 @@
   <div class="top">
     <div class="topText">
       <div class="topText-title wow bounceInUp">
-        <span>Redefining investment</span>
-        <span>opportunities on chain.</span>
+        <span>Redefining investment opportunities on chain.</span>
       </div>
       <div class="topText-text wow bounceInUp">
         <span>Shadows is a hub for issuing, trading, lending and borrowing synthetic assets.</span>
@@ -36,7 +35,9 @@ export default {
   align-items: center;
 }
 .topText {
-  width: 100%;
+  width: 80%;
+  padding-left: 20%;
+  margin-top: 40px;
   text-align: center;
   position: absolute;
 }
@@ -86,7 +87,7 @@ export default {
   color: white;
   font-size: 15px;
   background: #05DAAC;
-  font-family: 'Arboria-Bold';
+  
   border: none;
   border-radius: 100px;
   outline: none;
@@ -107,13 +108,15 @@ export default {
     background-size: cover;
   }
   .topText {
-    width: 100%;
     text-align: center;
   }
   .topText-title {
+    width: 80%;
+    padding-left: 20%;
+    margin-top: 40px;
     color: #fff;
-    font-size: 30px;
-    font-weight: 700;
+    font-family: 'Arboria-Bold';
+    font-size: 40px;
   }
   .topText-title > span {
     display: block;
@@ -127,7 +130,7 @@ export default {
     margin-top: 30px;
     margin-left: calc((100% - 312px) / 2);
     font-size: 16px;
-    color: #938D8D;
+    color: #fff;
   }
   .topText-button {
     width: 100%;
@@ -150,6 +153,18 @@ export default {
   }
   .topText-button > button:nth-of-type(2) {
     margin-left: 13px;
+  }
+  .topText-buttonlink {
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    color: white;
+    font-size: 14px;
+    background: #05DAAC;
+    font-family: 'Arboria-Bold';
+    border: none;
+    border-radius: 100px;
+    outline: none;
   }
 }
 </style>

@@ -93,6 +93,41 @@ export default {
   .traderText > span:nth-of-type(2) {
     font-size: 12px;
   }
+  .trader > img {
+  width: 70%;
+  margin-left: 5%;
+}
+}
+
+@media screen and (max-width: 450px){
+  .trader-title { 
+    position: relative;
+    top: 40px;
+  }
+  .trader-title > span {
+    font-family: Arboria-Bold;
+    font-size: 24px;
+  }
+  .traderText {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    right: 0%;
+  }
+  .traderText > span:nth-of-type(1) {
+    font-size: 20px;
+  }
+  .traderText > span:nth-of-type(2) {
+    font-size: 13px;
+  }
+  .trader > img {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 160px;
+  }
 }
 </style>
 

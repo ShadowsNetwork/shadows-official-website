@@ -247,6 +247,7 @@ export default {
   .market-title > span:nth-of-type(1) {
     display: block;
     font-family: Arboria-Bold;
+    font-size: 24px;
     width: 100%;
     text-align: center;
     padding-left: 20%;
@@ -255,7 +256,7 @@ export default {
     height: 50px;
     line-height: 30px;
     color: #fff;
-    font-size: 24px;
+    
   }
   .market-title > span:nth-of-type(2) {
     display: block;
