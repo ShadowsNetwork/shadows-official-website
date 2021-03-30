@@ -2,17 +2,17 @@
   <div class="trader">
     <div class="pc-content">
     <div class="line"/>
-    <div class="trader-title wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+    <div class="trader-title wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s" >
       <span>Investments for</span>
       <span>Every Trader</span>
     </div>
 
-    <div class="traderText wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
+    <div class="traderText wow slideInRight" data-wow-duration="2.5s" data-wow-delay="0.3s">
       <span>Asset Classes</span>
       <span>Invest in a wide variety of derivative asset classes: Fiat Currencies (USD, EUR), Crypto Currencies (BTC, ETH), Commodities (GOLD, SILVER), Equities (TSLA, AAPL), and many more.</span>
     </div>
     
-    <div class="wow bounceIn globe" data-wow-duration="1.5s" data-wow-delay="0.3s" >
+    <div class="wow bounceIn globe" data-wow-duration="4.5s" data-wow-delay="0.3s" >
       
     </div>
     
@@ -84,7 +84,7 @@ export default {
   display: block;
   width: 100%;
   font-family: Arboria-Bold;
-  font-size: 30px;
+  font-size: 26px;
   color: #2DCBA9;
 }
 .traderText > span:nth-of-type(2) {
@@ -92,7 +92,7 @@ export default {
   width: 100%;
   font-family: Arboria;
   font-size: 16px;
-  letter-spacing: 0.25px;
+  line-height: 1.3;
   color: #fff;
   margin-top: 10px;
 }

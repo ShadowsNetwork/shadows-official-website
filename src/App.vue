@@ -87,7 +87,6 @@ export default {
     color: white;
     list-style: none;
     font-size: 14px;
-    font-weight: bold;
   }
 .header-li a:hover{
   font-size: 15px;
@@ -99,6 +98,7 @@ export default {
       display: block;
     }
   .fly {
+    margin-left: 20px;
     width: 30px;
     margin-top: 28px;
   }

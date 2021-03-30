@@ -1,7 +1,7 @@
 <template>
   <div class="description">
     <div class="line"/>
-    <div class="description-content wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+    <div class="description-content wow fadeIn" data-wow-duration="4.5s" data-wow-delay="0.3s">
       <span>“We see Shadows as one of the finest DeFi projects from the extensive candidate lineup.”</span>
       <span>Alexander Maker</span>
       <span>Managing Director, Web3 Foundation</span>
@@ -57,7 +57,7 @@ export default {
 .description-content > span:nth-of-type(3) {
   display: block;
   width: 60%;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 20%;
   font-size: 18px;
   line-height: 22px;

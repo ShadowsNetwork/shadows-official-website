@@ -1,13 +1,13 @@
 <template>
   <div class="top">
     <div class="topText">
-      <div class="topText-title wow bounceInUp">
+      <div class="topText-title wow fadeIn" data-wow-duration="4.5s" data-wow-delay="0.3s">
         <span>Redefining investment opportunities on chain. </span>
       </div>
-      <div class="topText-text wow bounceInUp">
-        <span>Shadows is a hub for issuing, trading, lending and borrowing synthetic assets.</span>
+      <div class="topText-text wow fadeIn" data-wow-duration="4.5s" data-wow-delay="0.3s">
+        <span>Shadows is a hub for issuing, trading, lending and borrowing derivative assets.</span>
       </div>
-      <div class="topText-button wow bounceInUp">
+      <div class="topText-button wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1.0s">
         <a class="topText-buttonlink" href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsNetworkWhitePaper_EN.pdf" target="_blank">Whitepaper</a>
         <a class="topText-buttonlink" style="margin-left:10px" href="https://etherscan.io/token/0x661ab0ed68000491d98c796146bcf28c20d7c559" target="_blank">Tokenomics</a>
       </div>
@@ -30,16 +30,13 @@ export default {
   max-height: 900px;
   position: relative;
   font-family: 'Arboria-Bold';
-  background: url("../../../assets/image/dashboard/topBac.png") center;
+  background: url("../../../assets/image/dashboard/topBac.jpg") center;
   background-size: cover;
   display: flex;
   align-items: center;
 }
 .topText {
   width: 100%;
-  
-
-  
   margin-top: 40px;
   text-align: center;
   position: absolute;
@@ -49,7 +46,7 @@ export default {
   padding-right: 0%;
   color: #fff;
   font-size: 73px;
-  line-height: 0.9;
+  line-height: 1.0;
   
 }
 .topText-title > span {

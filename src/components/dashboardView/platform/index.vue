@@ -3,34 +3,34 @@
     <div class="divLine">
       <div class="line" />
     </div>
-    <div class="platform-title wow bounceInUp" >
+    <div class="platform-title wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s" >
       <span>Decentralized Derivatives</span>
       <span>Trading Platform</span>
     </div>
-    <div class="platform-button wow bounceInUp">
+    <div class="platform-button wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s" >
       <button>All Features</button>
     </div>
     <div class="platform-content">
       <div class="platform-img">
         <img src="../../../assets/image/dashboard/platformImg.png"/>
-        <div class="leftDiv"/>
-        <div class="rightDiv"/>
-        <div class="bottomDiv"/>
+        <div class="leftDiv wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.3s"/>
+        <div class="rightDiv wow fadeIn" data-wow-duration="1.5s" data-wow-delay="2.3s"/>
+        <div class="bottomDiv wow fadeIn" data-wow-duration="1.5s" data-wow-delay="2.3s"/>
       </div>
-      <div class="leftDivGo"/>
-      <div class="rightDivGo"/>
-      <div class="bottomDivGo"/>
+      <div class="leftDivGo wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.3s"/>
+      <div class="rightDivGo wow fadeIn" data-wow-duration="1.5s" data-wow-delay="2.3s"/>
+      <div class="bottomDivGo wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.3s"/>
       <div class="leftDivText">
-        <span class="divTitle wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">Oracle market data</span>
-        <span class="divTextOne wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">Utilizing best-class oracles, providing real-time asset data.</span>
+        <span class="divTitle wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.3s">Oracle Market Data</span>
+        <span class="divTextOne wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.3s">Utilizing best-class oracles, providing real-time asset data</span>
       </div>
       <div class="rightDivText">
-        <span class="divTitle wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">DOWS staking</span>
-        <span class="divTextOne wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">Manage collateral percentage with DOWS staking.</span>
+        <span class="divTitle wow fadeIn" data-wow-duration="1.5s" data-wow-delay="2.3s">DOWS Staking</span>
+        <span class="divTextOne wow fadeIn" data-wow-duration="1.5s" data-wow-delay="2.3s">Manage collateral percentage with DOWS staking</span>
       </div>
       <div class="bottomDivText">
-        <span class="divTitle wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">Synthetize derivatives</span>
-        <span class="divTextOne wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">Trade derivatives as easy as traditional exchanges.</span>
+        <span class="divTitle wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.3s">Synthetize Derivatives</span>
+        <span class="divTextOne wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.3s">Trade derivatives as easy as traditional exchanges</span>
       </div>
     </div>
   </div>
@@ -197,7 +197,7 @@ export default {
   width: 300px;
   color: #fff;
   font-size: 16px;
-  letter-spacing: 0.25px;
+  line-height: 1.3;
   margin-top: 10px;
 }
 /* 

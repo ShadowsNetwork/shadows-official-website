@@ -3,9 +3,9 @@
     <div class="divLine">
       <div class="line" />
     </div>
-    <div class="cooperation-title wow bounceInUp">
+    <div class="cooperation-title wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s" >
       <span>Partners</span>
-      <span>Proudly powered by an extensive network of industry leaders.</span>
+      <span>Proudly powered by an extensive network of industry leaders</span>
     </div>
     <div class="partners">
       <div class="partnersOne">

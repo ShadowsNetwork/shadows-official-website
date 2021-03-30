@@ -1,69 +1,69 @@
 <template>
   <div class="powerFul">
-    <div class="powerFul-title wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
-      <span>PowerFul features</span>
+    <div class="powerFul-title wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+      <span>Powerful Features</span>
     </div>
-    <div class="powerFulText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+    <div class="powerFulText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
       <span>Every detail considered to enrich the trading experience</span>
     </div>
     <div class="powerFul-content">
       <div class="content-row">
         <div class="content-child">
-          <div class="childImg wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <div class="childImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
             <img src="../../../assets/image/features/featuresPowerful/Rectangle1.png">
           </div>
-          <div class="childText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <div class="childText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
             <span>Your Wallet</span>
-            <span>Track your wallet’s current and historical balance, positions, and performance.</span>
+            <span>Track your wallet’s current and historical balance, positions, and performance</span>
           </div>
         </div>
         <div class="content-child">
-          <div class="childImg wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <div class="childImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
             <img src="../../../assets/image/features/featuresPowerful/Rectangle2.png">
           </div>
-          <div class="childText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <div class="childText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
             <span>Market Watch</span>
-            <span>Explore various asset class offerings in the derivatives ecosystem.</span>
+            <span>Explore various asset class offerings in the derivatives ecosystem</span>
           </div>
         </div>
       </div>
       <div class="content-row">
         <div class="content-child">
-          <div class="childImg wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <div class="childImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
             <img src="../../../assets/image/features/featuresPowerful/Rectangle3.png">
           </div>
-          <div class="childText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <div class="childText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
             <span>Trade</span>
-            <span>Buy and sell derivatives with the familiar trading experience of traditional exchanges.</span>
+            <span>Buy and sell derivatives with the familiar trading experience of traditional exchanges</span>
           </div>
         </div>
         <div class="content-child">
-          <div class="childImg wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <div class="childImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
             <img src="../../../assets/image/features/featuresPowerful/Rectangle4.png">
           </div>
-          <div class="childText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <div class="childText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
             <span>Rewards</span>
-            <span>Earn rewards in DOWS for participating in the derivatives market.</span>
+            <span>Earn rewards in DOWS for participating in the derivatives market</span>
           </div>
         </div>
       </div>
       <div class="content-row">
         <div class="content-child">
-          <div class="childImg wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <div class="childImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
             <img src="../../../assets/image/features/featuresPowerful/Rectangle5.png">
           </div>
-          <div class="childText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <div class="childText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
             <span>Collateral</span>
             <span>Easy to use and safe collateral management.</span>
           </div>
         </div>
         <div class="content-child">
-          <div class="childImg wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <div class="childImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
             <img src="../../../assets/image/features/featuresPowerful/Rectangle6.png">
           </div>
-          <div class="childText wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <div class="childText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
             <span>LP Staking</span>
-            <span>Earn for being a liquidity provider on decentralized exchanges.</span>
+            <span>Earn for being a liquidity provider on decentralized exchanges</span>
           </div>
         </div>
       </div>
@@ -82,7 +82,8 @@ export default {
 <style scoped>
 .powerFul {
   width: 100%;
-  padding-bottom: 1102px;
+  padding-bottom: 300px;
+  padding-top: 150px;
 }
 .powerFul-title {
   width: 100%;
@@ -156,11 +157,13 @@ export default {
   display: block;
   color: #fff;
   font-size: 20px;
+  line-height: 1.3;
   font-family: Arboria;
   margin-top: 15px;
 }
 @media screen and (max-width: 900px) {
   .powerFul {
+    margin-top: 50px;
     padding-bottom: 102px;
   }
   .powerFul-title {
@@ -170,6 +173,7 @@ export default {
     font-size: 16px;
     padding-left: 15%;
     padding-right: 15%;
+    line-height: 1.3;
   }
   .powerFul-content {
     width: 100%;
@@ -220,6 +224,7 @@ export default {
   .childText > span:nth-of-type(2) {
     font-size: 13px;
     margin-top: 5px;
+    line-height:  1.4;
   }
 }
 </style>
