@@ -185,7 +185,7 @@ export default {
     top: 80px;
   }
   .globe {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom:90px;
     background: url("../../../assets/image/dashboard/groupAssetsMobile.png") center;
     height: 600px;
@@ -201,7 +201,7 @@ export default {
     padding-right: 20%;
     text-align: center;
     position: absolute;
-    top: 550px;
+    top: 560px;
     right: 0%;
   }
   .traderText > span:nth-of-type(1) {

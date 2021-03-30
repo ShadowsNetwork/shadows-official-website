@@ -40,7 +40,7 @@ export default {
   margin-left: 20%;
   font-size: 35px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-top: 249px;
 }
 .description-content > span:nth-of-type(2) {
@@ -52,7 +52,7 @@ export default {
   font-size: 18px;
   text-align: right;
   letter-spacing: 0.15em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .description-content > span:nth-of-type(3) {
   display: block;
@@ -71,22 +71,22 @@ export default {
   .description-content > span:nth-of-type(1) {
     width: 100%;
     margin: 0%;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 22px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 18px;
     margin-top: 100px;
   }
   .description-content > span:nth-of-type(2) {
     width: 90%;
     margin-left: 0%;
     font-size: 16px;
-    margin-top: 70px;
+    margin-top: 30px;
     text-align: right;
   }
   .description-content > span:nth-of-type(3) {
     font-size: 14px;
     width: 90%;
-    margin-top: 10px;
+    margin-top: 3px;
     margin-left: 0%;
   }
 }

@@ -212,9 +212,9 @@ export default {
       .mobile-drop > div {
         font-family: 'Arboria-Bold';
         display: block;
-        height: 60px;
-        line-height: 50px;
-        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
         cursor: pointer;
       }
     }

@@ -262,10 +262,10 @@ export default {
 }
 @media screen and (max-width: 450px){
   .top {
-    height: 500px;
+    height: 450px;
   }
   .topBac {
-    height: 500px;
+    height: 450px;
   }
   .top-text {
     width: 100%;

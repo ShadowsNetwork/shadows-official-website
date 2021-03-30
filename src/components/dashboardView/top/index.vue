@@ -5,7 +5,7 @@
         <span>Redefining investment opportunities on chain. </span>
       </div>
       <div class="topText-text wow fadeIn" data-wow-duration="4.5s" data-wow-delay="0.3s">
-        <span>Shadows is a hub for issuing, trading, lending and borrowing derivative assets.</span>
+        <span>Shadows is a hub for issuing, trading, lending and borrowing derivative assets</span>
       </div>
       <div class="topText-button wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1.0s">
         <a class="topText-buttonlink" href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsNetworkWhitePaper_EN.pdf" target="_blank">Whitepaper</a>
@@ -182,12 +182,13 @@ export default {
   }
   .topText-title {
     width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
-    margin-top: 30px;
+    padding-left: 21%;
+    padding-right: 21%;
+    margin-top: 45px;
     color: #fff;
     font-family: 'Arboria-Bold';
-    font-size: 40px;
+    font-size: 34px;
+    line-height: 1;
   }
   .topText-title > span {
     display: block;
@@ -205,7 +206,7 @@ export default {
   }
   .topText-button {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     display: flex;

@@ -163,7 +163,7 @@ export default {
 }
 @media screen and (max-width: 900px) {
   .powerFul {
-    margin-top: 50px;
+    margin-top: 0px;
     padding-bottom: 102px;
   }
   .powerFul-title {
