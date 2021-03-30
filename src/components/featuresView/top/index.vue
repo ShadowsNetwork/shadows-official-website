@@ -111,41 +111,57 @@ export default {
 }
 @media screen and (max-width: 4000px){
   .top-img > img {
-    width: 1000px;
+    width: 1150px;
     position: absolute;
     right: 800px;
-    top: 100px;
+    top: 0px;
   }
 }
 @media screen and (max-width: 3500px){
   .top-img > img {
-    width: 1000px;
+    width: 1150px;
     position: absolute;
     right: 600px;
-    top: 100px;
+    top: 0px;
   }
 }
 @media screen and (max-width: 3000px){
   .top-img > img {
-    width: 1000px;
+    width: 1150px;
     position: absolute;
     right: 400px;
-    top: 100px;
+    top: 0px;
   }
 }
-@media screen and (max-width: 2500px){
+@media screen and (max-width: 2600px){
   .top-img > img {
-    width: 1000px;
+    width: 1100px;
     position: absolute;
     right: 350px;
-    top: 100px;
+    top: 50px;
   }
 }
-@media screen and (max-width: 2200px){
+@media screen and (max-width: 2350px){
+  .top-img > img {
+    width: 1100px;
+    position: absolute;
+    right: 150px;
+    top: 60px;
+  }
+}
+@media screen and (max-width: 2000px){
   .top-img > img {
     width: 1000px;
     position: absolute;
-    right: 100px;
+    right: 150px;
+    top: 100px;
+  }
+}
+@media screen and (max-width: 1850px){
+  .top-img > img {
+    width: 920px;
+    position: absolute;
+    right: 150px;
     top: 100px;
   }
 }
@@ -157,11 +173,23 @@ export default {
     top: 100px;
   }
 }
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 1460px){
   .top-img > img {
-    width: 600px;
+    width: 750px;
     position: absolute;
     right: 50px;
+    top: 100px;
+  }
+}
+@media screen and (max-width: 1350px){
+  .top-text {
+    top: 280px;
+    left: 10%;
+  }
+  .top-img > img {
+    width: 700px;
+    position: absolute;
+    right: 40px;
     top: 100px;
   }
 }
