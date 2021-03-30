@@ -198,20 +198,23 @@ export default {
         display: none;
       }
       .mobile-drop-button {
+        font-family: 'Arboria-Bold';
         position: absolute;
         top: 10px;
       }
       .dropLine {
+        font-family: 'Arboria-Bold';
         width: 20px;
         height: 3px;
         background: #05DAAC;
         margin-top: 5px;
       }
       .mobile-drop > div {
+        font-family: 'Arboria-Bold';
         display: block;
-        height: 40px;
-        line-height: 40px;
-        font-size: 13px;
+        height: 60px;
+        line-height: 50px;
+        font-size: 20px;
         cursor: pointer;
       }
     }
