@@ -183,6 +183,7 @@ export default {
     width: 100%;
     margin-left: 0%;
   }
+  
   .content-row:nth-of-type(2) {
     text-align: center;
     margin-top: 60px;
@@ -197,6 +198,7 @@ export default {
     margin-top: 60px;
   }
   .childImg {
+    opacity: 1;
     text-align: center;
     margin-left: 15%;
     width:70%;
