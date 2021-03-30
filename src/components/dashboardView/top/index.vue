@@ -182,7 +182,8 @@ export default {
   }
   .topText-title {
     width: 100%;
-    padding-left: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-top: 30px;
     color: #fff;
     font-family: 'Arboria-Bold';
