@@ -186,6 +186,7 @@ export default {
     align-items:center;
     width: 100%;
     margin-left: 0%;
+    margin-right: 0%;
   }
   
   .content-row:nth-of-type(2) {
@@ -214,9 +215,12 @@ export default {
   }
   .childText {
     text-align:center;
+    width: 100%;
     margin-top: 20px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .childText > span:nth-of-type(1) {
     font-size: 20px;
