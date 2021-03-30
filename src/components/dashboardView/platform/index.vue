@@ -8,7 +8,7 @@
       <span>Trading Platform</span>
     </div>
     <div class="platform-button wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s" >
-      <button>All Features</button>
+      <button><router-link to="features">All Features</router-link></button>
     </div>
     <div class="platform-content">
       <div class="platform-img">
