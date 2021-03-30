@@ -2,9 +2,9 @@
   <div class="description">
     <div class="line"/>
     <div class="description-content wow fadeIn" data-wow-duration="4.5s" data-wow-delay="0.3s">
-      <span>“We see Shadows as one of the finest DeFi projects from the extensive candidate lineup.”</span>
-      <span>Alexander Maker</span>
-      <span>Managing Director, Web3 Foundation</span>
+      <span>“Collateralizing renBTC on Shadows bolsters Ren’s mission of cross-chain interoperability by providing greater utility for digital assets regardless of blockchain.”</span>
+      <span>Michael Burgess</span>
+      <span>CEO, REN Protocol</span>
     </div>
   </div>
 </template>
