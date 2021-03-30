@@ -30,8 +30,8 @@
               <el-col :xl="{span:6,offset:3}" :lg="{span:6,offset:3}">
                 <div class="market-contentChild wow fadeIn" data-wow-duration="4.5s" data-wow-delay="0.3s">
                   <img src="../../assets/image/dashboard/icon/Anchore.png">
-                  <span>Built on PolkaDot</span>
-                  <span>Unlocking scalability and interoperability by investing in Polkadot’s blockchain.</span>
+                  <span>Interoperable</span>
+                  <span>Unlocking scalability and interoperability by investing in Binance Smart Chain and Polkadot’s blockchain.</span>
                 </div>
               </el-col>
             </el-row>
@@ -40,7 +40,7 @@
                 <div class="market-contentChild wow fadeIn" data-wow-duration="4.5s" data-wow-delay="0.3s">
                   <img src="../../assets/image/dashboard/icon/Persentage.png">
                   <span>Asset Classes</span>
-                  <span>Suite of financial derivative products: fiat currency, crypto currency, stocks, market indices, and commodities (xUSD, xBTC, xGOLD, xTesla, others).</span>
+                  <span>Suite of financial derivative products: fiat currencies, crypto currencies, stocks, market indices, and commodities (xUSD, xBTC, xGOLD, xTesla, others).</span>
                 </div>
               </el-col>
               <el-col :xl="{span:6,offset:3}" :lg="{span:6,offset:3}">
