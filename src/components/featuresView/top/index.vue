@@ -93,10 +93,6 @@ export default {
   position: absolute;
   width: 100%;
   top: 280px;
-  left:
-  /* position: absolute;
-  
-  left: 20%; */
 }
 .top-text > span {
   display: block;
@@ -107,7 +103,7 @@ export default {
   position: absolute;
   right: 0px;
   top: 100px;
-  
+  z-index: 10;
 }
 @media screen and (max-width: 4000px){
   .top-img > img {
