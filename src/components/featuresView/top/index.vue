@@ -253,7 +253,7 @@ export default {
   }
   .top-img > img {
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 10%; 
     width: 100%;
     position: absolute;
     top: 240px;
@@ -283,7 +283,7 @@ export default {
     width: 100%;
     position: absolute;
     top: 250px;
-    right: -2%;
+    right: 0%;
   }
 }
 </style>

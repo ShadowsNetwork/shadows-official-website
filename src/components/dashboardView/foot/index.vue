@@ -23,13 +23,13 @@
           <a href="https://t.me/Shadows_defi" target="_blank"><img src="../../../assets/image/dashboard/fly.png"/></a>
           <a href="https://twitter.com/shadows_defi" target="_blank"><img src="../../../assets/image/dashboard/twitter.png"/></a>
         </div>
-        <div class="contact-text">
+        <!-- <div class="contact-text">
           <span>Subscribe to our newsletter</span>
           <span> to hear about our updates.</span>
         </div>
         <div class="contactButton">
           <button>Subscribe</button>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="footBottom">
