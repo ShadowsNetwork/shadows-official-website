@@ -57,7 +57,7 @@ export default {
   max-height: 900px;
   position: relative;
   font-family: 'Arboria-Bold';
-  background: url("../../../assets/image/features/featuresTopBac.jpg") center;
+  background: url("../../../assets/image/features/featuresTopBacHigh.jpg") center;
   background-size: cover;
   display: flex;
   align-items: center;
