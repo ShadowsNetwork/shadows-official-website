@@ -41,8 +41,8 @@
     </nav>
     <div v-show="show" class="mobile-drop" :show="show">
       <div><router-link to="/features">Features</router-link></div>
+      <div><router-link to="/roadmap">Roadmap</router-link></div>
       <div><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></div>
-      <div><a>About</a></div>
       <div><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></div>
     </div>
     <router-view />
