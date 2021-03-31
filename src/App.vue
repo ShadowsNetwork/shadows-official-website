@@ -52,7 +52,6 @@
       <div @click="dropShow"><router-link to="/features">Features</router-link></div>
       <div @click="dropShow"><router-link to="/roadmap">Roadmap</router-link></div>
       <div @click="dropShow"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></div>
-      <div @click="dropShow"><a>About</a></div>
       <div @click="dropShow"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></div>
     </div>
     <router-view />
