@@ -32,18 +32,22 @@
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1" style="text-align:right;">
           <a href="https://twitter.com/shadows_defi" target="_blank"><img class="twitter" src="./assets/image/dashboard/twitter.png"></a>
         </el-col>
-        <div class="mobile-drop-button" @click="dropShow">
-          <div class="dropLine"/>
-          <div class="dropLine"/>
-          <div class="dropLine"/>
+        <div v-show="showTrue" class="mobile-drop-button" :showTrue="showTrue" @click="dropShowTrue">
+          <div class="dropLine" />
+          <div class="dropLine" />
+          <div class="dropLine" />
+        </div>
+        <div v-show="showErr" class="mobile-drop-button" :showErr="showErr" @click="dropShowFalse">
+          <div class="error" />
         </div>
       </el-row>
     </nav>
     <div v-show="show" class="mobile-drop" :show="show">
-      <div><router-link to="/features">Features</router-link></div>
-      <div><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></div>
-      <div><a>About</a></div>
-      <div><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></div>
+      <div @click="dropShow"><router-link to="/features">Features</router-link></div>
+      <div @click="dropShow"><router-link to="/roadmap">Roadmap</router-link></div>
+      <div @click="dropShow"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></div>
+      <div @click="dropShow"><a>About</a></div>
+      <div @click="dropShow"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></div>
     </div>
     <router-view />
   </div>
@@ -55,13 +59,27 @@ export default {
   name: 'App',
   data() {
     return {
-      show: false
+      show: false,
+      showErr: false,
+      showTrue: true,
     }
   },
   mounted() { new WOW({ offset: 0, mobile: true, live: true }).init() },
   methods: {
     dropShow() {
       this.show = !this.show
+      this.showTrue = true
+      this.showErr = false
+    },
+    dropShowTrue() {
+      this.show = true
+      this.showTrue = false
+      this.showErr = true
+    },
+    dropShowFalse() {
+      this.show = false
+      this.showTrue = true
+      this.showErr = false
     }
   }
 }
@@ -216,6 +234,22 @@ export default {
         line-height: 40px;
         font-size: 18px;
         cursor: pointer;
+      }
+      .error::before,
+      .error::after {
+        content: "";
+        position: absolute;
+        height: 25px;
+        width: 3px;
+        top: 0px;
+        right: 8px;
+        background: #05DAAC;
+      }
+      .error::before {
+        transform: rotate(45deg);
+      }
+      .error::after {
+        transform: rotate(-45deg);
       }
     }
   }

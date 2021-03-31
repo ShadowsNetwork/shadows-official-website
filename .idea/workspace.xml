@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/image/roadmap/roadImg/Group1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/roadmap/roadImg/Group2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/roadmap/roadImg/Group3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/roadmap/roadImg/Group4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/roadmap/roadImg/Group5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/featuresView/top/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featuresView/top/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/roadmapView/main/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roadmapView/main/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/roadmapView/top/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roadmapView/top/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +96,7 @@
       <workItem from="1617019232982" duration="1741000" />
       <workItem from="1617070033796" duration="2991000" />
       <workItem from="1617158978554" duration="74000" />
-      <workItem from="1617159073485" duration="5194000" />
+      <workItem from="1617159073485" duration="7278000" />
     </task>
     <task id="LOCAL-00001" summary="官网页面">
       <created>1616155182713</created>
@@ -217,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617009429879</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Roadmap page">
+      <created>1617165768144</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1617165768144</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +252,8 @@
     <MESSAGE value="Add subpages to the homepage, add function pages" />
     <MESSAGE value="Adjust the homepage image path" />
     <MESSAGE value="Adjust button size and bottom font size" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjust button size and bottom font size" />
+    <MESSAGE value="Roadmap page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Roadmap page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="307" key="#ESLint" timestamp="1617159051401">
@@ -281,10 +282,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="61" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616548243677" />
-    <state x="552" y="131" key="Vcs.Push.Dialog.v2" timestamp="1617009433657">
+    <state x="552" y="131" key="Vcs.Push.Dialog.v2" timestamp="1617165875094">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="552" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617009433657" />
+    <state x="552" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617165875094" />
     <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616675607596" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1616550308658">
       <screen x="0" y="0" width="1536" height="834" />
