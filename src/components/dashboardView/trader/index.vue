@@ -9,7 +9,7 @@
 
     <div class="traderText wow slideInRight" data-wow-duration="2.5s" data-wow-delay="0.3s">
       <span>Asset Classes</span>
-      <span>Invest in a wide variety of derivative asset classes: Fiat Currencies (USD, EUR), Crypto Currencies (BTC, ETH), Commodities (GOLD, SILVER), Equities (TSLA, AAPL), and many more.</span>
+      <span>Crypto investors can enrich their portfolios by holding derivative assets such as gold, tesla stock, or oil commodities all while receiving staking rewards from the ecosystem.</span>
     </div>
     
     <div class="wow bounceIn globe" data-wow-duration="4.5s" data-wow-delay="0.3s" >
