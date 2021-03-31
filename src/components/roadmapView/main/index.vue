@@ -12,7 +12,7 @@
         <div class="roadImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
           <img src="../../../assets/image/roadmap/roadImg/Group1.png">
         </div>
-        <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+        <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="1.3s">
           <span>Token Launch</span>
           <span>In Q1, Shadows Network held a dual IDO launch and publicly listed on Uniswap. Soon after, we strategically positioned our offering by building onto Binance Smart Chain and rebranded our platform.</span>
         </div>
@@ -24,9 +24,9 @@
         <div class="roadImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
           <img src="../../../assets/image/roadmap/roadImg/Group2.png">
         </div>
-        <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+        <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="1.3s">
           <span>Binance Testnet</span>
-          <span>Targeted early Q2, we will release our app on BSC testnet to a private user group and then to the general public. During this period we will also launch LP pool mining for uniswap liquidity providers and begin circulation of DOWS BEP-20 tokens.</span>
+          <span>Targeted early Q2, we will release our app on BSC testnet to a private user group and then to the general public. During this period we will also launch LP pool mining and begin circulation of DOWS BEP-20 tokens.</span>
         </div>
       </div>
     </div>
@@ -50,7 +50,7 @@
         </div>
         <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
           <span>Polkadot Integration</span>
-          <span>Tentatively scheduled for mid Q2, we will release our application on Binance Smart Chain.  Our app will support trading of core derivatives, staking rewards, and dashboard tools.</span>
+          <span>Next, we will integrate onto Polkadot ecosystem and start parachain deployment.</span>
         </div>
       </div>
     </div>
@@ -62,10 +62,7 @@
         </div>
         <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
           <span>V2 App Launch</span>
-          <span>Cross-chain Interoperability<br>
-            Parachain ........<br>
-            DOTfsd fdsf dsf ds<br>
-            Indices derivative offerings</span>
+          <span>Next, we will launch V2 of our app to offer cross-chain interoperability in addition to a variety of other financial derivatives including indices.</span>
         </div>
       </div>
     </div>
@@ -141,7 +138,8 @@ export default {
   font-size: 16px;
   color: #fff;
   letter-spacing: 0.25px;
-  margin-top: 40px;
+  line-height: 1.3;
+  margin-top: 5px;
 }
 .line {
   width: 0;
@@ -163,6 +161,7 @@ export default {
     padding-left: 15%;
     padding-right: 15%;
     line-height: 1.3;
+    margin-bottom: 60px;
   }
   .main {
     display: flex;
@@ -203,6 +202,7 @@ export default {
     color: #fff;
     letter-spacing: 0.25px;
     margin-top: 5px;
+    line-height: 1.1;
   }
   .line {
     width: 0;
