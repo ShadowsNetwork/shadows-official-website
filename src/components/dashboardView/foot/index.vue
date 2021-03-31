@@ -285,6 +285,12 @@ li {
   .contactImg > a:nth-of-type(2) > img {
     left: 60px;
   }
+  .contactImg > a:nth-of-type(3) > img {
+  left: 80px;
+}
+.contactImg > a:nth-of-type(4) > img {
+  left: 100px;
+}
   .contact-text {
     width: 100%;
     text-align: left;
