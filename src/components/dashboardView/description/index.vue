@@ -4,7 +4,7 @@
     <div class="description-content wow fadeIn" data-wow-duration="4.5s" data-wow-delay="0.3s">
       <span>“Collateralizing renBTC on Shadows bolsters Ren’s mission of cross-chain interoperability by providing greater utility for digital assets regardless of blockchain.”</span>
       <span>Michael Burgess</span>
-      <span>CEO, REN Protocol</span>
+      <span>COO, Ren Protocol</span>
     </div>
   </div>
 </template>
