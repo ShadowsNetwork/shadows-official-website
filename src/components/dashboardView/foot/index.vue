@@ -8,7 +8,7 @@
           <li class="childText"><router-link to="/features">Features</router-link></li>
           <li class="childText"><router-link to="/roadmap">Roadmap</router-link></li>
           <li class="childText"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></li>
-          <li class="childText"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></li>
+          
         </ul>
       </div>
       <div class="learn">
@@ -16,12 +16,15 @@
           <li class="title">Learn</li>
           <li class="childText"><a href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsNetworkWhitePaper_EN.pdf" target="_blank">Whitepaper</a></li>
           <li class="childText"><a href="https://etherscan.io/token/0x661ab0ed68000491d98c796146bcf28c20d7c559" target="_blank">Tokenomics</a></li>
+          <li class="childText"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></li>
         </ul>
       </div>
       <div class="contact">
         <div class="contactImg">
           <a href="https://t.me/Shadows_defi" target="_blank"><img src="../../../assets/image/dashboard/fly.png"/></a>
           <a href="https://twitter.com/shadows_defi" target="_blank"><img src="../../../assets/image/dashboard/twitter.png"/></a>
+          <a href="https://github.com/ShadowsNetwork" target="_blank"><img src="../../../assets/image/dashboard/github.png"/></a>
+          <a href="mailto:contact@shadows.link" target="_blank"><img src="../../../assets/image/dashboard/email.png"/></a>
         </div>
         <!-- <div class="contact-text">
           <span>Subscribe to our newsletter</span>
@@ -33,7 +36,7 @@
       </div>
     </div>
     <div class="footBottom">
-      <img class="footBottom-img" src="../../../assets/image/dashboard/footLogo.png"/>
+      <img class="footBottom-img" src="../../../assets/image/dashboard/logo.png"/>
       <span>© 2021 Shadows - Terms of Use | Privacy Policy | Cookie Settings</span>
     </div>
   </div>
@@ -99,10 +102,16 @@ li {
   position: absolute;
 }
 .contactImg > a:nth-of-type(1) > img {
-  right: 61px;
+  right: 121px;
 }
 .contactImg > a:nth-of-type(2) > img {
-  right: 0;
+  right: 61px;
+}
+.contactImg > a:nth-of-type(3) > img {
+  right: 181px;
+}
+.contactImg > a:nth-of-type(4) > img {
+  right: 0px;
 }
 .contact-text {
   font-family: Arboria-Bold;
@@ -147,7 +156,7 @@ li {
   line-height: 24px;
 }
 .footBottom-img {
-  width: 196px;
+  width: 160px;
 }
 .footBottom > span {
   margin-left: 20px;

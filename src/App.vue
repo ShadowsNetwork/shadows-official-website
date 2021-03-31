@@ -26,12 +26,22 @@
           </ul>
         </el-col>
         <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2" />
+         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1" style="text-align:right;">
+          <a href="https://github.com/ShadowsNetwork" target="_blank"><img class="twitter" src="./assets/image/dashboard/github.png"></a>
+        </el-col>
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1">
           <a href="https://t.me/Shadows_defi" target="_blank"><img class="fly" src="./assets/image/dashboard/fly.png"></a>
         </el-col>
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1" style="text-align:right;">
           <a href="https://twitter.com/shadows_defi" target="_blank"><img class="twitter" src="./assets/image/dashboard/twitter.png"></a>
         </el-col>
+        <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1" style="text-align:right;">
+          <a href="mailto:contact@shadows.link" target="_blank"><img class="twitter" src="./assets/image/dashboard/email.png"></a>
+        </el-col>
+       
+
+
+
         <div v-show="showTrue" class="mobile-drop-button" :showTrue="showTrue" @click="dropShowTrue">
           <div class="dropLine" />
           <div class="dropLine" />
