@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/image/roadmap/roadImg/Group1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/roadmap/roadImg/Group2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/roadmap/roadImg/Group3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/roadmap/roadImg/Group4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/roadmap/roadImg/Group5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboardView/foot/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboardView/foot/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/featuresView/top/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featuresView/top/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/roadmapView/main/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roadmapView/main/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/roadmapView/top/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roadmapView/top/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/新桌面/shadowsMain/shadows-reactor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/image/roadmap" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,16 +59,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\shadows\shadows-official-website\src\components\dashboardView" />
+      <recent name="F:\新桌面\shadows\src\assets\image" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\shadows\shadows-official-website\src\assets\image\roadmap" />
       <recent name="E:\shadows\shadows-official-website\src\assets\image\dashboard" />
       <recent name="E:\shadows\shadows-official-website\src\assets\image\features" />
       <recent name="E:\shadows\shadows-official-website\src\font" />
       <recent name="E:\shadows\shadows-official-website\public" />
-      <recent name="E:\shadows\shadows-official-website\src\assets\image" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\shadows\shadows-official-website\src\components\dashboardView" />
-      <recent name="F:\新桌面\shadows\src\assets\image" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,7 +99,11 @@
       <workItem from="1616724383306" duration="2267000" />
       <workItem from="1616940640409" duration="268000" />
       <workItem from="1616940926255" duration="1712000" />
-      <workItem from="1616981008897" duration="21350000" />
+      <workItem from="1616981008897" duration="22014000" />
+      <workItem from="1617019232982" duration="1741000" />
+      <workItem from="1617070033796" duration="2991000" />
+      <workItem from="1617158978554" duration="74000" />
+      <workItem from="1617159073485" duration="5194000" />
     </task>
     <task id="LOCAL-00001" summary="官网页面">
       <created>1616155182713</created>
@@ -200,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617001344114</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Adjust button size and bottom font size">
+      <created>1617009429879</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1617009429879</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,13 +251,14 @@
     <MESSAGE value="Modify the bottom left and right spacing and the left spacing of the logo at the bottom of the phone" />
     <MESSAGE value="Add subpages to the homepage, add function pages" />
     <MESSAGE value="Adjust the homepage image path" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjust the homepage image path" />
+    <MESSAGE value="Adjust button size and bottom font size" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjust button size and bottom font size" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="630" y="307" key="#ESLint" timestamp="1616940913551">
+    <state x="630" y="307" key="#ESLint" timestamp="1617159051401">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="630" y="307" key="#ESLint/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616461355487" />
+    <state x="630" y="307" key="#ESLint/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617159051401" />
     <state x="630" y="307" key="#ESLint/0.0.1536.834@0.0.1536.834" timestamp="1616940913551" />
     <state x="517" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616572851901">
       <screen x="0" y="0" width="1536" height="834" />
@@ -250,11 +268,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616570817802" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1617004181369">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1617073501870">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617004181369" />
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616942491587" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617073501870" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1617020791679" />
     <state x="403" y="177" key="MultipleFileMergeDialog" timestamp="1617001118218">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -263,19 +281,19 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="61" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616548243677" />
-    <state x="552" y="131" key="Vcs.Push.Dialog.v2" timestamp="1617001352632">
+    <state x="552" y="131" key="Vcs.Push.Dialog.v2" timestamp="1617009433657">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="552" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617001352632" />
+    <state x="552" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617009433657" />
     <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616675607596" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1616550308658">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616550308658" />
-    <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617001263574">
+    <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617159204546">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617001263574" />
+    <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617159204546" />
     <state x="415" y="240" width="600" height="594" key="find.popup" timestamp="1616570933469">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

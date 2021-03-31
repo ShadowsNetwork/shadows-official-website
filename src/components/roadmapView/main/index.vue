@@ -6,26 +6,69 @@
     <div class="roadText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
       <span>Our commitment to DeFi innovation</span>
     </div>
- 
 
     <div class="main">
-      <div class="left">&nbsp;</div>
-      <div class="center">
-
-        <el-row justify="space-around">
-              
-            </el-row>
-
-       
-
-        
+      <div class="main-child">
+        <div class="roadImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+          <img src="../../../assets/image/roadmap/roadImg/Group1.png">
+        </div>
+        <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+          <span>Token Launch</span>
+          <span>In Q1, Shadows Network held a dual IDO launch and publicly listed on Uniswap. Soon after, we strategically positioned our offering by building onto Binance Smart Chain and rebranded our platform.</span>
+        </div>
       </div>
-    
-      <div class="right">&nbsp;</div>
     </div>
-
-
-
+    <div class="line wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s" />
+    <div class="main">
+      <div class="main-child">
+        <div class="roadImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+          <img src="../../../assets/image/roadmap/roadImg/Group2.png">
+        </div>
+        <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+          <span>Binance Testnet</span>
+          <span>Targeted early Q2, we will release our app on BSC testnet to a private user group and then to the general public. During this period we will also launch LP pool mining for uniswap liquidity providers and begin circulation of DOWS BEP-20 tokens.</span>
+        </div>
+      </div>
+    </div>
+    <div class="line wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s" />
+    <div class="main">
+      <div class="main-child">
+        <div class="roadImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+          <img src="../../../assets/image/roadmap/roadImg/Group3.png">
+        </div>
+        <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+          <span>V1 App Launch</span>
+          <span>Targeted mid Q2, we will release our application on Binance Smart Chain.  Our app will support trading of core derivatives, staking rewards, and dashboard tools.</span>
+        </div>
+      </div>
+    </div>
+    <div class="line wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s" />
+    <div class="main">
+      <div class="main-child">
+        <div class="roadImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+          <img src="../../../assets/image/roadmap/roadImg/Group4.png">
+        </div>
+        <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+          <span>Polkadot Integration</span>
+          <span>Tentatively scheduled for mid Q2, we will release our application on Binance Smart Chain.  Our app will support trading of core derivatives, staking rewards, and dashboard tools.</span>
+        </div>
+      </div>
+    </div>
+    <div class="line wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s" />
+    <div class="main">
+      <div class="main-child">
+        <div class="roadImg wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+          <img src="../../../assets/image/roadmap/roadImg/Group5.png">
+        </div>
+        <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
+          <span>V2 App Launch</span>
+          <span>Cross-chain Interoperability<br>
+            Parachain ........<br>
+            DOTfsd fdsf dsf ds<br>
+            Indices derivative offerings</span>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -58,42 +101,54 @@ export default {
   text-align: center;
   font-family: 'Arboria';
   color: #fffbfb;
+  margin-bottom: 100px;
 }
 .main {
   display: flex;
   flex-direction: row;
   width: 100%;
   flex:1;
-  padding-top: 100px;
 }
-.left {
-  flex:1;
+.main-child {
+  display: flex;
+  width: 802px;
+  margin-left: calc((100% - 802px) / 2);
+  align-items: center;
+  position: relative;
 }
-.center {
-  flex:5;
-  max-width: 1200px;
-  max-width: 1200px;
+.roadImg {
+  width: 380px;
+  border: 2px solid #2DCBA9;
+  filter: drop-shadow(0px 0px 50px rgba(214, 214, 214, 0.5));
+  border-radius: 50px;
 }
-.right {
-  flex:1;
+.roadImg > img {
+  width: 382px;
 }
-
-.col1 {
-  flex:1;
+.mainText > span {
+  display: block;
+  text-align: left;
+  width: 349px;
+  margin-left: 71px;
 }
-.col2 {
-  flex:2;
-  
+.mainText > span:nth-of-type(1) {
+  font-family: Arboria-Bold;
+  font-size: 26px;
+  color: #2DCBA9;
 }
-.col3 {
-  flex:1;
+.mainText > span:nth-of-type(2) {
+  font-family: Arboria;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.25px;
+  margin-top: 40px;
 }
-.boxImg img{
-  width: 500px;
+.line {
+  width: 0;
+  height: 120px;
+  border: 2px dashed #2DCBA9;
+  margin-left: calc(((100% - 802px) / 2) + 190px);
 }
-
-
-
 
 @media screen and (max-width: 900px) {
   .road {
@@ -109,60 +164,51 @@ export default {
     padding-right: 15%;
     line-height: 1.3;
   }
-  .road-content {
+  .main {
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    margin-left: 0px;
-    margin-top: 80px;
+    flex:1;
   }
-  .content-row {
+  .main-child {
+    display: flex;
+    width: 350px;
+    margin-left: calc((100% - 350px) / 2);
+    align-items: center;
+    position: relative;
+  }
+  .roadImg {
+    width: 180px;
+    border: 1px solid #2DCBA9;
+    filter: drop-shadow(0px 0px 50px rgba(214, 214, 214, 0.5));
+    border-radius: 10px;
+  }
+  .roadImg > img {
+    width: 180px;
+  }
+  .mainText > span {
     display: block;
-    text-align: center;
-    align-items:center;
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
+    text-align: left;
+    width: 160px;
+    margin-left: 10px;
   }
-  
-  .content-row:nth-of-type(2) {
-    text-align: center;
-    margin-top: 60px;
+  .mainText > span:nth-of-type(1) {
+    font-family: Arboria-Bold;
+    font-size: 16px;
+    color: #2DCBA9;
   }
-  .content-row:nth-of-type(3) {
-    text-align: center;
-    margin-top: 60px;
-  }
-  .content-row > .content-child:nth-of-type(2) {
-    text-align: center;
-    margin-left: 0px;
-    margin-top: 60px;
-  }
-  .childImg {
-    opacity: 1;
-    text-align: center;
-    margin-left: 15%;
-    width:70%;
-    border: 1px solid #A386F5;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 50px 10px #34274D;
-    border-radius: 20px;
-    overflow: hidden;
-  }
-  .childText {
-    text-align:center;
-    width: 100%;
-    margin-top: 20px;
-    padding-left: 20%;
-    padding-right: 20%;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .childText > span:nth-of-type(1) {
-    font-size: 20px;
-  }
-  .childText > span:nth-of-type(2) {
-    font-size: 13px;
+  .mainText > span:nth-of-type(2) {
+    font-family: Arboria;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 0.25px;
     margin-top: 5px;
-    line-height:  1.4;
+  }
+  .line {
+    width: 0;
+    height: 30px;
+    border: 1px dashed #2DCBA9;
+    margin-left: calc(((100% - 350px) / 2) + 90px);
   }
 }
 </style>

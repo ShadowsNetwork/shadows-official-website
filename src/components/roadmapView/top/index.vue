@@ -2,27 +2,27 @@
   <div class="top">
     <div class="topBac">
 
-      <div class="left"></div>
+      <div class="left" />
       <div class="center">
-          <div class="top-content">
-        <div class="top-text wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-          <span>Your home</span>
-          <span>to derivatives.</span>
+        <div class="top-content">
+          <div class="top-text wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <span>Your home</span>
+            <span>to derivatives.</span>
+          </div>
+          <div class="top-img">
+            <img class="wow fadeInRight" data-wow-duration="3.5s" data-wow-delay="1.0s" src="../../../assets/image/features/DashboardTilt_1.png">
+          </div>
+          <div class="top-img">
+            <img class="wow fadeIn" data-wow-duration="3.5s" data-wow-delay="4.0s" src="../../../assets/image/features/DashboardTilt_2.png">
+          </div>
+          <div class="top-img">
+            <img class="wow fadeIn" data-wow-duration="3.5s" data-wow-delay="8.0s" src="../../../assets/image/features/DashboardTilt_1.png">
+          </div>
         </div>
-        <div class="top-img">
-          <img class="wow fadeInRight" data-wow-duration="3.5s" data-wow-delay="1.0s" src="../../../assets/image/features/DashboardTilt_1.png"/>
-        </div>
-        <div class="top-img">
-          <img class="wow fadeIn" data-wow-duration="3.5s" data-wow-delay="4.0s" src="../../../assets/image/features/DashboardTilt_2.png"/>
-        </div>
-        <div class="top-img">
-          <img class="wow fadeIn" data-wow-duration="3.5s" data-wow-delay="8.0s" src="../../../assets/image/features/DashboardTilt_1.png"/>
-        </div>
-      </div>
 
       </div>
-      <div class="right"></div>
-      
+      <div class="right" />
+
     </div>
   </div>
 </template>
@@ -43,7 +43,7 @@ export default {
 }
 .right {
   flex:1;
-  
+
 }
 .center {
   flex:4;
@@ -62,7 +62,7 @@ export default {
   display: flex;
   align-items: center;
 
-/*   
+/*
   width: 100%;
   height: 150vh;
   background: url("../../../assets/image/features/featuresTopBac.jpg") center;
@@ -74,8 +74,7 @@ export default {
   width: 100%;
   display: flex;
   flex-direction: row;
-  
-  
+
   /* width: 100%;
   height: 150vh;
   background: url("../../../assets/image/features/featuresTopBac2.png") center;
@@ -246,18 +245,18 @@ export default {
     position: relative;
     text-align: center;
     top: 180px;
-    
+
   }
   .top-text > span {
     display: block;
   }
   .top-img > img {
     padding-left: 10%;
-    padding-right: 10%; 
+    padding-right: 10%;
     width: 100%;
     position: absolute;
     top: 240px;
-    
+
   }
 }
 @media screen and (max-width: 450px){
@@ -274,7 +273,7 @@ export default {
     position: relative;
     text-align: center;
     top: 180px;
-    
+
   }
   .top-text > span {
     display: block;
