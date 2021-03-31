@@ -22,6 +22,7 @@
     <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/roadmapView/main/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roadmapView/main/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,7 @@
       <workItem from="1617019232982" duration="1741000" />
       <workItem from="1617070033796" duration="2991000" />
       <workItem from="1617158978554" duration="74000" />
-      <workItem from="1617159073485" duration="7278000" />
+      <workItem from="1617159073485" duration="7400000" />
     </task>
     <task id="LOCAL-00001" summary="官网页面">
       <created>1616155182713</created>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617165768144</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Modify the drop-down menu in the head of the mobile phone">
+      <created>1617168364815</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1617168364815</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +261,8 @@
     <MESSAGE value="Adjust the homepage image path" />
     <MESSAGE value="Adjust button size and bottom font size" />
     <MESSAGE value="Roadmap page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Roadmap page" />
+    <MESSAGE value="Modify the drop-down menu in the head of the mobile phone" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify the drop-down menu in the head of the mobile phone" />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="307" key="#ESLint" timestamp="1617159051401">
@@ -274,27 +283,31 @@
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617073501870" />
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1617020791679" />
-    <state x="403" y="177" key="MultipleFileMergeDialog" timestamp="1617001118218">
+    <state x="147" y="65" key="MergeDialog" timestamp="1617168433907">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="403" y="177" key="MultipleFileMergeDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617001118218" />
+    <state x="147" y="65" key="MergeDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617168433907" />
+    <state x="403" y="177" key="MultipleFileMergeDialog" timestamp="1617168433916">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="403" y="177" key="MultipleFileMergeDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617168433916" />
     <state x="270" y="61" key="SettingsEditor" timestamp="1616548243677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="61" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616548243677" />
-    <state x="552" y="131" key="Vcs.Push.Dialog.v2" timestamp="1617165875094">
+    <state x="552" y="131" key="Vcs.Push.Dialog.v2" timestamp="1617168366574">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="552" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617165875094" />
+    <state x="552" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617168366574" />
     <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616675607596" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1616550308658">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1616550308658" />
-    <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617159204546">
+    <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617168390310">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617159204546" />
+    <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1617168390310" />
     <state x="415" y="240" width="600" height="594" key="find.popup" timestamp="1616570933469">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

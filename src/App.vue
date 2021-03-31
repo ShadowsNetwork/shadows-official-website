@@ -61,7 +61,7 @@ export default {
     return {
       show: false,
       showErr: false,
-      showTrue: true,
+      showTrue: true
     }
   },
   mounted() { new WOW({ offset: 0, mobile: true, live: true }).init() },
