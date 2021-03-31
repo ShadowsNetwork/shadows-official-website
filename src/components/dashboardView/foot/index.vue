@@ -14,8 +14,8 @@
       <div class="learn">
         <ul>
           <li class="title">Learn</li>
-          <li class="childText"><a href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsNetworkWhitePaper_EN.pdf" target="_blank">Whitepaper</a></li>
-          <li class="childText"><a href="https://etherscan.io/token/0x661ab0ed68000491d98c796146bcf28c20d7c559" target="_blank">Tokenomics</a></li>
+          <li class="childText"><a href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsWhitepaperV2.0General.pdf" target="_blank">Whitepaper</a></li>
+          <li class="childText"><a href="https://github.com/ShadowsNetwork/whitepaper/blob/main/DOWSTokenomics.pdf" target="_blank">Tokenomics</a></li>
         </ul>
       </div>
       <div class="contact">
