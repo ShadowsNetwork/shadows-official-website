@@ -62,7 +62,7 @@
             <img src="../../../assets/image/features/featuresPowerful/Rectangle6.png">
           </div>
           <div class="childText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
-            <span>LP Staking</span>
+            <span>LP Mining</span>
             <span>Earn for being a liquidity provider on decentralized exchanges</span>
           </div>
         </div>
