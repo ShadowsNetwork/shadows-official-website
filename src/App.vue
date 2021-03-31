@@ -14,10 +14,10 @@
                 <li class="header-li"><router-link to="features">Features</router-link></li>
               </el-col>
               <el-col :xl="6" :lg="6" :md="6">
-                <li class="header-li"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></li>
+                <li class="header-li"><router-link to="roadmap">Roadmap</router-link></li>
               </el-col>
               <el-col :xl="6" :lg="6" :md="6">
-                <li class="header-li"><a>About</a></li>
+                <li class="header-li"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></li>
               </el-col>
               <el-col :xl="6" :lg="6" :md="6">
                 <li class="header-li"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></li>

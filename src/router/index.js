@@ -13,6 +13,11 @@ export const constantRoutes = [
     path: '/features',
     component: () => import('@/views/features/index'),
     hidden: true
+  },
+  {
+    path: '/roadmap',
+    component: () => import('@/views/roadmap/index'),
+    hidden: true
   }
 ]
 

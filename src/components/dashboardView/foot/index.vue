@@ -6,8 +6,8 @@
           <li class="title">General</li>
           <li class="childText"><router-link to="/">Home</router-link></li>
           <li class="childText"><router-link to="/features">Features</router-link></li>
+          <li class="childText"><router-link to="/roadmap">Roadmap</router-link></li>
           <li class="childText"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></li>
-          <li class="childText"><a>About</a></li>
           <li class="childText"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></li>
         </ul>
       </div>
