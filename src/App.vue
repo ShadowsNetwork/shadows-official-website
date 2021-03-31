@@ -114,8 +114,6 @@ export default {
   }
 .header-li a:hover{
   font-size: 15px;
-  display:block;
-  text-decoration:none;
 }
 .logoImgImg {
       width: 150px;
