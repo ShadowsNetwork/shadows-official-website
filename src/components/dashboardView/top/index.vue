@@ -8,8 +8,8 @@
         <span>Shadows is a hub for issuing, trading, lending and borrowing derivative assets</span>
       </div>
       <div class="topText-button wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1.0s">
-        <a class="topText-buttonlink" href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsNetworkWhitePaper_EN.pdf" target="_blank">Whitepaper</a>
-        <a class="topText-buttonlink" style="margin-left:10px" href="https://etherscan.io/token/0x661ab0ed68000491d98c796146bcf28c20d7c559" target="_blank">Tokenomics</a>
+        <a class="topText-buttonlink" href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsWhitepaperV2.0General.pdf" target="_blank">Whitepaper</a>
+        <a class="topText-buttonlink" style="margin-left:10px" href="https://github.com/ShadowsNetwork/whitepaper/blob/main/DOWSTokenomics.pdf" target="_blank">Tokenomics</a>
       </div>
     </div>
   </div>
