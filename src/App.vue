@@ -10,34 +10,31 @@
         <el-col :xl="12" :lg="12" :md="12" :sm="12" :xs="12">
           <ul class="nav">
             <el-row>
-              <el-col :xl="6" :lg="6" :md="6">
+              <el-col :xl="5" :lg="5" :md="5">
                 <li class="header-li"><router-link to="features">Features</router-link></li>
               </el-col>
-              <el-col :xl="6" :lg="6" :md="6">
+              <el-col :xl="4" :lg="4" :md="4">
                 <li class="header-li"><router-link to="roadmap">Roadmap</router-link></li>
               </el-col>
-              <el-col :xl="6" :lg="6" :md="6">
+              <el-col :xl="4" :lg="6" :md="4">
                 <li class="header-li"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></li>
               </el-col>
-              <el-col :xl="6" :lg="6" :md="6">
+              <el-col :xl="4" :lg="4" :md="4">
                 <li class="header-li"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></li>
+              </el-col>
+              <el-col :xl="4" :lg="4" :md="4">
+                <li class="header-li"><a href="http://app.shadows.link/" target="_blank">Staking</a></li>
               </el-col>
             </el-row>
           </ul>
         </el-col>
         <el-col :xl="2" :lg="2" :md="2" :sm="2" :xs="2" />
-         
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1">
           <a href="https://t.me/Shadows_defi" target="_blank"><img class="fly" src="./assets/image/dashboard/fly.png"></a>
         </el-col>
         <el-col :xl="1" :lg="1" :md="1" :sm="1" :xs="1" style="text-align:right;">
           <a href="https://twitter.com/shadows_defi" target="_blank"><img class="twitter" src="./assets/image/dashboard/twitter.png"></a>
         </el-col>
-        
-       
-
-
-
         <div v-show="showTrue" class="mobile-drop-button" :showTrue="showTrue" @click="dropShowTrue">
           <div class="dropLine" />
           <div class="dropLine" />
@@ -53,6 +50,7 @@
       <div @click="dropShow"><router-link to="/roadmap">Roadmap</router-link></div>
       <div @click="dropShow"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></div>
       <div @click="dropShow"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></div>
+      <div @click="dropShow"><a href="http://app.shadows.link/" target="_blank">Staking</a></div>
     </div>
     <router-view />
   </div>
