@@ -23,7 +23,7 @@
                 <li class="header-li"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></li>
               </el-col>
               <el-col :xl="4" :lg="4" :md="4">
-                <li class="header-li"><a href="http://app.shadows.link/" target="_blank">Staking</a></li>
+                <li class="header-li"><a href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsWhitepaperV2.0General.pdf" target="_blank">Whitepaper</a></li>
               </el-col>
             </el-row>
           </ul>

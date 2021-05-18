@@ -8,7 +8,7 @@
         <span>Shadows is a hub for issuing, trading, lending and borrowing derivative assets</span>
       </div>
       <div class="topText-button wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1.0s">
-        <a class="topText-buttonlink" href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsWhitepaperV2.0General.pdf" target="_blank">Whitepaper</a>
+        <a class="topText-buttonlink" href="https://app.shadows.link/" target="_blank">App</a>
         <a class="topText-buttonlink" style="margin-left:10px" href="https://github.com/ShadowsNetwork/whitepaper/blob/main/DOWSTokenomics.pdf" target="_blank">Tokenomics</a>
       </div>
     </div>
