@@ -2,12 +2,12 @@
   <div id="app">
     <nav class="header">
       <el-row type="flex" style="background-color: rgba(0,0,0,0);margin: 0;z-index: 1;padding: 0;">
-        <el-col :xl="6" :lg="6" :md="6" :sm="6" :xs="6">
+        <el-col :xl="5" :lg="5" :md="5" :sm="5" :xs="5">
           <ul class="nav">
             <li class="logoImg"><router-link class="logoLinkImg" to="/"><img class="logoImgImg" src="./assets/image/dashboard/logo.png"></router-link></li>
           </ul>
         </el-col>
-        <el-col :xl="12" :lg="12" :md="12" :sm="12" :xs="12">
+        <el-col :xl="14" :lg="14" :md="14" :sm="14" :xs="14">
           <ul class="nav">
             <el-row>
               <el-col :xl="5" :lg="5" :md="5">
@@ -19,10 +19,10 @@
               <el-col :xl="4" :lg="5" :md="4">
                 <li class="header-li"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></li>
               </el-col>
-              <el-col :xl="4" :lg="4" :md="4">
+              <el-col :xl="4" :lg="3" :md="4">
                 <li class="header-li"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></li>
               </el-col>
-              <el-col :xl="4" :lg="4" :md="4">
+              <el-col :xl="4" :lg="6" :md="4">
                 <li class="header-li"><a href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsWhitepaperV2.0General.pdf" target="_blank">Whitepaper</a></li>
               </el-col>
             </el-row>

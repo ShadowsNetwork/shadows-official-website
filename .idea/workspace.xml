@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="Add staking to the navigation bar">
+    <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="Adjust the navigation bar menu spacing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
     </list>
@@ -101,7 +101,8 @@
       <workItem from="1620885505213" duration="49000" />
       <workItem from="1620885561591" duration="683000" />
       <workItem from="1621385857892" duration="9000" />
-      <workItem from="1621385960008" duration="852000" />
+      <workItem from="1621385960008" duration="1761000" />
+      <workItem from="1621390649080" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="官网页面">
       <created>1616155182713</created>
@@ -236,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620886235362</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Adjust the navigation bar menu spacing">
+      <created>1621386922570</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1621386922571</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +282,7 @@
     <MESSAGE value="Roadmap page" />
     <MESSAGE value="Modify the drop-down menu in the head of the mobile phone" />
     <MESSAGE value="Add staking to the navigation bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add staking to the navigation bar" />
+    <MESSAGE value="Adjust the navigation bar menu spacing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjust the navigation bar menu spacing" />
   </component>
 </project>
