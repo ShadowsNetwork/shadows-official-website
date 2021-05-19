@@ -13,16 +13,16 @@
               <el-col :xl="5" :lg="5" :md="5">
                 <li class="header-li"><router-link to="features">Features</router-link></li>
               </el-col>
-              <el-col :xl="4" :lg="4" :md="4">
+              <el-col :xl="4" :lg="5" :md="4">
                 <li class="header-li"><router-link to="roadmap">Roadmap</router-link></li>
               </el-col>
-              <el-col :xl="4" :lg="6" :md="4">
+              <el-col :xl="4" :lg="5" :md="4">
                 <li class="header-li"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></li>
               </el-col>
               <el-col :xl="4" :lg="4" :md="4">
                 <li class="header-li"><a href="https://shadows-blockchain.gitbook.io/shadows/" target="_blank">Docs</a></li>
               </el-col>
-              <el-col :xl="4" :lg="4" :md="4">
+              <el-col :xl="4" :lg="5" :md="4">
                 <li class="header-li"><a href="http://app.shadows.link/" target="_blank">Staking</a></li>
               </el-col>
             </el-row>
