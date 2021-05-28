@@ -8,7 +8,7 @@
           <li class="childText"><router-link to="/features">Features</router-link></li>
           <li class="childText"><router-link to="/roadmap">Roadmap</router-link></li>
           <li class="childText"><a href="https://shadowsnetwork.medium.com/" target="_blank">Medium</a></li>
-          
+
         </ul>
       </div>
       <div class="learn">
@@ -20,10 +20,10 @@
       </div>
       <div class="contact">
         <div class="contactImg">
-          <a href="https://t.me/Shadows_defi" target="_blank"><img src="../../../assets/image/dashboard/fly.png"/></a>
-          <a href="https://twitter.com/shadows_defi" target="_blank"><img src="../../../assets/image/dashboard/twitter.png"/></a>
-          <a href="https://github.com/ShadowsNetwork" target="_blank"><img src="../../../assets/image/dashboard/github.png"/></a>
-          <a href="mailto:contact@shadows.link" target="_blank"><img src="../../../assets/image/dashboard/email.png"/></a>
+          <a href="https://t.me/Shadows_defi" target="_blank"><img src="../../../assets/image/dashboard/fly.png"></a>
+          <a href="https://twitter.com/shadows_defi" target="_blank"><img src="../../../assets/image/dashboard/twitter.png"></a>
+          <a href="https://github.com/ShadowsNetwork" target="_blank"><img src="../../../assets/image/dashboard/github.png"></a>
+          <a href="mailto:contact@shadows.link" target="_blank"><img src="../../../assets/image/dashboard/email.png"></a>
         </div>
         <!-- <div class="contact-text">
           <span>Subscribe to our newsletter</span>
@@ -35,7 +35,7 @@
       </div>
     </div>
     <div class="footBottom">
-      <img class="footBottom-img" src="../../../assets/image/dashboard/logo.png"/>
+      <img class="footBottom-img" src="../../../assets/image/dashboard/logo.png">
       <span>© 2021 Shadows - Terms of Use | Privacy Policy | Cookie Settings</span>
     </div>
   </div>
@@ -169,7 +169,7 @@ li {
     margin-right: 20%;
   }
   .footBottom {
-    
+
     margin-top: 80px;
   }
 }
@@ -180,7 +180,7 @@ li {
     margin-right: 10%;
   }
   .footBottom {
-    
+
     margin-top: 80px;
   }
 }
@@ -191,7 +191,7 @@ li {
     margin-right: 0%;
   }
   .footBottom {
-    
+
     margin-top: 80px;
   }
 }
@@ -232,7 +232,7 @@ li {
       line-height: 18px;
     }
   .footBottom {
-    
+
     margin-top: 80px;
   }
 }

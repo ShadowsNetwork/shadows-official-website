@@ -127,6 +127,7 @@
     <Description />
     <Platform />
     <Cooperation />
+    <Parents />
     <Foot />
   </div>
 </template>
@@ -140,9 +141,10 @@ import Platform from '@/components/dashboardView/platform/index'
 import Cooperation from '@/components/dashboardView/cooperation/index'
 import Foot from '@/components/dashboardView/foot/index'
 import Trader from '@/components/dashboardView/trader/index'
+import Parents from "@/components/dashboardView/parents";
 export default {
   name: 'Dashboard',
-  components: { Trader, Foot, Cooperation, Platform, Description, Top }
+  components: {Parents, Trader, Foot, Cooperation, Platform, Description, Top }
   // mounted() { new WOW().init() }
 }
 </script>
@@ -236,16 +238,16 @@ export default {
 
 
   @media screen and (max-width: 1000px){
-  
+
   .market-title > span:nth-of-type(1) {
-   
+
     width: 100%;
     padding-left: 0%;
     padding-right: 0%;
     height: 26px;
     line-height: 28px;
     font-size: 32px;
-    
+
   }
   .market-title > span:nth-of-type(2) {
     width: 100%;
@@ -257,7 +259,7 @@ export default {
   .market-content {
     width: 80%;
   }
-  
+
 }
 
 
@@ -289,7 +291,7 @@ export default {
     height: 35px;
     line-height: 28px;
     color: #fff;
-    
+
   }
   .market-title > span:nth-of-type(2) {
     display: block;

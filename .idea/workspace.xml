@@ -20,13 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="Adjust the menu spacing">
+      <change afterPath="$PROJECT_DIR$/src/assets/image/dashboard/parents/DIA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/dashboard/parents/Linear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/dashboard/parents/YOP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/dashboard/parents/bridge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/dashboard/parents/kylin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/dashboard/parents/poly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboardView/parents/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboardView/foot/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboardView/foot/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/image/dashboard/parents" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,16 +68,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\shadows\shadows-official-website\src\components\dashboardView" />
-      <recent name="F:\新桌面\shadows\src\assets\image" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/image/dashboard/parents" />
       <recent name="E:\shadows\shadows-official-website\src\assets\image\roadmap" />
       <recent name="E:\shadows\shadows-official-website\src\assets\image\dashboard" />
       <recent name="E:\shadows\shadows-official-website\src\assets\image\features" />
       <recent name="E:\shadows\shadows-official-website\src\font" />
-      <recent name="E:\shadows\shadows-official-website\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\shadows\shadows-official-website\src\components\dashboardView" />
+      <recent name="F:\新桌面\shadows\src\assets\image" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -102,7 +117,10 @@
       <workItem from="1620885561591" duration="683000" />
       <workItem from="1621385857892" duration="9000" />
       <workItem from="1621385960008" duration="1761000" />
-      <workItem from="1621390649080" duration="555000" />
+      <workItem from="1621390649080" duration="1296000" />
+      <workItem from="1621394765359" duration="629000" />
+      <workItem from="1621411632380" duration="4000" />
+      <workItem from="1622166212616" duration="2286000" />
     </task>
     <task id="LOCAL-00001" summary="官网页面">
       <created>1616155182713</created>
@@ -251,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621391016132</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Adjust the menu spacing">
+      <created>1621391244376</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1621391244377</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
