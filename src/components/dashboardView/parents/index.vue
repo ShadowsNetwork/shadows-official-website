@@ -13,6 +13,8 @@
         <a href="https://diadata.org/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/parents/DIA.png"/></a>
         <a href="https://kylin.network/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/parents/kylin.png"/></a>
         <a href="https://linear.finance/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/parents/Linear.png"/></a>
+      </div>
+      <div class="partnersTwo">
         <a href="https://yop.finance/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/parents/YOP.png"/></a>
         <a href="https://www.basics.vip/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/parents/Basics.png"/></a>
         <a href="https://tokeninsight.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/parents/Tokeninsight.png"/></a>
@@ -66,11 +68,12 @@ export default {
   margin-top: 15px;
 }
 .partners {
-  width: 1385px;
-  margin-left: calc((100% - 1385px) / 2);
+  width: 1085px;
+  margin-left: calc((100% - 1085px) / 2);
   margin-top: 112px;
 }
 .partnersOne {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,7 +93,25 @@ export default {
 .partnersOne > a:nth-of-type(5) > img {
   width: 152px;
 }
-.partnersOne > a:nth-of-type(6) > img {
+.partnersTwo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.partnersTwo > a:nth-of-type(1) > img {
+  width: 162px;
+}
+.partnersTwo > a:nth-of-type(2) > img {
+  width: 130px;
+  margin-left: 140px;
+}
+.partnersTwo > a:nth-of-type(3) > img {
+  width: 150px;
+  margin-left: 140px;
+}
+.partnersTwo > a:nth-of-type(4) > img {
   width: 152px;
 }
 
@@ -99,12 +120,15 @@ export default {
     width: 100%;
     height: 80px;
   }
+
   .cooperation {
     padding-bottom: 100px;
   }
+
   .cooperation-title > span:nth-of-type(1) {
     font-size: 24px;
   }
+
   .cooperation-title > span:nth-of-type(2) {
     display: block;
     width: 100%;
@@ -115,34 +139,60 @@ export default {
     font-size: 16px;
     margin-top: 0;
   }
+
   .partners {
     width: 360px;
     margin-left: calc((100% - 360px) / 2);
     margin-top: 40px;
   }
+
   .partnersOne {
     height: 35px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
   .partnersOne > a:nth-of-type(1) > img {
     width: 50px;
   }
+
   .partnersOne > a:nth-of-type(2) > img {
     width: 43px;
   }
+
   .partnersOne > a:nth-of-type(3) > img {
     width: 52px;
   }
+
   .partnersOne > a:nth-of-type(4) > img {
     width: 35px;
   }
+
   .partnersOne > a:nth-of-type(5) > img {
     width: 50px;
   }
-  .partnersOne > a:nth-of-type(6) > img {
-    width: 40px;
+
+  .partnersTwo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .partnersTwo > a:nth-of-type(1) > img {
+    width: 50px;
+  }
+
+  .partnersTwo > a:nth-of-type(2) > img {
+    width: 50px;
+    margin-left: 60px;
+  }
+
+  .partnersTwo > a:nth-of-type(3) > img {
+    width: 50px;
+    margin-left: 60px;
   }
 }
 
@@ -175,7 +225,6 @@ export default {
     display: flex;
     align-items: center;
   }
-
 }
 </style>
 
