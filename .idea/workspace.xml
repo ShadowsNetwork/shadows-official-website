@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="Add a new partner ecological module">
+    <list default="true" id="6add6f01-87c1-4500-84e9-1b7d7795d4fd" name="Default Changelist" comment="Modify the logo style of the partners module">
+      <change afterPath="$PROJECT_DIR$/src/assets/image/roadmap/roadmapFinish.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboardView/cooperation/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboardView/cooperation/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboardView/parents/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboardView/parents/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/roadmapView/main/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roadmapView/main/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/image/dashboard/parents" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/image/roadmap" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/image/roadmap" />
       <recent name="$PROJECT_DIR$/src/assets/image/dashboard/parents" />
       <recent name="E:\shadows\shadows-official-website\src\assets\image\roadmap" />
       <recent name="E:\shadows\shadows-official-website\src\assets\image\dashboard" />
       <recent name="E:\shadows\shadows-official-website\src\assets\image\features" />
-      <recent name="E:\shadows\shadows-official-website\src\font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\shadows\shadows-official-website\src\components\dashboardView" />
@@ -114,7 +115,11 @@
       <workItem from="1621394765359" duration="629000" />
       <workItem from="1621411632380" duration="4000" />
       <workItem from="1622166212616" duration="2637000" />
-      <workItem from="1622691373852" duration="1252000" />
+      <workItem from="1622691373852" duration="1977000" />
+      <workItem from="1624245049160" duration="17000" />
+      <workItem from="1625533619062" duration="22000" />
+      <workItem from="1625801908460" duration="34000" />
+      <workItem from="1626070562530" duration="894000" />
     </task>
     <task id="LOCAL-00001" summary="官网页面">
       <created>1616155182713</created>
@@ -277,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622168759853</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Modify the logo style of the partners module">
+      <created>1622692729455</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1622692729458</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +330,7 @@
     <MESSAGE value="Adjust the navigation bar menu spacing" />
     <MESSAGE value="Adjust the menu spacing" />
     <MESSAGE value="Add a new partner ecological module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a new partner ecological module" />
+    <MESSAGE value="Modify the logo style of the partners module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify the logo style of the partners module" />
   </component>
 </project>

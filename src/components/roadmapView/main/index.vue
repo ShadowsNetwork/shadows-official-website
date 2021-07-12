@@ -13,8 +13,14 @@
           <img src="../../../assets/image/roadmap/roadImg/Group1.png">
         </div>
         <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="1.3s">
-          <span>Token Launch</span>
-          <span>In Q1, Shadows Network held a dual IDO launch and publicly listed on Uniswap. Soon after, we strategically positioned our offering by building onto Binance Smart Chain and rebranded our platform.</span>
+          <div>
+            Token Launch
+            <img class="finishIcon" src="../../../assets/image/roadmap/roadmapFinish.png" />
+          </div>
+          <span>In Q1, Shadows Network held a dual IDO launch and publicly listed on Uniswap.
+            Soon after, we strategically positioned our offering by building onto Binance Smart
+            Chain and rebranded our platform.
+          </span>
         </div>
       </div>
     </div>
@@ -25,8 +31,15 @@
           <img src="../../../assets/image/roadmap/roadImg/Group2.png">
         </div>
         <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="1.3s">
-          <span>Binance Testnet</span>
-          <span>Targeted early Q2, we will release our app on BSC testnet to a private user group and then to the general public. During this period we will also launch LP pool mining and begin circulation of DOWS BEP-20 tokens.</span>
+          <div>
+            Binance Testnet
+            <img class="finishIcon" src="../../../assets/image/roadmap/roadmapFinish.png" />
+          </div>
+          <span>
+            In Q2, we released our public beta app on BSC testnet  During this period
+            we also launched LP pool mining for PancakeSwap liquidity providers and began
+            circulation of DOWS BEP-20 tokens.
+          </span>
         </div>
       </div>
     </div>
@@ -37,8 +50,12 @@
           <img src="../../../assets/image/roadmap/roadImg/Group3.png">
         </div>
         <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
-          <span>V1 App Launch</span>
-          <span>Targeted mid Q2, we will release our application on Binance Smart Chain.  Our app will support trading of core derivatives, staking rewards, and dashboard tools.</span>
+          <div>V1 App Launch</div>
+          <span>
+            Targeted mid Q2, we will release our application on Binance Smart Chain.
+            Our app will support trading of core derivatives, staking rewards, and dashboard
+            tools.
+          </span>
         </div>
       </div>
     </div>
@@ -49,7 +66,7 @@
           <img src="../../../assets/image/roadmap/roadImg/Group4.png">
         </div>
         <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
-          <span>Polkadot Integration</span>
+          <div>Polkadot Integration</div>
           <span>Next, we will integrate onto Polkadot ecosystem and start parachain deployment.</span>
         </div>
       </div>
@@ -61,8 +78,11 @@
           <img src="../../../assets/image/roadmap/roadImg/Group5.png">
         </div>
         <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
-          <span>V2 App Launch</span>
-          <span>Next, we will launch V2 of our app to offer cross-chain interoperability in addition to a variety of other financial derivatives including indices.</span>
+          <div>V2 App Launch</div>
+          <span>
+            Next, we will launch V2 of our app to offer cross-chain interoperability in addition
+            to a variety of other financial derivatives including indices.
+          </span>
         </div>
       </div>
     </div>
@@ -128,12 +148,19 @@ export default {
   width: 349px;
   margin-left: 71px;
 }
-.mainText > span:nth-of-type(1) {
+.mainText > div {
   font-family: Arboria-Bold;
   font-size: 26px;
   color: #2DCBA9;
+  display: flex;
+  align-items: center;
+  margin-left: 71px;margin-left: 71px;
 }
-.mainText > span:nth-of-type(2) {
+.finishIcon {
+  width: 40px;
+  margin-left: 10px;
+}
+.mainText > span{
   font-family: Arboria;
   font-size: 16px;
   color: #fff;
@@ -191,12 +218,16 @@ export default {
     width: 160px;
     margin-left: 10px;
   }
-  .mainText > span:nth-of-type(1) {
+  .mainText > div {
     font-family: Arboria-Bold;
     font-size: 16px;
     color: #2DCBA9;
+    margin-left: 10px;
   }
-  .mainText > span:nth-of-type(2) {
+  .finishIcon {
+    width: 20px;
+  }
+  .mainText > span {
     font-family: Arboria;
     font-size: 12px;
     color: #fff;
