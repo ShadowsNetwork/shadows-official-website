@@ -16,7 +16,7 @@
       </div>
       <div class="partnersTwo">
         <a href="https://yop.finance/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/parents/YOP.png"/></a>
-        <a href="https://www.basics.vip/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/parents/Basics.png"/></a>
+        <!-- <a href="https://www.basics.vip/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/parents/Basics.png"/></a> -->
         <a href="https://tokeninsight.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/parents/Tokeninsight.png"/></a>
       </div>
     </div>

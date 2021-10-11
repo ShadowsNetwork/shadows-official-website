@@ -17,26 +17,30 @@
       </div>
       <div class="partnersTwo">
         <a href="https://www.blocksync.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image8.png"/></a>
+         <a href="https://www.basics.vip/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/parents/Basics.png"/></a>
         <a href="http://candaq.com/#/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image9.png"/></a>
         <a href="https://www.chaincapital.group/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image10.png"/></a>
         <a href="http://consensus-lab.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image11.png"/></a>
-        <a href="https://cryptomeriacapital.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image12.png"/></a>
-      </div>
+        </div>
       <div class="partnersThree">
+        <a href="https://cryptomeriacapital.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image12.png"/></a>
+      
         <a href="https://dfg.group/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image13.png"/></a>
         <a href="https://duckdao.io/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image14.png"/></a>
         <a href="https://gbv.capital/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image15.png"/></a>
         <a href="https://innovion.co/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image16.png"/></a>
-        <a href="http://jrr.group/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image17.png"/></a>
-      </div>
+        </div>
       <div class="partnersFour">
+        <a href="http://jrr.group/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image17.png"/></a>
+      
         <a><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image18.png"/></a>
         <a href="https://master.ventures/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image19.png"/></a>
         <a><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image20.png"/></a>
         <a href="https://lichanglc.com/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image21.png"/></a>
-        <a href="https://www.ngc.fund/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image22.png"/></a>
-      </div>
+        </div>
       <div class="partnersFive">
+        <a href="https://www.ngc.fund/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image22.png"/></a>
+      
         <a href="https://www.polka.fund/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image23.png"/></a>
         <a href="http://waterdrip.io/" target="_blank"><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image24.png"/></a>
         <a><img class="wow pulse" data-wow-duration="1.5s" data-wow-delay="0.3s" src="../../../assets/image/dashboard/partners/image25.png"/></a>
@@ -125,20 +129,20 @@ export default {
   width: 158px;
 }
 .partnersTwo > a:nth-of-type(2) > img {
-  width: 137px;
+  width: 130px;
   margin-left: 91px;
 }
 .partnersTwo > a:nth-of-type(3) > img {
+  width: 137px;
+  margin-left: 91px;
+}
+.partnersTwo > a:nth-of-type(4) > img {
   width: 82px;
   margin-left: 149px;
 }
-.partnersTwo > a:nth-of-type(4) > img {
+.partnersTwo > a:nth-of-type(5) > img {
   width: 161px;
   margin-left: 101px;
-}
-.partnersTwo > a:nth-of-type(5) > img {
-  width: 160px;
-  margin-left: 50px;
 }
 .partnersThree {
   height: 119px;
@@ -147,24 +151,24 @@ export default {
   margin-top: 26px;
 }
 .partnersThree > a:nth-of-type(1) > img {
+  width: 160px;
+  margin-left: 50px;
+}
+.partnersThree > a:nth-of-type(2) > img {
   width: 126px;
   margin-left: 20px;
 }
-.partnersThree > a:nth-of-type(2) > img {
+.partnersThree > a:nth-of-type(3) > img {
   width: 156px;
   margin-left: 91px;
 }
-.partnersThree > a:nth-of-type(3) > img {
+.partnersThree > a:nth-of-type(4) > img {
   width: 100px;
   margin-left: 110px;
 }
-.partnersThree > a:nth-of-type(4) > img {
+.partnersThree > a:nth-of-type(5) > img {
   width: 130px;
   margin-left: 108px;
-}
-.partnersThree > a:nth-of-type(5) > img {
-  width: 119px;
-  margin-left: 85px;
 }
 .partnersFour {
   height: 89px;
@@ -173,24 +177,24 @@ export default {
   margin-top: 40px;
 }
 .partnersFour > a:nth-of-type(1) > img {
+  width: 119px;
+  margin-left: 85px;
+}
+.partnersFour > a:nth-of-type(2) > img {
   width: 50px;
   margin-left: 70px;
 }
-.partnersFour > a:nth-of-type(2) > img {
+.partnersFour > a:nth-of-type(3) > img {
   width: 120px;
   margin-left: 134px;
 }
-.partnersFour > a:nth-of-type(3) > img {
+.partnersFour > a:nth-of-type(4) > img {
   width: 156px;
   margin-left: 100px;
 }
-.partnersFour > a:nth-of-type(4) > img {
+.partnersFour > a:nth-of-type(5) > img {
   width: 106px;
   margin-left: 92px;
-}
-.partnersFour > a:nth-of-type(5) > img {
-  width: 114px;
-  margin-left: 100px;
 }
 .partnersFive {
   height: 66px;
@@ -199,18 +203,22 @@ export default {
   margin-top: 66px;
 }
 .partnersFive > a:nth-of-type(1) > img {
-  width: 161px;
-  margin-left: 130px;
+  width: 114px;
+  margin-left: 50px;
 }
 .partnersFive > a:nth-of-type(2) > img {
+  width: 161px;
+  margin-left: 100px;
+}
+.partnersFive > a:nth-of-type(3) > img {
   width: 148px;
   margin-left: 73px;
 }
-.partnersFive > a:nth-of-type(3) > img {
+.partnersFive > a:nth-of-type(4) > img {
   width: 161px;
   margin-left: 82px;
 }
-.partnersFive > a:nth-of-type(4) > img {
+.partnersFive > a:nth-of-type(5) > img {
   width: 153px;
   margin-left: 73px;
 }
@@ -286,11 +294,11 @@ export default {
     margin-left: 20px;
   }
   .partnersTwo > a:nth-of-type(4) > img {
-    width: 45px;
-    margin-left: 30px;
+    width: 40px;
+    margin-left: 20px;
   }
   .partnersTwo > a:nth-of-type(5) > img {
-    width: 42px;
+    width: 45px;
     margin-left: 30px;
   }
   .partnersThree {
@@ -300,24 +308,24 @@ export default {
     margin-top: 26px;
   }
   .partnersThree > a:nth-of-type(1) > img {
-    width: 40px;
+    width: 42px;
     margin-left: 30px;
   }
   .partnersThree > a:nth-of-type(2) > img {
     width: 40px;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .partnersThree > a:nth-of-type(3) > img {
+    width: 40px;
+    margin-left: 20px;
+  }
+  .partnersThree > a:nth-of-type(4) > img {
     width: 45px;
     margin-left: 25px;
   }
-  .partnersThree > a:nth-of-type(4) > img {
-    width: 40px;
-    margin-left: 30px;
-  }
   .partnersThree > a:nth-of-type(5) > img {
     width: 40px;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .partnersFour {
     height: 45px;
@@ -326,24 +334,24 @@ export default {
     margin-top: 30px;
   }
   .partnersFour > a:nth-of-type(1) > img {
-    width: 25px;
-    margin-left: 30px;
-  }
-  .partnersFour > a:nth-of-type(2) > img {
-    width: 40px;
-    margin-left: 40px;
-  }
-  .partnersFour > a:nth-of-type(3) > img {
-    width: 40px;
-    margin-left: 30px;
-  }
-  .partnersFour > a:nth-of-type(4) > img{
     width: 40px;
     margin-left: 20px;
   }
-  .partnersFour > a:nth-of-type(5) > img {
-    width: 42px;
+  .partnersFour > a:nth-of-type(2) > img {
+    width: 25px;
     margin-left: 30px;
+  }
+  .partnersFour > a:nth-of-type(3) > img {
+    width: 40px;
+    margin-left: 40px;
+  }
+  .partnersFour > a:nth-of-type(4) > img {
+    width: 40px;
+    margin-left: 30px;
+  }
+  .partnersFour > a:nth-of-type(5) > img{
+    width: 40px;
+    margin-left: 20px;
   }
   .partnersFive {
     height: 30px;
@@ -352,8 +360,8 @@ export default {
     margin-top: 30px;
   }
   .partnersFive > a:nth-of-type(1) > img {
-    width: 45px;
-    margin-left: 50px;
+    width: 42px;
+    margin-left: 20px;
   }
   .partnersFive > a:nth-of-type(2) > img {
     width: 45px;
@@ -361,9 +369,13 @@ export default {
   }
   .partnersFive > a:nth-of-type(3) > img {
     width: 45px;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .partnersFive > a:nth-of-type(4) > img {
+    width: 45px;
+    margin-left: 20px;
+  }
+  .partnersFive > a:nth-of-type(5) > img {
     width: 45px;
     margin-left: 30px;
   }
