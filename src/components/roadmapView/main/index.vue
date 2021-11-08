@@ -50,7 +50,7 @@
           <img src="../../../assets/image/roadmap/roadImg/Group3.png">
         </div>
         <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
-          <div>V1 App Launch</div>
+          <div>V1 App Launch <img class="finishIcon" src="../../../assets/image/roadmap/roadmapFinish.png" /></div>
           <span>
             Targeted mid Q2, we will release our application on Binance Smart Chain.
             Our app will support trading of core derivatives, staking rewards, and dashboard
@@ -67,7 +67,7 @@
         </div>
         <div class="mainText wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.3s">
           <div>Polkadot Integration</div>
-          <span>Next, we will integrate onto Polkadot ecosystem and start parachain deployment.</span>
+          <span>Next, we will integrate onto Polkadot ecosystem.</span>
         </div>
       </div>
     </div>
