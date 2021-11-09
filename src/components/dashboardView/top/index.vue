@@ -27,7 +27,9 @@
           class="topText-buttonlink"
           href="https://app.shadows.link/"
           target="_blank"
-          >App</a
+          >
+          <img src="../../../assets/image/120X120.png" width="24" height="24" style="margin-right:4px" />
+          App</a
         >
         <a
           class="topText-buttonlink"
@@ -242,6 +244,7 @@ export default {
   font-size: 15px;
   background: #05daac;
     justify-content: center;
+    align-items: center;
   display: flex;
   border: none;
   border-radius: 100px;
