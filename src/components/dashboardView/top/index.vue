@@ -158,7 +158,7 @@
               fill="#633001"
             ></path>
           </svg>
-          Trade ShaUsd</a
+          Trade ShaUSD</a
         >
         <!-- <a class="topText-buttonlink" style="margin-left:10px" href="https://github.com/ShadowsNetwork/whitepaper/blob/main/DOWSTokenomics.pdf" target="_blank">Tokenomics</a> -->
       </div>
