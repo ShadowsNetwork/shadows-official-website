@@ -369,7 +369,7 @@ export default {
     margin-left: 13px;
   }
   .topText-buttonlink {
-    width: 120px;
+    width: 150px;
     height: 36px;
     line-height: 36px;
     color: white;
