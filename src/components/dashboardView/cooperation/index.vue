@@ -156,11 +156,11 @@ export default {
 }
 .partnersThree > a:nth-of-type(2) > img {
   width: 126px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .partnersThree > a:nth-of-type(3) > img {
   width: 156px;
-  margin-left: 91px;
+  margin-left: 71px;
 }
 .partnersThree > a:nth-of-type(4) > img {
   width: 100px;
